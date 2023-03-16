@@ -6,7 +6,7 @@ import { Info } from './components/Info';
 import { Saved } from './components/Saved';
 function App() {
   return (
-    
+   
     <Router>
      <Wrapper>
 
