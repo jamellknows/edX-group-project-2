@@ -1,9 +1,24 @@
 
 
+
+.search-page{
+   
+     
+
+}
 .page-search{
     padding: 5rem;
 }
 
 .search-inputs{
-    width: 97%;
+    width: 50%;
+
+}
+
+.input-group{
+
+}
+
+.input-group-text{
+    width: 20vw;
 }

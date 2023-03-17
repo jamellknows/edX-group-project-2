@@ -1,6 +1,6 @@
 import React from "react";
 import InfoCard from '../Cards/index';
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
 import './styles.css';
 import locationResponse from '../Test Data/location-paris-france.json'
 import hotelResponse from '../Test Data/hotel-list-paris-france.json'

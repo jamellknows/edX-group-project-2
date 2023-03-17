@@ -9,15 +9,15 @@ function App() {
   return (
    
     <Router>
+    <Wrapper>
     <NavigationBar/>  
-     <Wrapper>
       <Routes>
-      <Route  path="/search" element={<Search/>}/>
-      <Route  path="/info" element={<Info/>}/>
-      <Route  path="/saved" element={<Saved/>}/>
+        <Route  path="/search" element={<Search/>}/>
+        <Route  path="/info" element={<Info/>}/>
+        <Route  path="/saved" element={<Saved/>}/>
       </Routes>
-    <Footer/>
     </Wrapper>
+    <Footer/>
     </Router>
 
 

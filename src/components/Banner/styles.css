@@ -3,7 +3,15 @@
    
 } */
 
-.banner-image{
-    height: 30vh;
+.banner{
+    height: 10vh;
     width: 100vw;
+    background-color:
+
 }
+
+.image-container{
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: -1rem;
+};

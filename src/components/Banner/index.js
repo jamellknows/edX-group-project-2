@@ -5,8 +5,10 @@ import './styles.css'
     return(
 
         <div className="container-fluid">
-            <div className='image-container'>
-            <img className="img-fluid banner-image" src={process.env.PUBLIC_URL + '/assets/banner-image.jpg'} alt="banner-image"/>
+            <div className='banner d-flex'>
+                <div className="col-4"></div>
+                <div className='col-4 image-container justify-content-center'></div>
+                <div className='col-4'></div>
             </div>
         </div>
     )
