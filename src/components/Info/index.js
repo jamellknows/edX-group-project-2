@@ -58,7 +58,7 @@ export const Info = () => {
                 <div className="container-fluid containerBlur">
                     <h2>Hotels</h2>
                     <div className="container-fluid">
-                        <div className="row">
+                        <div className="d-flex cardContainer">
                                 {generateHotelDataArray(hotelResponse.data).map(hotel =><InfoCard 
                                     id={hotel.id}
                                     key={`${hotel.name}-${hotel.id}`}

@@ -74,7 +74,7 @@ const getHotelAward = (awardname, year, icon) =>{
 
 function InfoCard(props){
     return (
-        <div className="col-sm-12 col-md-3 col-lg-2 d-flex align-items-stretch">
+        <div className="col-sm-12 col-md-3 col-lg-2 d-flex align-items-stretch" style={{padding: "10px"}}>
             <div className="card">
                 <img src={props.image} alt="placeholder-image" className="card-img-top"/>
                 <div className="card-body">
