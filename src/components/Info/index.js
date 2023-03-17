@@ -1,5 +1,6 @@
 import React from "react";
-import InfoCard from '../Cards/index';
+import HotelCard from '../Cards/HotelCard';
+import RestaurantCard from '../Cards/RestaurantCard';
 import { motion } from 'framer-motion';
 import './styles.css';
 import locationResponse from '../Test Data/location-paris-france.json'
@@ -44,6 +45,35 @@ const generateHotelDataArray = arr =>{
     return (tempHotelData);
 }
 
+const generateRestaurantDataArray = arr =>{
+    let tempRestaurantData =[];
+
+    arr.forEach(e =>{
+        let RestaurantDataObj = {};
+
+        if(e.hasOwnProperty('name')){
+            RestaurantDataObj["id"] = e.location_id;
+            RestaurantDataObj["name"] = e.name;
+            RestaurantDataObj["latitude"] = e.latitude;
+            RestaurantDataObj["longitude"] = e.longitude;
+            RestaurantDataObj["image"] = e.photo.images.original.url;
+            RestaurantDataObj["description"] = e.description;
+            RestaurantDataObj["rating"] = e.rating;
+            RestaurantDataObj["website"] = e.website;
+            RestaurantDataObj["email"] = e.email;
+            RestaurantDataObj["phone"] = e.phone;
+            RestaurantDataObj["address"] = e.address;
+            RestaurantDataObj["hours"] = e.hours.week_ranges;
+
+            tempRestaurantData.push(RestaurantDataObj);
+        }else{
+            return;
+        }
+    })
+    
+    return (tempRestaurantData);
+}
+
 export const Info = () => {
 
     return(
@@ -55,11 +85,11 @@ export const Info = () => {
                 </div>
             </div>
             <div className="container-fluid">
-                <div className="container-fluid containerBlur">
+                <div className="container-fluid containerBlur" style={{padding: "10px"}}>
                     <h2>Hotels</h2>
                     <div className="container-fluid">
                         <div className="d-flex cardContainer">
-                                {generateHotelDataArray(hotelResponse.data).map(hotel =><InfoCard 
+                                {generateHotelDataArray(hotelResponse.data).map(hotel =><HotelCard 
                                     id={hotel.id}
                                     key={`${hotel.name}-${hotel.id}`}
                                     name={hotel.name}
@@ -77,13 +107,31 @@ export const Info = () => {
                 </div>
             </div>
             <div className="container-fluid">
-                <div className="container-fluid">
-                    <h2>Attractions</h2>
+                <div className="container-fluid containerBlur" style={{padding: "10px"}}>
+                    <h2>Restaurants</h2>
+                    <div className="container-fluid">
+                        <div className="d-flex cardContainer">
+                            {generateRestaurantDataArray(restaurantResponse.data).map(restaurant =><RestaurantCard
+                                id={restaurant.id}
+                                key={`${restaurant.name}-${restaurant.id}`}
+                                name={restaurant.name}
+                                latitude={restaurant.latitude}
+                                longitude={restaurant.longitude}
+                                image={restaurant.image}
+                                description={restaurant.description}
+                                rating={restaurant.rating}
+                                website={restaurant.website}
+                                email={restaurant.email}
+                                phone={restaurant.phone}
+                                address={restaurant.address}
+                                hours={restaurant.hours}/>)}
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className="container-fluid">
                 <div className="container-fluid">
-                    <h2>Restaurants</h2>
+                    <h2>Attractions</h2>
                 </div>
             </div>
         </div>
