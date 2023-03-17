@@ -6,6 +6,11 @@ h3 {
     font-size: 1em;
 }
 
+p {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 .card{
     width: 30vh;
 }

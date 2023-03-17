@@ -6,16 +6,20 @@ const Footer = () => {
         <>
         <div className="container-fluid footer">
             <div className="d-flex flex-row">
-                <ul>
-                    <li>Contact Us</li>
-                    <li>Github Links</li>
-                    <li>Privacy Policy</li>
-                </ul>
-                <ul>
-                    <li>Contact Us</li>
-                    <li>Github Links</li>
-                    <li>Privacy Policy</li>
-                </ul>
+                <div className="col-6">
+                    <ul>
+                        <li>Contact Us</li>
+                        <li>Github Links</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+                <div className="col-6">
+                    <ul>
+                        <li>Contact Us</li>
+                        <li>Github Links</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
             </div>
         </div>
         </>
