@@ -72,7 +72,7 @@ const getHotelAward = (awardname, year, icon) =>{
 }
 
 
-function InfoCard(props){
+function HotelCard(props){
     return (
         <div className="col-sm-12 col-md-3 col-lg-2 d-flex align-items-stretch" style={{padding: "10px"}}>
             <div className="card">
@@ -92,4 +92,4 @@ function InfoCard(props){
     );
 }
 
-export default InfoCard;
+export default HotelCard;
