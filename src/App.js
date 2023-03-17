@@ -7,7 +7,7 @@ import { Saved } from './components/Saved';
 import  Footer  from './components/Footer';
 function App() {
   return (
-    
+   
     <Router>
     <NavigationBar/>  
      <Wrapper>
