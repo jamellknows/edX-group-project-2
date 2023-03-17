@@ -1,6 +1,9 @@
 
 
 .page-search{
-    color: red;
-    background-color: color;
+    padding: 5rem;
+}
+
+.search-inputs{
+    width: 97%;
 }
