@@ -1,0 +1,27 @@
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.ratingContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ratingContainer img{
+    width: 10%;
+}
+
+.awardImg{
+    width: 30px;
+    height: 30px;
+}
