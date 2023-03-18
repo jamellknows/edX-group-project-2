@@ -20,7 +20,7 @@ const Footer = () => {
 
     return(
         <>
-        <div className="container-fluid footer">
+        <footer className="container-fluid footer fixed-bottom">
             <div className="d-flex flex-row">
                 <div className="col-6">
                     <ul>
@@ -35,7 +35,7 @@ const Footer = () => {
                 </div>
                
             </div>
-        </div>
+        </footer>
         </>
     )
 }
