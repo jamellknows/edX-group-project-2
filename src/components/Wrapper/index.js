@@ -23,8 +23,6 @@ export const Wrapper = (props) => {
     var backgroundIndex = 0;
     const changeBackground = ()=> {
         backgroundIndex = (backgroundIndex >= 4) ?  0 : backgroundIndex+1; 
-        console.log(backgroundIndex)
-        console.log(background)
         setBackground(backgrounds[backgroundIndex])
         
     }

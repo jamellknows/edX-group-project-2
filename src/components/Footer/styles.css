@@ -8,3 +8,14 @@
     border: 2px solid white;
     border-radius: 15% 15% 0% 0%;
 }
+
+.footer-button{
+    height: 1.5rem;
+    line-height: 0rem;
+}
+
+.privacy{
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+}
