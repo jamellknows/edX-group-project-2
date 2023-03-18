@@ -32,6 +32,7 @@ const starRating = rating =>{
 	            l-2.9,17.1c-0.8,4.5,3.9,7.9,8,5.8L36,65.2c0.8-0.4,1.7-0.6,2.6-0.6V0C36.6,0,34.7,1,33.7,3.1z"/>
                 </svg>);
                 return stars;
+            default: break;
         }
     } 
 

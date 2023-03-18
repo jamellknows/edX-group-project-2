@@ -1,6 +1,7 @@
 import React from "react";
 import HotelCard from '../Cards/HotelCard';
 import RestaurantCard from '../Cards/RestaurantCard';
+import AttractionCard from '../Cards/AttractionCard';
 import { motion } from 'framer-motion';
 import './styles.css';
 import locationResponse from '../Test Data/location-paris-france.json'
@@ -74,6 +75,33 @@ const generateRestaurantDataArray = arr =>{
     return (tempRestaurantData);
 }
 
+const generateAttractionDataArray = arr =>{
+    let tempAttractionData =[];
+
+    arr.forEach(e =>{
+        let attractionDataObj = {};
+
+        if(e.hasOwnProperty('name')){
+            attractionDataObj["id"] = e.location_id;
+            attractionDataObj["name"] = e.name;
+            attractionDataObj["latitude"] = e.latitude;
+            attractionDataObj["longitude"] = e.longitude;
+            attractionDataObj["image"] = e.photo.images.original.url;
+            attractionDataObj["rating"] = e.rating;
+            attractionDataObj["description"] = e.description;
+            attractionDataObj["website"] = e.website;
+            attractionDataObj["address"] = e.address;
+            attractionDataObj["hours"] = e.hours?.week_ranges;
+
+            tempAttractionData.push(attractionDataObj);
+        }else{
+            return;
+        }
+    })
+    
+    return (tempAttractionData);
+}
+
 export const Info = () => {
 
     return(
@@ -132,6 +160,22 @@ export const Info = () => {
             <div className="container-fluid">
                 <div className="container-fluid">
                     <h2>Attractions</h2>
+                    <div className="container-fluid">
+                        <div className="d-flex cardContainer">
+                            {generateAttractionDataArray(attractionResponse.data).map(attraction =><AttractionCard
+                                id={attraction.id}
+                                key={`${attraction.name}-${attraction.id}`}
+                                name={attraction.name}
+                                latitude={attraction.latitude}
+                                longitude={attraction.longitude}
+                                image={attraction.image}
+                                description={attraction.description}
+                                rating={attraction.rating}
+                                website={attraction.website}
+                                address={attraction.address}
+                                hours={attraction.hours}/>)}
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

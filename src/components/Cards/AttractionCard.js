@@ -51,11 +51,11 @@ const getWebsiteLink = url =>{
     }
 }
 
-function RestaurantCard(props){
+function AttractionCard(props){
     return (
         <div className="col-sm-12 col-md-3 col-lg-2 d-flex align-items-stretch" style={{padding: "10px"}}>
             <div className="card">
-                <img src={props.image} alt="placeholder" className="card-img-top"/>
+                <img src={props.image} alt="placeholder-image" className="card-img-top"/>
                 <div className="card-body">
                     <h2 className="card-title">{props.name}</h2>
                     <hr className="my-2"/>
@@ -63,11 +63,10 @@ function RestaurantCard(props){
                     <hr className="my-2"/>
                     <p>{props.description}</p>
                     {getWebsiteLink(props.website)}
-                    <h3>Phone: {props.phone}</h3>
                 </div>
             </div>
         </div>
     );
 }
 
-export default RestaurantCard;
+export default AttractionCard;
