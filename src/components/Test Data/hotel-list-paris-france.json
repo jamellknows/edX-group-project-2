@@ -1,0 +1,3038 @@
+{
+    "data": [
+      {
+        "location_id": "197985",
+        "name": "Pullman Paris Eiffel Tower Hotel",
+        "latitude": "48.855743",
+        "longitude": "2.292935",
+        "num_reviews": "3834",
+        "timezone": "Europe/Paris",
+        "location_string": "Paris, Ile-de-France",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/23/8d/bf/27/exterior-view.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/23/8d/bf/27/exterior-view.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "1024",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-o/23/8d/bf/27/exterior-view.jpg",
+              "height": "768"
+            },
+            "large": {
+              "width": "550",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/23/8d/bf/27/exterior-view.jpg",
+              "height": "413"
+            },
+            "medium": {
+              "width": "250",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/23/8d/bf/27/exterior-view.jpg",
+              "height": "188"
+            }
+          },
+          "is_blessed": true,
+          "uploaded_date": "2022-05-27T01:21:00-0400",
+          "caption": "Exterior view",
+          "id": "596492071",
+          "helpful_votes": "2",
+          "published_date": "2022-05-27T01:21:00-0400",
+          "user": null
+        },
+        "awards": [
+          {
+            "award_type": "GreenLeader",
+            "year": "2023",
+            "images": {
+              "small": "https://www.tripadvisor.com/img/cdsi/img2/awards/greenleader_small-0-5.png",
+              "large": "https://www.tripadvisor.com/img/cdsi/img2/awards/greenleader_large_platinum-0-5.jpg"
+            },
+            "categories": [
+              "Platinum level"
+            ],
+            "display_name": "GreenLeader Platinum"
+          }
+        ],
+        "preferred_map_engine": "default",
+        "autobroaden_type": "category_integrated",
+        "autobroaden_label": "Paris Places to Stay",
+        "raw_ranking": "3.934279680252075",
+        "ranking_geo": "Paris",
+        "ranking_geo_id": "187147",
+        "ranking_position": "1",
+        "ranking_denominator": "2555",
+        "ranking_category": "hotel",
+        "ranking": "#1 Best Value of 2,555 places to stay in Paris",
+        "subcategory_type": "hotel",
+        "subcategory_type_label": "Hotel",
+        "distance": "2.5713578500799192",
+        "distance_string": null,
+        "bearing": "west",
+        "rating": "4.0",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$$$",
+        "price": "$363 - $575",
+        "neighborhood_info": [
+          {
+            "location_id": "15621637",
+            "name": "15th Arr. - Vaugirard"
+          },
+          {
+            "location_id": "15621605",
+            "name": "Grenelle"
+          }
+        ],
+        "hotel_class": "4.0",
+        "hotel_class_attribution": "This property is classified according to Accor Hotels.",
+        "business_listings": {
+          "desktop_contacts": [],
+          "mobile_contacts": [
+            {
+              "value": "https://www.tripadvisor.com/Commerce?p=TABAIndependentHotels&src=0&geo=197985&from=api&area=&slot=1&matchID=1&oos=0&cnt=1&silo=30355&bucket=875169&ubucket=875169&nrank=1&crank=1&clt=CLM&tm=258894414&managed=false&capped=false&gosox=5_3Y6UYwwGjgw_c7hEwIkTV6nUu_eBEzcOJ4EEHXEAJuHomRsgiHcdbJeRjEWGrPsw8c1ECbYTzJa4DPHb6CRw&bapid=1&cs=1413b2ab1c63365f27a398f7fe3c38120",
+              "label": "Hotel website",
+              "type": "url"
+            }
+          ]
+        },
+        "special_offers": {
+          "desktop": [],
+          "mobile": []
+        },
+        "listing_key": "290cf890-d628-4f50-ad1e-85b8dd2ac0b7"
+      },
+      {
+        "location_id": "276923",
+        "name": "Best Western Plus La Demeure",
+        "latitude": "48.83804",
+        "longitude": "2.35571",
+        "num_reviews": "958",
+        "timezone": "Europe/Paris",
+        "location_string": "Paris, Ile-de-France",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/21/f7/ca/c3/facade.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/21/f7/ca/c3/facade.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "1023",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-o/21/f7/ca/c3/facade.jpg",
+              "height": "682"
+            },
+            "large": {
+              "width": "550",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/21/f7/ca/c3/facade.jpg",
+              "height": "367"
+            },
+            "medium": {
+              "width": "250",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/21/f7/ca/c3/facade.jpg",
+              "height": "167"
+            }
+          },
+          "is_blessed": true,
+          "uploaded_date": "2022-01-28T01:40:56-0500",
+          "caption": "FACADE",
+          "id": "569887427",
+          "helpful_votes": "0",
+          "published_date": "2022-01-28T01:40:56-0500",
+          "user": null
+        },
+        "awards": [],
+        "preferred_map_engine": "default",
+        "autobroaden_type": "category_integrated",
+        "autobroaden_label": "Paris Places to Stay",
+        "raw_ranking": "4.413640975952148",
+        "ranking_geo": "Paris",
+        "ranking_geo_id": "187147",
+        "ranking_position": "2",
+        "ranking_denominator": "2555",
+        "ranking_category": "hotel",
+        "ranking": "#2 Best Value of 2,555 places to stay in Paris",
+        "subcategory_type": "hotel",
+        "subcategory_type_label": "Hotel",
+        "distance": "1.3450566866817426",
+        "distance_string": null,
+        "bearing": "south",
+        "rating": "4.5",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$$",
+        "price": "$143 - $321",
+        "neighborhood_info": [
+          {
+            "location_id": "15621638",
+            "name": "5th Arr. - Pantheon"
+          },
+          {
+            "location_id": "15621560",
+            "name": "Jardin-des-Plantes"
+          }
+        ],
+        "hotel_class": "4.0",
+        "hotel_class_attribution": "This property is classified according to Giata.",
+        "business_listings": {
+          "desktop_contacts": [],
+          "mobile_contacts": []
+        },
+        "special_offers": {
+          "desktop": [],
+          "mobile": []
+        },
+        "listing_key": "d32842db-f0fb-4216-8d3b-43c2f1300565"
+      },
+      {
+        "location_id": "9566832",
+        "name": "Hotel 34B - Astotel",
+        "latitude": "48.872707",
+        "longitude": "2.343608",
+        "num_reviews": "3267",
+        "timezone": "Europe/Paris",
+        "location_string": "Paris, Ile-de-France",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/0d/21/11/51/superior-room--v13024894.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/0d/21/11/51/superior-room--v13024894.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "2600",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-o/0d/21/11/51/superior-room--v13024894.jpg",
+              "height": "1733"
+            },
+            "large": {
+              "width": "550",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/0d/21/11/51/superior-room--v13024894.jpg",
+              "height": "450"
+            },
+            "medium": {
+              "width": "250",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/0d/21/11/51/superior-room--v13024894.jpg",
+              "height": "205"
+            }
+          },
+          "is_blessed": true,
+          "uploaded_date": "2016-05-24T10:49:21-0400",
+          "caption": "The Superior Room at the Hotel 34B - Astotel",
+          "id": "220270929",
+          "helpful_votes": "4",
+          "published_date": "2016-09-28T13:38:07-0400",
+          "user": null
+        },
+        "awards": [],
+        "preferred_map_engine": "default",
+        "autobroaden_type": "category_integrated",
+        "autobroaden_label": "Paris Places to Stay",
+        "raw_ranking": "4.774804592132568",
+        "ranking_geo": "Paris",
+        "ranking_geo_id": "187147",
+        "ranking_position": "3",
+        "ranking_denominator": "2555",
+        "ranking_category": "hotel",
+        "ranking": "#3 Best Value of 2,555 places to stay in Paris",
+        "subcategory_type": "hotel",
+        "subcategory_type_label": "Hotel",
+        "distance": "1.1155444591784947",
+        "distance_string": null,
+        "bearing": "north",
+        "rating": "5.0",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$$",
+        "price": "$144 - $263",
+        "neighborhood_info": [
+          {
+            "location_id": "15621635",
+            "name": "9th Arr. - Opera"
+          },
+          {
+            "location_id": "15621564",
+            "name": "Faubourg-Montmartre"
+          },
+          {
+            "location_id": "7236769",
+            "name": "Opera / Bourse"
+          }
+        ],
+        "hotel_class": "3.0",
+        "hotel_class_attribution": "This property is classified according to Giata.",
+        "business_listings": {
+          "desktop_contacts": [],
+          "mobile_contacts": [
+            {
+              "value": "https://www.tripadvisor.com/Commerce?p=TABAIndependentHotels&src=0&geo=9566832&from=api&area=&slot=1&matchID=1&oos=0&cnt=1&silo=30355&bucket=875169&ubucket=875169&nrank=1&crank=1&clt=CLM&tm=258894414&managed=false&capped=false&gosox=5_3Y6UYwwGjgw_c7hEwIkb65BDCgeM4g0h3EJupZrUvLW59Px-yJCaMXWbvHw1GnKS0rrzIkDAn22eR-9kbRmg&bapid=1&cs=1f8fd33bd6ca28d05a506a132c20ac751",
+              "label": "Hotel website",
+              "type": "url"
+            }
+          ]
+        },
+        "special_offers": {
+          "desktop": [],
+          "mobile": [
+            {
+              "headline": "10% BEST RATE GUARANTEE",
+              "url": "https://www.tripadvisor.com/ShowSpecialOffer-a_d.9566832-a_offer.9431010-a_trafficSource.ba",
+              "offerless_click_tracking_url": "https://www.tripadvisor.com/Commerce?p=TABAIndependentHotels&src=0&geo=9566832&from=api&area=OID:9431010%7COT:12&slot=1&matchID=1&oos=0&cnt=1&silo=30355&bucket=875169&ubucket=875169&nrank=1&crank=1&clt=SOIM&tm=258894414&managed=false&capped=false&gosox=5_3Y6UYwwGjgw_c7hEwIkb65BDCgeM4g0h3EJupZrUsZXQuzP8IrB8nu_PN73232CzBwUxMHtuEfDa69PqyvAQ&cs=16f6b07b98771fc8346ae1eb76d721a23"
+            }
+          ]
+        },
+        "listing_key": "182cadc0-cfe8-435f-9c64-95291ec96c6f"
+      },
+      {
+        "location_id": "197946",
+        "name": "Hotel Bradford Elysees - Astotel",
+        "latitude": "48.872864",
+        "longitude": "2.308165",
+        "num_reviews": "2812",
+        "timezone": "Europe/Paris",
+        "location_string": "Paris, Ile-de-France",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/22/62/fb/e6/hotel-facade.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/22/62/fb/e6/hotel-facade.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "1023",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-o/22/62/fb/e6/hotel-facade.jpg",
+              "height": "685"
+            },
+            "large": {
+              "width": "550",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/22/62/fb/e6/hotel-facade.jpg",
+              "height": "368"
+            },
+            "medium": {
+              "width": "250",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/22/62/fb/e6/hotel-facade.jpg",
+              "height": "167"
+            }
+          },
+          "is_blessed": true,
+          "uploaded_date": "2022-03-09T01:17:51-0500",
+          "caption": "Hotel Facade",
+          "id": "576912358",
+          "helpful_votes": "0",
+          "published_date": "2022-03-09T01:17:51-0500",
+          "user": null
+        },
+        "awards": [
+          {
+            "award_type": "Traveler's Choice",
+            "year": "2022",
+            "images": {
+              "small": "https://static.tacdn.com/img2/awards/TC-Color-60x60-updated-green.png",
+              "large": "https://www.tripadvisor.com/img2/awards/TC_2014_downloadable_L_TM.jpg"
+            },
+            "categories": [
+              "Top Hotels"
+            ],
+            "display_name": "Travelers' Choice 2022"
+          }
+        ],
+        "preferred_map_engine": "default",
+        "autobroaden_type": "category_integrated",
+        "autobroaden_label": "Paris Places to Stay",
+        "raw_ranking": "4.9062347412109375",
+        "ranking_geo": "Paris",
+        "ranking_geo_id": "187147",
+        "ranking_position": "4",
+        "ranking_denominator": "2555",
+        "ranking_category": "hotel",
+        "ranking": "#4 Best Value of 2,555 places to stay in Paris",
+        "subcategory_type": "hotel",
+        "subcategory_type_label": "Hotel",
+        "distance": "2.172372634321327",
+        "distance_string": null,
+        "bearing": "northwest",
+        "rating": "5.0",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$$$",
+        "price": "$216 - $442",
+        "neighborhood_info": [
+          {
+            "location_id": "15621630",
+            "name": "8th Arr. - Elysee"
+          },
+          {
+            "location_id": "15621623",
+            "name": "Faubourg-du-Roule"
+          },
+          {
+            "location_id": "15621668",
+            "name": "Faubourg Saint-Honore"
+          },
+          {
+            "location_id": "7236770",
+            "name": "Champs-Elysees"
+          }
+        ],
+        "hotel_class": "4.0",
+        "hotel_class_attribution": "This property is classified according to Giata.",
+        "business_listings": {
+          "desktop_contacts": [],
+          "mobile_contacts": [
+            {
+              "value": "https://www.tripadvisor.com/Commerce?p=TABAIndependentHotels&src=0&geo=197946&from=api&area=&slot=1&matchID=1&oos=0&cnt=1&silo=30355&bucket=875169&ubucket=875169&nrank=1&crank=1&clt=CLM&tm=258894414&managed=false&capped=false&gosox=5_3Y6UYwwGjgw_c7hEwIkWq80W_EHELOTlio8-krP8NqUIE-ObMsBi94CubGLG9o_VHKyDHelwx0pMT9jzblpg&bapid=1&cs=1ab659baf6068d808c4c1291ff29142c4",
+              "label": "Hotel website",
+              "type": "url"
+            }
+          ]
+        },
+        "special_offers": {
+          "desktop": [],
+          "mobile": [
+            {
+              "headline": "10% BEST RATE GUARANTEE",
+              "url": "https://www.tripadvisor.com/ShowSpecialOffer-a_d.197946-a_offer.9431154-a_trafficSource.ba",
+              "offerless_click_tracking_url": "https://www.tripadvisor.com/Commerce?p=TABAIndependentHotels&src=0&geo=197946&from=api&area=OID:9431154%7COT:12&slot=1&matchID=1&oos=0&cnt=1&silo=30355&bucket=875169&ubucket=875169&nrank=1&crank=1&clt=SOIM&tm=258894414&managed=false&capped=false&gosox=5_3Y6UYwwGjgw_c7hEwIkWq80W_EHELOTlio8-krP8M5PFjTypr5IelBu5DP9Ui2xSDO2uYwdNfrbz_T2hnb4w&cs=1e73229bcf65dd2d08b718534cddd122c"
+            }
+          ]
+        },
+        "listing_key": "5ad54367-52b8-4201-9124-687499875407"
+      },
+      {
+        "location_id": "197659",
+        "name": "Citadines Tour Eiffel Paris",
+        "latitude": "48.84891",
+        "longitude": "2.297935",
+        "num_reviews": "454",
+        "timezone": "Europe/Paris",
+        "location_string": "Paris, Ile-de-France",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/25/21/e0/60/studio-with-eiffel-tower.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/25/21/e0/60/studio-with-eiffel-tower.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "5760",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-o/25/21/e0/60/studio-with-eiffel-tower.jpg",
+              "height": "3840"
+            },
+            "large": {
+              "width": "550",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/25/21/e0/60/studio-with-eiffel-tower.jpg",
+              "height": "367"
+            },
+            "medium": {
+              "width": "250",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/25/21/e0/60/studio-with-eiffel-tower.jpg",
+              "height": "167"
+            }
+          },
+          "is_blessed": true,
+          "uploaded_date": "2022-08-08T15:03:09-0400",
+          "caption": "Studio with Eiffel Tower view and balcony, Citadines Tour Eiffel Paris",
+          "id": "622977120",
+          "helpful_votes": "3",
+          "published_date": "2022-08-08T15:03:09-0400",
+          "user": null
+        },
+        "awards": [],
+        "preferred_map_engine": "default",
+        "autobroaden_type": "category_integrated",
+        "autobroaden_label": "Paris Places to Stay",
+        "raw_ranking": "4.157504558563232",
+        "ranking_geo": "Paris",
+        "ranking_geo_id": "187147",
+        "ranking_position": "5",
+        "ranking_denominator": "2555",
+        "ranking_category": "hotel",
+        "ranking": "#5 Best Value of 2,555 places to stay in Paris",
+        "subcategory_type": "hotel",
+        "subcategory_type_label": "Hotel",
+        "distance": "2.4088861765119005",
+        "distance_string": null,
+        "bearing": "west",
+        "rating": "4.5",
+        "is_closed": false,
+        "open_now_text": "Open Now",
+        "is_long_closed": false,
+        "price_level": "$$$",
+        "price": "$199 - $377",
+        "neighborhood_info": [
+          {
+            "location_id": "15621637",
+            "name": "15th Arr. - Vaugirard"
+          },
+          {
+            "location_id": "15621605",
+            "name": "Grenelle"
+          }
+        ],
+        "hotel_class": "3.0",
+        "hotel_class_attribution": "This property is classified according to Giata.",
+        "business_listings": {
+          "desktop_contacts": [],
+          "mobile_contacts": []
+        },
+        "special_offers": {
+          "desktop": [],
+          "mobile": []
+        },
+        "listing_key": "a9bbcbab-591e-41f3-a6fb-640fa60379ff"
+      },
+      {
+        "location_id": "282159",
+        "name": "Hotel Residence Europe",
+        "latitude": "48.9027",
+        "longitude": "2.313787",
+        "num_reviews": "472",
+        "timezone": "Europe/Paris",
+        "location_string": "Clichy, Hauts-de-Seine, Ile-de-France",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/28/17/74/17/guest-room.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/28/17/74/17/guest-room.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "800",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-o/28/17/74/17/guest-room.jpg",
+              "height": "534"
+            },
+            "large": {
+              "width": "550",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/28/17/74/17/guest-room.jpg",
+              "height": "367"
+            },
+            "medium": {
+              "width": "250",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/28/17/74/17/guest-room.jpg",
+              "height": "167"
+            }
+          },
+          "is_blessed": true,
+          "uploaded_date": "2023-02-04T16:55:51-0500",
+          "caption": "Guest room",
+          "id": "672625687",
+          "helpful_votes": "0",
+          "published_date": "2023-02-04T16:55:51-0500",
+          "user": null
+        },
+        "awards": [],
+        "preferred_map_engine": "default",
+        "autobroaden_type": "category_integrated",
+        "autobroaden_label": "Paris Places to Stay",
+        "raw_ranking": "3.9563162326812744",
+        "ranking_geo": "Clichy",
+        "ranking_geo_id": "608772",
+        "ranking_position": "1",
+        "ranking_denominator": "26",
+        "ranking_category": "hotel",
+        "ranking": "#1 Best Value of 26 places to stay in Clichy",
+        "subcategory_type": "hotel",
+        "subcategory_type_label": "Hotel",
+        "distance": "3.549700839017714",
+        "distance_string": null,
+        "bearing": "northwest",
+        "rating": "4.0",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$",
+        "price": "$120 - $165",
+        "hotel_class": "3.0",
+        "hotel_class_attribution": "This property is classified according to Giata.",
+        "business_listings": {
+          "desktop_contacts": [],
+          "mobile_contacts": []
+        },
+        "special_offers": {
+          "desktop": [],
+          "mobile": []
+        },
+        "listing_key": "203b8fb7-3eec-4858-85fc-31b5910ed20f"
+      },
+      {
+        "location_id": "187147",
+        "ad_position": "inline1",
+        "ad_size": "8X8",
+        "doubleclick_zone": "eu.france.paris",
+        "ancestors": [
+          {
+            "subcategory": [
+              {
+                "key": "region",
+                "name": "Region"
+              }
+            ],
+            "name": "Ile-de-France",
+            "abbrv": null,
+            "location_id": "187144"
+          },
+          {
+            "subcategory": [
+              {
+                "key": "country",
+                "name": "Country"
+              }
+            ],
+            "name": "France",
+            "abbrv": null,
+            "location_id": "187070"
+          }
+        ],
+        "detail": "0",
+        "page_type": "hotels",
+        "mob_ptype": "app_hotels"
+      },
+      {
+        "location_id": "10159593",
+        "name": "Hotel La Comtesse",
+        "latitude": "48.85395",
+        "longitude": "2.30702",
+        "num_reviews": "843",
+        "timezone": "Europe/Paris",
+        "location_string": "Paris, Ile-de-France",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/0e/ec/80/bf/street--v16031250.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/0e/ec/80/bf/street--v16031250.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "2600",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-o/0e/ec/80/bf/street--v16031250.jpg",
+              "height": "1733"
+            },
+            "large": {
+              "width": "550",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/0e/ec/80/bf/street--v16031250.jpg",
+              "height": "450"
+            },
+            "medium": {
+              "width": "250",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/0e/ec/80/bf/street--v16031250.jpg",
+              "height": "205"
+            }
+          },
+          "is_blessed": true,
+          "uploaded_date": "2017-02-17T17:11:17-0500",
+          "caption": "Street at the Hotel La Comtesse",
+          "id": "250380479",
+          "helpful_votes": "3",
+          "published_date": "2017-04-10T10:45:56-0400",
+          "user": null
+        },
+        "awards": [],
+        "preferred_map_engine": "default",
+        "autobroaden_type": "category_integrated",
+        "autobroaden_label": "Paris Places to Stay",
+        "raw_ranking": "4.677050590515137",
+        "ranking_geo": "Paris",
+        "ranking_geo_id": "187147",
+        "ranking_position": "6",
+        "ranking_denominator": "2555",
+        "ranking_category": "hotel",
+        "ranking": "#6 Best Value of 2,555 places to stay in Paris",
+        "subcategory_type": "hotel",
+        "subcategory_type_label": "Hotel",
+        "distance": "1.9405944887898083",
+        "distance_string": null,
+        "bearing": "west",
+        "rating": "4.5",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$$$",
+        "price": "$315 - $504",
+        "neighborhood_info": [
+          {
+            "location_id": "15621574",
+            "name": "Ecole-Militaire"
+          },
+          {
+            "location_id": "7236767",
+            "name": "Tour Eiffel / Invalides"
+          },
+          {
+            "location_id": "15621644",
+            "name": "7th Arr. - Palais-Bourbon"
+          }
+        ],
+        "hotel_class": "3.0",
+        "hotel_class_attribution": "This property is classified according to Giata.",
+        "business_listings": {
+          "desktop_contacts": [],
+          "mobile_contacts": []
+        },
+        "special_offers": {
+          "desktop": [],
+          "mobile": []
+        },
+        "listing_key": "55fced46-8279-459f-8244-19995e543153"
+      },
+      {
+        "location_id": "17764705",
+        "name": "Paris j'Adore Hotel & Spa",
+        "latitude": "48.88254",
+        "longitude": "2.31924",
+        "num_reviews": "78",
+        "timezone": "Europe/Paris",
+        "location_string": "Paris, Ile-de-France",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/21/cc/69/fe/guest-room.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/21/cc/69/fe/guest-room.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "1024",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-o/21/cc/69/fe/guest-room.jpg",
+              "height": "682"
+            },
+            "large": {
+              "width": "550",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/21/cc/69/fe/guest-room.jpg",
+              "height": "366"
+            },
+            "medium": {
+              "width": "250",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/21/cc/69/fe/guest-room.jpg",
+              "height": "167"
+            }
+          },
+          "is_blessed": true,
+          "uploaded_date": "2022-01-06T01:39:35-0500",
+          "caption": "Guest room",
+          "id": "567044606",
+          "helpful_votes": "1",
+          "published_date": "2022-01-06T01:39:35-0500",
+          "user": null
+        },
+        "awards": [],
+        "preferred_map_engine": "default",
+        "autobroaden_type": "category_integrated",
+        "autobroaden_label": "Paris Places to Stay",
+        "raw_ranking": "4.419102191925049",
+        "ranking_geo": "Paris",
+        "ranking_geo_id": "187147",
+        "ranking_position": "7",
+        "ranking_denominator": "2555",
+        "ranking_category": "hotel",
+        "ranking": "#7 Best Value of 2,555 places to stay in Paris",
+        "subcategory_type": "hotel",
+        "subcategory_type_label": "Hotel",
+        "distance": "2.2350630430198315",
+        "distance_string": null,
+        "bearing": "northwest",
+        "rating": "5.0",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$$$",
+        "price": "$357 - $544",
+        "neighborhood_info": [
+          {
+            "location_id": "15621559",
+            "name": "Batignolles"
+          },
+          {
+            "location_id": "15621636",
+            "name": "17th Arr. - Batignolles-Monceau"
+          }
+        ],
+        "hotel_class": "5.0",
+        "hotel_class_attribution": "This property is classified according to Giata.",
+        "business_listings": {
+          "desktop_contacts": [],
+          "mobile_contacts": []
+        },
+        "special_offers": {
+          "desktop": [],
+          "mobile": []
+        },
+        "listing_key": "051f31ff-d19c-44de-aa9b-992c417becb2"
+      },
+      {
+        "location_id": "197424",
+        "name": "Novotel Paris Les Halles",
+        "latitude": "48.861023",
+        "longitude": "2.346508",
+        "num_reviews": "6571",
+        "timezone": "Europe/Paris",
+        "location_string": "Paris, Ile-de-France",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/26/99/25/88/exterior.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/26/99/25/88/exterior.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "1024",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-o/26/99/25/88/exterior.jpg",
+              "height": "768"
+            },
+            "large": {
+              "width": "550",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/26/99/25/88/exterior.jpg",
+              "height": "413"
+            },
+            "medium": {
+              "width": "250",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/26/99/25/88/exterior.jpg",
+              "height": "188"
+            }
+          },
+          "is_blessed": true,
+          "uploaded_date": "2022-10-19T17:08:09-0400",
+          "caption": "Exterior",
+          "id": "647570824",
+          "helpful_votes": "0",
+          "published_date": "2022-10-19T17:08:09-0400",
+          "user": null
+        },
+        "awards": [
+          {
+            "award_type": "GreenLeader",
+            "year": "2023",
+            "images": {
+              "small": "https://www.tripadvisor.com/img/cdsi/img2/awards/greenleader_small-0-5.png",
+              "large": "https://www.tripadvisor.com/img/cdsi/img2/awards/greenleader_large_bronze-0-5.jpg"
+            },
+            "categories": [
+              "Bronze level"
+            ],
+            "display_name": "GreenLeader Bronze"
+          }
+        ],
+        "preferred_map_engine": "default",
+        "autobroaden_type": "category_integrated",
+        "autobroaden_label": "Paris Places to Stay",
+        "raw_ranking": "4.753279685974121",
+        "ranking_geo": "Paris",
+        "ranking_geo_id": "187147",
+        "ranking_position": "8",
+        "ranking_denominator": "2555",
+        "ranking_category": "hotel",
+        "ranking": "#8 Best Value of 2,555 places to stay in Paris",
+        "subcategory_type": "hotel",
+        "subcategory_type_label": "Hotel",
+        "distance": "0.3055551929144702",
+        "distance_string": null,
+        "bearing": "northwest",
+        "rating": "4.5",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$$$",
+        "price": "$311 - $517",
+        "neighborhood_info": [
+          {
+            "location_id": "7239107",
+            "name": "Les Halles"
+          },
+          {
+            "location_id": "15621615",
+            "name": "Halles Quartier"
+          },
+          {
+            "location_id": "15621628",
+            "name": "1st Arr. - Louvre"
+          }
+        ],
+        "hotel_class": "4.0",
+        "hotel_class_attribution": "This property is classified according to Accor Hotels.",
+        "business_listings": {
+          "desktop_contacts": [],
+          "mobile_contacts": [
+            {
+              "value": "https://www.tripadvisor.com/Commerce?p=TABAIndependentHotels&src=0&geo=197424&from=api&area=&slot=1&matchID=1&oos=0&cnt=1&silo=30355&bucket=875169&ubucket=875169&nrank=1&crank=1&clt=CLM&tm=258894414&managed=false&capped=false&gosox=5_3Y6UYwwGjgw_c7hEwIkbZ5RggKOCV7EywlqL1jAEu8vponQTnDWH5XrqnZwiBmBYmlrJe4pfi37EpUNY-9IQ&bapid=1&cs=1d1e38bf409282b4bea0b7ef2a4f4eb68",
+              "label": "Hotel website",
+              "type": "url"
+            }
+          ]
+        },
+        "special_offers": {
+          "desktop": [],
+          "mobile": []
+        },
+        "listing_key": "f46a48a8-efc7-4201-aff1-4472266f2de3"
+      },
+      {
+        "location_id": "315160",
+        "name": "Passy Eiffel Hotel",
+        "latitude": "48.8584",
+        "longitude": "2.283585",
+        "num_reviews": "1113",
+        "timezone": "Europe/Paris",
+        "location_string": "Paris, Ile-de-France",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/13/5e/96/06/salon-hotel-passy-eiffel.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/13/5e/96/06/salon-hotel-passy-eiffel.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "2048",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-o/13/5e/96/06/salon-hotel-passy-eiffel.jpg",
+              "height": "1367"
+            },
+            "large": {
+              "width": "550",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/13/5e/96/06/salon-hotel-passy-eiffel.jpg",
+              "height": "367"
+            },
+            "medium": {
+              "width": "250",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/13/5e/96/06/salon-hotel-passy-eiffel.jpg",
+              "height": "167"
+            }
+          },
+          "is_blessed": true,
+          "uploaded_date": "2018-06-21T05:44:04-0400",
+          "caption": "Salon Hotel Passy Eiffel",
+          "id": "324965894",
+          "helpful_votes": "3",
+          "published_date": "2018-06-21T05:44:04-0400",
+          "user": {
+            "user_id": null,
+            "member_id": "0",
+            "type": "user"
+          }
+        },
+        "awards": [],
+        "preferred_map_engine": "default",
+        "autobroaden_type": "category_integrated",
+        "autobroaden_label": "Paris Places to Stay",
+        "raw_ranking": "4.481627941131592",
+        "ranking_geo": "Paris",
+        "ranking_geo_id": "187147",
+        "ranking_position": "9",
+        "ranking_denominator": "2555",
+        "ranking_category": "hotel",
+        "ranking": "#9 Best Value of 2,555 places to stay in Paris",
+        "subcategory_type": "hotel",
+        "subcategory_type_label": "Hotel",
+        "distance": "2.996718286220522",
+        "distance_string": null,
+        "bearing": "west",
+        "rating": "4.5",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$$",
+        "price": "$198 - $300",
+        "neighborhood_info": [
+          {
+            "location_id": "15621642",
+            "name": "16th Arr. - Passy"
+          },
+          {
+            "location_id": "15621583",
+            "name": "Muette"
+          },
+          {
+            "location_id": "7239105",
+            "name": "Trocadero"
+          }
+        ],
+        "hotel_class": "3.0",
+        "hotel_class_attribution": "This property is classified according to Giata.",
+        "business_listings": {
+          "desktop_contacts": [],
+          "mobile_contacts": [
+            {
+              "value": "https://www.tripadvisor.com/Commerce?p=TABAIndependentHotels&src=0&geo=315160&from=api&area=&slot=2&matchID=1&oos=0&cnt=1&silo=30355&bucket=875169&ubucket=875169&nrank=1&crank=1&clt=CLM&tm=258894414&managed=false&capped=false&gosox=5_3Y6UYwwGjgw_c7hEwIkUadABJGHkVw6YUaQRaJE__v8L85x99h8sSd-lWzxBUylkCsgyDbZ6-LvLZ7MOTtWg&bapid=2&cs=1351d4130baf8475221a59adc365d6063",
+              "label": "Hotel website",
+              "type": "url"
+            }
+          ]
+        },
+        "special_offers": {
+          "desktop": [],
+          "mobile": []
+        },
+        "listing_key": "b4cedae5-98e6-48c7-98f0-0aaaa0084b63"
+      },
+      {
+        "location_id": "292941",
+        "name": "French Theory",
+        "latitude": "48.848007",
+        "longitude": "2.342147",
+        "num_reviews": "133",
+        "timezone": "Europe/Paris",
+        "location_string": "Paris, Ile-de-France",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/1c/d3/bc/5b/guest-room.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/1c/d3/bc/5b/guest-room.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "1023",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-o/1c/d3/bc/5b/guest-room.jpg",
+              "height": "767"
+            },
+            "large": {
+              "width": "550",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/1c/d3/bc/5b/guest-room.jpg",
+              "height": "412"
+            },
+            "medium": {
+              "width": "250",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/1c/d3/bc/5b/guest-room.jpg",
+              "height": "187"
+            }
+          },
+          "is_blessed": true,
+          "uploaded_date": "2021-04-06T14:37:54-0400",
+          "caption": "Guest room",
+          "id": "483638363",
+          "helpful_votes": "0",
+          "published_date": "2021-04-06T14:37:54-0400",
+          "user": null
+        },
+        "awards": [],
+        "preferred_map_engine": "default",
+        "autobroaden_type": "category_integrated",
+        "autobroaden_label": "Paris Places to Stay",
+        "raw_ranking": "4.376567840576172",
+        "ranking_geo": "Paris",
+        "ranking_geo_id": "187147",
+        "ranking_position": "10",
+        "ranking_denominator": "2555",
+        "ranking_category": "hotel",
+        "ranking": "#10 Best Value of 2,555 places to stay in Paris",
+        "subcategory_type": "hotel",
+        "subcategory_type_label": "Hotel",
+        "distance": "0.7064585773459999",
+        "distance_string": null,
+        "bearing": "southwest",
+        "rating": "4.5",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$$",
+        "price": "$177 - $291",
+        "neighborhood_info": [
+          {
+            "location_id": "15621638",
+            "name": "5th Arr. - Pantheon"
+          },
+          {
+            "location_id": "15621599",
+            "name": "Sorbonne"
+          },
+          {
+            "location_id": "7236765",
+            "name": "Quartier Latin"
+          }
+        ],
+        "hotel_class": "3.0",
+        "hotel_class_attribution": "This property is classified according to Giata.",
+        "business_listings": {
+          "desktop_contacts": [],
+          "mobile_contacts": []
+        },
+        "special_offers": {
+          "desktop": [],
+          "mobile": []
+        },
+        "listing_key": "891326b4-867c-43aa-ac9d-728fbe439960"
+      },
+      {
+        "location_id": "254597",
+        "name": "Best Western Plus 61 Paris Nation Hotel",
+        "latitude": "48.846626",
+        "longitude": "2.410331",
+        "num_reviews": "835",
+        "timezone": "Europe/Paris",
+        "location_string": "Paris, Ile-de-France",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/23/e5/24/65/best-western-plusr-61.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/23/e5/24/65/best-western-plusr-61.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "1023",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-o/23/e5/24/65/best-western-plusr-61.jpg",
+              "height": "769"
+            },
+            "large": {
+              "width": "550",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/23/e5/24/65/best-western-plusr-61.jpg",
+              "height": "413"
+            },
+            "medium": {
+              "width": "250",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/23/e5/24/65/best-western-plusr-61.jpg",
+              "height": "188"
+            }
+          },
+          "is_blessed": true,
+          "uploaded_date": "2022-06-11T03:43:43-0400",
+          "caption": "Best Western Plus® 61 Paris Nation H",
+          "id": "602219621",
+          "helpful_votes": "0",
+          "published_date": "2022-06-11T03:43:43-0400",
+          "user": null
+        },
+        "awards": [],
+        "preferred_map_engine": "default",
+        "autobroaden_type": "category_integrated",
+        "autobroaden_label": "Paris Places to Stay",
+        "raw_ranking": "4.036088943481445",
+        "ranking_geo": "Paris",
+        "ranking_geo_id": "187147",
+        "ranking_position": "11",
+        "ranking_denominator": "2555",
+        "ranking_category": "hotel",
+        "ranking": "#11 Best Value of 2,555 places to stay in Paris",
+        "subcategory_type": "hotel",
+        "subcategory_type_label": "Hotel",
+        "distance": "2.8651719990070132",
+        "distance_string": null,
+        "bearing": "east",
+        "rating": "4.0",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$",
+        "price": "$102 - $218",
+        "neighborhood_info": [
+          {
+            "location_id": "15621654",
+            "name": "Bel-Air Nord"
+          },
+          {
+            "location_id": "7239101",
+            "name": "Bercy / Nation"
+          },
+          {
+            "location_id": "15621627",
+            "name": "12th Arr. - Reuilly"
+          },
+          {
+            "location_id": "15621601",
+            "name": "Bel-Air"
+          }
+        ],
+        "hotel_class": "4.0",
+        "hotel_class_attribution": "This property is classified according to Giata.",
+        "business_listings": {
+          "desktop_contacts": [],
+          "mobile_contacts": []
+        },
+        "special_offers": {
+          "desktop": [],
+          "mobile": []
+        },
+        "listing_key": "c822d231-a3ee-45fd-b9c2-b808b3c9e869"
+      },
+      {
+        "location_id": "313072",
+        "name": "Le Regent Montmartre by HipHopHostels",
+        "latitude": "48.8829",
+        "longitude": "2.345114",
+        "num_reviews": "1218",
+        "timezone": "Europe/Paris",
+        "location_string": "Paris, Ile-de-France",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/14/76/63/aa/le-regent-montmartre.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/14/76/63/aa/le-regent-montmartre.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "4800",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-o/14/76/63/aa/le-regent-montmartre.jpg",
+              "height": "3200"
+            },
+            "large": {
+              "width": "550",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/14/76/63/aa/le-regent-montmartre.jpg",
+              "height": "367"
+            },
+            "medium": {
+              "width": "250",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/14/76/63/aa/le-regent-montmartre.jpg",
+              "height": "167"
+            }
+          },
+          "is_blessed": true,
+          "uploaded_date": "2018-09-04T10:53:02-0400",
+          "caption": "",
+          "id": "343303082",
+          "helpful_votes": "1",
+          "published_date": "2018-09-04T10:53:02-0400",
+          "user": {
+            "user_id": null,
+            "member_id": "0",
+            "type": "user"
+          }
+        },
+        "awards": [],
+        "preferred_map_engine": "default",
+        "autobroaden_type": "category_integrated",
+        "autobroaden_label": "Paris Places to Stay",
+        "raw_ranking": "3.901524782180786",
+        "ranking_geo": "Paris",
+        "ranking_geo_id": "187147",
+        "ranking_position": "12",
+        "ranking_denominator": "2555",
+        "ranking_category": "other",
+        "ranking": "#12 Best Value of 2,555 places to stay in Paris",
+        "subcategory_type": "hostel",
+        "subcategory_type_label": "Hostel",
+        "distance": "1.7995984571914612",
+        "distance_string": null,
+        "bearing": "north",
+        "rating": "4.0",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$",
+        "price": "$75 - $216",
+        "neighborhood_info": [
+          {
+            "location_id": "15621635",
+            "name": "9th Arr. - Opera"
+          },
+          {
+            "location_id": "15621565",
+            "name": "Rochechouart"
+          }
+        ],
+        "hotel_class": "2.0",
+        "hotel_class_attribution": "This property is classified according to Giata.",
+        "business_listings": {
+          "desktop_contacts": [],
+          "mobile_contacts": []
+        },
+        "special_offers": {
+          "desktop": [],
+          "mobile": []
+        },
+        "listing_key": "060eb684-2abf-4257-9d7d-7d1aae4579da"
+      },
+      {
+        "location_id": "228809",
+        "name": "Hotel Magda Champs-Elysees",
+        "latitude": "48.876",
+        "longitude": "2.295382",
+        "num_reviews": "2145",
+        "timezone": "Europe/Paris",
+        "location_string": "Paris, Ile-de-France",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/26/a1/59/a2/magda-exterior.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/26/a1/59/a2/magda-exterior.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "400",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-o/26/a1/59/a2/magda-exterior.jpg",
+              "height": "599"
+            },
+            "large": {
+              "width": "301",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/26/a1/59/a2/magda-exterior.jpg",
+              "height": "450"
+            },
+            "medium": {
+              "width": "137",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/26/a1/59/a2/magda-exterior.jpg",
+              "height": "205"
+            }
+          },
+          "is_blessed": true,
+          "uploaded_date": "2022-10-21T17:07:59-0400",
+          "caption": "Magda Exterior",
+          "id": "648108450",
+          "helpful_votes": "0",
+          "published_date": "2022-10-21T17:07:59-0400",
+          "user": null
+        },
+        "awards": [],
+        "preferred_map_engine": "default",
+        "autobroaden_type": "category_integrated",
+        "autobroaden_label": "Paris Places to Stay",
+        "raw_ranking": "4.481672763824463",
+        "ranking_geo": "Paris",
+        "ranking_geo_id": "187147",
+        "ranking_position": "13",
+        "ranking_denominator": "2555",
+        "ranking_category": "hotel",
+        "ranking": "#13 Best Value of 2,555 places to stay in Paris",
+        "subcategory_type": "hotel",
+        "subcategory_type_label": "Hotel",
+        "distance": "2.7860207036688904",
+        "distance_string": null,
+        "bearing": "northwest",
+        "rating": "4.5",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$$",
+        "price": "$166 - $276",
+        "neighborhood_info": [
+          {
+            "location_id": "15621636",
+            "name": "17th Arr. - Batignolles-Monceau"
+          },
+          {
+            "location_id": "7236770",
+            "name": "Champs-Elysees"
+          },
+          {
+            "location_id": "15621570",
+            "name": "Ternes"
+          },
+          {
+            "location_id": "15621659",
+            "name": "Etoile"
+          }
+        ],
+        "hotel_class": "3.0",
+        "hotel_class_attribution": "This property is classified according to Giata.",
+        "business_listings": {
+          "desktop_contacts": [],
+          "mobile_contacts": []
+        },
+        "special_offers": {
+          "desktop": [],
+          "mobile": []
+        },
+        "listing_key": "2f6973a1-ef10-43a7-923d-41e64093aabb"
+      },
+      {
+        "location_id": "187147",
+        "ad_position": "inline2",
+        "ad_size": "8X8",
+        "doubleclick_zone": "eu.france.paris",
+        "ancestors": [
+          {
+            "subcategory": [
+              {
+                "key": "region",
+                "name": "Region"
+              }
+            ],
+            "name": "Ile-de-France",
+            "abbrv": null,
+            "location_id": "187144"
+          },
+          {
+            "subcategory": [
+              {
+                "key": "country",
+                "name": "Country"
+              }
+            ],
+            "name": "France",
+            "abbrv": null,
+            "location_id": "187070"
+          }
+        ],
+        "detail": "0",
+        "page_type": "hotels",
+        "mob_ptype": "app_hotels"
+      },
+      {
+        "location_id": "21281646",
+        "name": "Canopy By Hilton Paris Trocadero",
+        "latitude": "48.86443",
+        "longitude": "2.28504",
+        "num_reviews": "106",
+        "timezone": "Europe/Paris",
+        "location_string": "Paris, Ile-de-France",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/26/d1/bc/c1/exterior.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/26/d1/bc/c1/exterior.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "1024",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-o/26/d1/bc/c1/exterior.jpg",
+              "height": "685"
+            },
+            "large": {
+              "width": "550",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/26/d1/bc/c1/exterior.jpg",
+              "height": "368"
+            },
+            "medium": {
+              "width": "250",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/26/d1/bc/c1/exterior.jpg",
+              "height": "167"
+            }
+          },
+          "is_blessed": true,
+          "uploaded_date": "2022-11-09T17:12:49-0500",
+          "caption": "Exterior",
+          "id": "651279553",
+          "helpful_votes": "0",
+          "published_date": "2022-11-09T17:12:49-0500",
+          "user": null
+        },
+        "awards": [],
+        "preferred_map_engine": "default",
+        "autobroaden_type": "category_integrated",
+        "autobroaden_label": "Paris Places to Stay",
+        "raw_ranking": "4.407594680786133",
+        "ranking_geo": "Paris",
+        "ranking_geo_id": "187147",
+        "ranking_position": "14",
+        "ranking_denominator": "2555",
+        "ranking_category": "hotel",
+        "ranking": "#14 Best Value of 2,555 places to stay in Paris",
+        "subcategory_type": "hotel",
+        "subcategory_type_label": "Hotel",
+        "distance": "2.9731591977737772",
+        "distance_string": null,
+        "bearing": "west",
+        "rating": "4.5",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$$$",
+        "price": "$392 - $613",
+        "neighborhood_info": [
+          {
+            "location_id": "15621642",
+            "name": "16th Arr. - Passy"
+          },
+          {
+            "location_id": "7239105",
+            "name": "Trocadero"
+          },
+          {
+            "location_id": "15621593",
+            "name": "Porte-Dauphine"
+          }
+        ],
+        "hotel_class": "4.0",
+        "hotel_class_attribution": "This property is classified according to Giata.",
+        "business_listings": {
+          "desktop_contacts": [],
+          "mobile_contacts": [
+            {
+              "value": "https://www.tripadvisor.com/Commerce?p=TABAIndependentHotels&src=205768206&geo=21281646&from=api&area=&slot=1&matchID=1&oos=0&cnt=1&silo=30355&bucket=899441&nrank=1&crank=1&clt=CLM&ttype=ContactLinkMobile&tm=258894414&managed=false&capped=false&gosox=UesAOQ-3U6srp7y5lRpA4fY37RBGMg15qEprW9htWNg6QcaDIdoeaStH9X1x6fcbtTBJMWLqDYB4ZNe5zmZDb6ijlhfWzQ_OKxWcmRuaRy-km-dSRr6dDJti-3Xl78MF&dated=true&bapid=1&cs=1173ab8b1b15ef59ff299b880c5d1cc30",
+              "label": "Hotel website",
+              "type": "url"
+            }
+          ]
+        },
+        "special_offers": {
+          "desktop": [],
+          "mobile": [
+            {
+              "headline": "Hilton Honors Discount",
+              "url": "https://www.tripadvisor.com/ShowSpecialOffer-a_d.21281646-a_offer.9784984-a_trafficSource.ba",
+              "offerless_click_tracking_url": "https://www.tripadvisor.com/Commerce?p=TABAIndependentHotels&src=205768206&geo=21281646&from=api&area=OID:9784984%7COT:12&slot=1&matchID=1&oos=0&cnt=1&silo=30355&bucket=899441&ubucket=899441&nrank=1&crank=1&clt=SOIM&tm=258894414&managed=false&capped=false&gosox=5_3Y6UYwwGjgw_c7hEwIkYeaWtkx0sZ7mNKigsNWMdwIgnQLZx9FiRhLqvooS7YRQRvfb9IAyNcNzL8BZBZWRg&cs=138d344a5c94ca806928d201ca13c0839"
+            }
+          ]
+        },
+        "listing_key": "cb7d8965-fbcc-4f86-9722-e9ba3652a021"
+      },
+      {
+        "location_id": "230431",
+        "name": "Hotel Astoria - Astotel",
+        "latitude": "48.881645",
+        "longitude": "2.322939",
+        "num_reviews": "2160",
+        "timezone": "Europe/Paris",
+        "location_string": "Paris, Ile-de-France",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/21/72/60/68/hotel-facade.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/21/72/60/68/hotel-facade.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "800",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-o/21/72/60/68/hotel-facade.jpg",
+              "height": "534"
+            },
+            "large": {
+              "width": "550",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/21/72/60/68/hotel-facade.jpg",
+              "height": "367"
+            },
+            "medium": {
+              "width": "250",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/21/72/60/68/hotel-facade.jpg",
+              "height": "167"
+            }
+          },
+          "is_blessed": true,
+          "uploaded_date": "2021-11-24T01:46:52-0500",
+          "caption": "Hotel Facade",
+          "id": "561143912",
+          "helpful_votes": "0",
+          "published_date": "2021-11-24T01:46:52-0500",
+          "user": null
+        },
+        "awards": [],
+        "preferred_map_engine": "default",
+        "autobroaden_type": "category_integrated",
+        "autobroaden_label": "Paris Places to Stay",
+        "raw_ranking": "4.756214618682861",
+        "ranking_geo": "Paris",
+        "ranking_geo_id": "187147",
+        "ranking_position": "15",
+        "ranking_denominator": "2555",
+        "ranking_category": "hotel",
+        "ranking": "#15 Best Value of 2,555 places to stay in Paris",
+        "subcategory_type": "hotel",
+        "subcategory_type_label": "Hotel",
+        "distance": "2.0849535209406236",
+        "distance_string": null,
+        "bearing": "northwest",
+        "rating": "4.5",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$",
+        "price": "$134 - $235",
+        "neighborhood_info": [
+          {
+            "location_id": "15621630",
+            "name": "8th Arr. - Elysee"
+          },
+          {
+            "location_id": "15621610",
+            "name": "L'Europe"
+          }
+        ],
+        "hotel_class": "3.0",
+        "hotel_class_attribution": "This property is classified according to Giata.",
+        "business_listings": {
+          "desktop_contacts": [],
+          "mobile_contacts": [
+            {
+              "value": "https://www.tripadvisor.com/Commerce?p=TABAIndependentHotels&src=0&geo=230431&from=api&area=&slot=1&matchID=1&oos=0&cnt=1&silo=30355&bucket=875169&ubucket=875169&nrank=1&crank=1&clt=CLM&tm=258894414&managed=false&capped=false&gosox=5_3Y6UYwwGjgw_c7hEwIke6fo24j-Tev8ZTzmZIYdF2ba7qrQtIQ-sCCVkfu4ty4YPCXGHbakXwxzLkZXavw2A&bapid=1&cs=1f63221e5870dfca1c2e504c7c2ff54d9",
+              "label": "Hotel website",
+              "type": "url"
+            }
+          ]
+        },
+        "special_offers": {
+          "desktop": [],
+          "mobile": [
+            {
+              "headline": "10% BEST RATE GUARANTEE",
+              "url": "https://www.tripadvisor.com/ShowSpecialOffer-a_d.230431-a_offer.9431046-a_trafficSource.ba",
+              "offerless_click_tracking_url": "https://www.tripadvisor.com/Commerce?p=TABAIndependentHotels&src=0&geo=230431&from=api&area=OID:9431046%7COT:12&slot=1&matchID=1&oos=0&cnt=1&silo=30355&bucket=875169&ubucket=875169&nrank=1&crank=1&clt=SOIM&tm=258894414&managed=false&capped=false&gosox=5_3Y6UYwwGjgw_c7hEwIke6fo24j-Tev8ZTzmZIYdF1Jrc1Kfb2MUjXOkh9S_60Pm5yO7FnPRaFJWG8gnqmetg&cs=18561778bc789ac0d8703706065f92d1f"
+            }
+          ]
+        },
+        "listing_key": "1b38777a-7d31-4d8e-ba0b-316738d9d776"
+      },
+      {
+        "location_id": "6534774",
+        "name": "Hotel Molitor Paris - MGallery Hotel Collection",
+        "latitude": "48.844902",
+        "longitude": "2.25255",
+        "num_reviews": "1826",
+        "timezone": "Europe/Paris",
+        "location_string": "Paris, Ile-de-France",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/21/ba/99/7c/exterior-view.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/21/ba/99/7c/exterior-view.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "1024",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-o/21/ba/99/7c/exterior-view.jpg",
+              "height": "768"
+            },
+            "large": {
+              "width": "550",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/21/ba/99/7c/exterior-view.jpg",
+              "height": "413"
+            },
+            "medium": {
+              "width": "250",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/21/ba/99/7c/exterior-view.jpg",
+              "height": "188"
+            }
+          },
+          "is_blessed": true,
+          "uploaded_date": "2021-12-29T01:35:47-0500",
+          "caption": "Exterior view",
+          "id": "565877116",
+          "helpful_votes": "0",
+          "published_date": "2021-12-29T01:35:47-0500",
+          "user": null
+        },
+        "awards": [
+          {
+            "award_type": "GreenLeader",
+            "year": "2023",
+            "images": {
+              "small": "https://www.tripadvisor.com/img/cdsi/img2/awards/greenleader_small-0-5.png",
+              "large": "https://www.tripadvisor.com/img/cdsi/img2/awards/greenleader_large_silver-0-5.jpg"
+            },
+            "categories": [
+              "Silver level"
+            ],
+            "display_name": "GreenLeader Silver"
+          }
+        ],
+        "preferred_map_engine": "default",
+        "autobroaden_type": "category_integrated",
+        "autobroaden_label": "Paris Places to Stay",
+        "raw_ranking": "4.3077616691589355",
+        "ranking_geo": "Paris",
+        "ranking_geo_id": "187147",
+        "ranking_position": "16",
+        "ranking_denominator": "2555",
+        "ranking_category": "hotel",
+        "ranking": "#16 Best Value of 2,555 places to stay in Paris",
+        "subcategory_type": "hotel",
+        "subcategory_type_label": "Hotel",
+        "distance": "4.48741894725503",
+        "distance_string": null,
+        "bearing": "west",
+        "rating": "4.5",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$$$",
+        "price": "$349 - $485",
+        "neighborhood_info": [
+          {
+            "location_id": "15621642",
+            "name": "16th Arr. - Passy"
+          },
+          {
+            "location_id": "15621670",
+            "name": "Porte de Saint Cloud"
+          }
+        ],
+        "hotel_class": "5.0",
+        "hotel_class_attribution": "This property is classified according to Accor Hotels.",
+        "business_listings": {
+          "desktop_contacts": [],
+          "mobile_contacts": [
+            {
+              "value": "https://www.tripadvisor.com/Commerce?p=TABAIndependentHotels&src=0&geo=6534774&from=api&area=&slot=3&matchID=1&oos=0&cnt=1&silo=30355&bucket=875169&ubucket=875169&nrank=1&crank=1&clt=CLM&tm=258894414&managed=false&capped=false&gosox=5_3Y6UYwwGjgw_c7hEwIkbxZSKZ386aZVfaJJ88plqUOs2OmJSAqX613Ygyi18DDWIr1RLgCq3Sc4eIdjHkYTQ&bapid=3&cs=158f59b613b2d46a15b6846e322ff0105",
+              "label": "Hotel website",
+              "type": "url"
+            }
+          ]
+        },
+        "special_offers": {
+          "desktop": [],
+          "mobile": []
+        },
+        "listing_key": "ebab4a53-3c4a-4d3e-9934-616ffc653078"
+      },
+      {
+        "location_id": "228847",
+        "name": "Melia Paris Champs Elysees",
+        "latitude": "48.868816",
+        "longitude": "2.282916",
+        "num_reviews": "848",
+        "timezone": "Europe/Paris",
+        "location_string": "Paris, Ile-de-France",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/12/73/22/e8/melia-paris-champs-elysees.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/12/73/22/e8/melia-paris-champs-elysees.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "2000",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-o/12/73/22/e8/melia-paris-champs-elysees.jpg",
+              "height": "1335"
+            },
+            "large": {
+              "width": "550",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/12/73/22/e8/melia-paris-champs-elysees.jpg",
+              "height": "367"
+            },
+            "medium": {
+              "width": "250",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/12/73/22/e8/melia-paris-champs-elysees.jpg",
+              "height": "167"
+            }
+          },
+          "is_blessed": true,
+          "uploaded_date": "2018-03-27T09:02:07-0400",
+          "caption": "",
+          "id": "309535464",
+          "helpful_votes": "1",
+          "published_date": "2018-03-27T09:02:07-0400",
+          "user": {
+            "user_id": null,
+            "member_id": "0",
+            "type": "user"
+          }
+        },
+        "awards": [
+          {
+            "award_type": "GreenLeader",
+            "year": "2023",
+            "images": {
+              "small": "https://www.tripadvisor.com/img/cdsi/img2/awards/greenleader_small-0-5.png",
+              "large": "https://www.tripadvisor.com/img/cdsi/img2/awards/greenleader_large_partner-0-5.jpg"
+            },
+            "categories": [
+              "GreenPartner"
+            ],
+            "display_name": "GreenLeader GreenPartner"
+          }
+        ],
+        "preferred_map_engine": "default",
+        "autobroaden_type": "category_integrated",
+        "autobroaden_label": "Paris Places to Stay",
+        "raw_ranking": "4.125419616699219",
+        "ranking_geo": "Paris",
+        "ranking_geo_id": "187147",
+        "ranking_position": "17",
+        "ranking_denominator": "2555",
+        "ranking_category": "hotel",
+        "ranking": "#17 Best Value of 2,555 places to stay in Paris",
+        "subcategory_type": "hotel",
+        "subcategory_type_label": "Hotel",
+        "distance": "3.133172871376219",
+        "distance_string": null,
+        "bearing": "west",
+        "rating": "4.0",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$$",
+        "price": "$232 - $367",
+        "neighborhood_info": [
+          {
+            "location_id": "15621642",
+            "name": "16th Arr. - Passy"
+          },
+          {
+            "location_id": "15621593",
+            "name": "Porte-Dauphine"
+          }
+        ],
+        "hotel_class": "4.0",
+        "hotel_class_attribution": "This property is classified according to Giata.",
+        "business_listings": {
+          "desktop_contacts": [],
+          "mobile_contacts": [
+            {
+              "value": "https://www.tripadvisor.com/Commerce?p=Melia_BA&src=183763602&geo=228847&from=api&area=&slot=1&matchID=1&oos=0&cnt=1&silo=38052&bucket=934834&nrank=1&crank=1&clt=CLM&ttype=ContactLinkMobile&tm=258894414&managed=false&capped=false&gosox=g3xMt9YCHBy3ZUg-YypssegjQviHlJQg6b-lnBPg98x_z9Z0XP9pjcZi3RyRnEOZAgmVLofy8zJliMDKW1dfg2wg-kN6MJdzwcQJD-ktl7w&dated=true&bapid=1&cs=1c7e314d04d9d24de1f9f9a60b9888191",
+              "label": "Hotel website",
+              "type": "url"
+            }
+          ]
+        },
+        "special_offers": {
+          "desktop": [],
+          "mobile": [
+            {
+              "headline": "Book now on our website",
+              "url": "https://www.tripadvisor.com/ShowSpecialOffer-a_d.228847-a_offer.9759732-a_trafficSource.ba",
+              "offerless_click_tracking_url": "https://www.tripadvisor.com/Commerce?p=Melia_BA&src=183763602&geo=228847&from=api&area=OID:9759732%7COT:1&slot=1&matchID=1&oos=0&cnt=1&silo=38052&bucket=934834&ubucket=934834&nrank=1&crank=1&clt=SOIM&tm=258894414&managed=false&capped=false&gosox=5_3Y6UYwwGjgw_c7hEwIkUZnivfIyrTNYcf0vCkr-S5U-Pg4ishO9_YDvFcfnJDWKTWqCCH0702dSYLBXyeXUw&cs=11f7a251eb62597b732ec6875f39c0aa1"
+            }
+          ]
+        },
+        "listing_key": "30e3dcbb-3b5f-4f0c-b816-0d643d57f618"
+      },
+      {
+        "location_id": "19742766",
+        "name": "Monsieur George Hotel & Spa",
+        "latitude": "48.872936",
+        "longitude": "2.302577",
+        "num_reviews": "196",
+        "timezone": "Europe/Paris",
+        "location_string": "Paris, Ile-de-France",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/24/b1/16/6d/galanga-julie-limont.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/24/b1/16/6d/galanga-julie-limont.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "1280",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/24/b1/16/6d/galanga-julie-limont.jpg",
+              "height": "960"
+            },
+            "large": {
+              "width": "550",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/24/b1/16/6d/galanga-julie-limont.jpg",
+              "height": "412"
+            },
+            "medium": {
+              "width": "250",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/24/b1/16/6d/galanga-julie-limont.jpg",
+              "height": "188"
+            }
+          },
+          "is_blessed": false,
+          "uploaded_date": "2022-07-15T01:43:43-0400",
+          "caption": "Galanga Julie Limont Carottes Maraicheres Confites En Aigre Doux Lieu Jaune De Ligne",
+          "id": "615585389",
+          "helpful_votes": "0",
+          "published_date": "2022-07-15T01:43:43-0400",
+          "user": null
+        },
+        "awards": [],
+        "preferred_map_engine": "default",
+        "autobroaden_type": "category_integrated",
+        "autobroaden_label": "Paris Places to Stay",
+        "raw_ranking": "4.716638565063477",
+        "ranking_geo": "Paris",
+        "ranking_geo_id": "187147",
+        "ranking_position": "18",
+        "ranking_denominator": "2555",
+        "ranking_category": "hotel",
+        "ranking": "#18 Best Value of 2,555 places to stay in Paris",
+        "subcategory_type": "hotel",
+        "subcategory_type_label": "Hotel",
+        "distance": "2.3977191776727795",
+        "distance_string": null,
+        "bearing": "northwest",
+        "rating": "5.0",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$$$",
+        "price": "$352 - $631",
+        "neighborhood_info": [
+          {
+            "location_id": "7236770",
+            "name": "Champs-Elysees"
+          },
+          {
+            "location_id": "15621630",
+            "name": "8th Arr. - Elysee"
+          },
+          {
+            "location_id": "15621623",
+            "name": "Faubourg-du-Roule"
+          }
+        ],
+        "hotel_class": "5.0",
+        "hotel_class_attribution": "This property is classified according to Giata.",
+        "business_listings": {
+          "desktop_contacts": [],
+          "mobile_contacts": [
+            {
+              "value": "https://www.tripadvisor.com/Commerce?p=TABAIndependentHotels&src=0&geo=19742766&from=api&area=&slot=2&matchID=1&oos=0&cnt=1&silo=30355&bucket=875169&ubucket=875169&nrank=1&crank=1&clt=CLM&tm=258894414&managed=false&capped=false&gosox=5_3Y6UYwwGjgw_c7hEwIkYeaWtkx0sZ7mNKigsNWMdz01bHNJY6gMNn7y1K-ZzpPowQBOFbdn4NHpCzsELgr5w&bapid=2&cs=1cb10a1b7c6468bb9996cdf8da8916879",
+              "label": "Hotel website",
+              "type": "url"
+            }
+          ]
+        },
+        "special_offers": {
+          "desktop": [],
+          "mobile": [
+            {
+              "headline": "Special rate available",
+              "url": "https://www.tripadvisor.com/ShowSpecialOffer-a_d.19742766-a_offer.9136267-a_trafficSource.ba",
+              "offerless_click_tracking_url": "https://www.tripadvisor.com/Commerce?p=TABAIndependentHotels&src=0&geo=19742766&from=api&area=OID:9136267%7COT:4&slot=1&matchID=1&oos=0&cnt=1&silo=30355&bucket=875169&ubucket=875169&nrank=1&crank=1&clt=SOIM&tm=258894414&managed=false&capped=false&gosox=5_3Y6UYwwGjgw_c7hEwIkYeaWtkx0sZ7mNKigsNWMdz8Kh1cKuk8aDshaxR6A-5HrxlFhJi6wCmk2viKTqs7Dw&cs=1b43dbced9277a5f018f19ebe2987c89f"
+            }
+          ]
+        },
+        "listing_key": "43893888-f5b5-42fd-a808-5c4480cba55b"
+      },
+      {
+        "location_id": "197959",
+        "name": "Hotel Le Belmont Paris",
+        "latitude": "48.869244",
+        "longitude": "2.297921",
+        "num_reviews": "470",
+        "timezone": "Europe/Paris",
+        "location_string": "Paris, Ile-de-France",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/21/74/27/6d/haussmann-style-architecture.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/21/74/27/6d/haussmann-style-architecture.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "1023",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-o/21/74/27/6d/haussmann-style-architecture.jpg",
+              "height": "682"
+            },
+            "large": {
+              "width": "550",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/21/74/27/6d/haussmann-style-architecture.jpg",
+              "height": "367"
+            },
+            "medium": {
+              "width": "250",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/21/74/27/6d/haussmann-style-architecture.jpg",
+              "height": "167"
+            }
+          },
+          "is_blessed": true,
+          "uploaded_date": "2021-11-25T01:40:51-0500",
+          "caption": "Haussmann style architecture",
+          "id": "561260397",
+          "helpful_votes": "0",
+          "published_date": "2021-11-25T01:40:51-0500",
+          "user": null
+        },
+        "awards": [],
+        "preferred_map_engine": "default",
+        "autobroaden_type": "category_integrated",
+        "autobroaden_label": "Paris Places to Stay",
+        "raw_ranking": "4.257826805114746",
+        "ranking_geo": "Paris",
+        "ranking_geo_id": "187147",
+        "ranking_position": "19",
+        "ranking_denominator": "2555",
+        "ranking_category": "hotel",
+        "ranking": "#19 Best Value of 2,555 places to stay in Paris",
+        "subcategory_type": "hotel",
+        "subcategory_type_label": "Hotel",
+        "distance": "2.490095630797428",
+        "distance_string": null,
+        "bearing": "west",
+        "rating": "4.5",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$$$",
+        "price": "$242 - $389",
+        "neighborhood_info": [
+          {
+            "location_id": "7236770",
+            "name": "Champs-Elysees"
+          },
+          {
+            "location_id": "15621642",
+            "name": "16th Arr. - Passy"
+          },
+          {
+            "location_id": "15621584",
+            "name": "Chaillot"
+          }
+        ],
+        "hotel_class": "3.5",
+        "hotel_class_attribution": "This property is classified according to Giata.",
+        "business_listings": {
+          "desktop_contacts": [],
+          "mobile_contacts": []
+        },
+        "special_offers": {
+          "desktop": [],
+          "mobile": []
+        },
+        "listing_key": "afd3bfb1-e4de-46b6-a77f-3a7da6a351d2"
+      },
+      {
+        "location_id": "189693",
+        "name": "Grand Hotel Malher",
+        "latitude": "48.855804",
+        "longitude": "2.361192",
+        "num_reviews": "247",
+        "timezone": "Europe/Paris",
+        "location_string": "Paris, Ile-de-France",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/02/71/6b/81/getlstd-property-photo.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/02/71/6b/81/getlstd-property-photo.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "718",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-o/02/71/6b/81/getlstd-property-photo.jpg",
+              "height": "538"
+            },
+            "large": {
+              "width": "550",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/02/71/6b/81/getlstd-property-photo.jpg",
+              "height": "412"
+            },
+            "medium": {
+              "width": "250",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/02/71/6b/81/getlstd-property-photo.jpg",
+              "height": "187"
+            }
+          },
+          "is_blessed": true,
+          "uploaded_date": "2012-04-25T07:21:08-0400",
+          "caption": "getlstd_property_photo",
+          "id": "40987521",
+          "helpful_votes": "0",
+          "published_date": "2012-04-25T07:21:08-0400",
+          "user": {
+            "user_id": null,
+            "member_id": "0",
+            "type": "user"
+          }
+        },
+        "awards": [],
+        "preferred_map_engine": "default",
+        "autobroaden_type": "category_integrated",
+        "autobroaden_label": "Paris Places to Stay",
+        "raw_ranking": "3.989826202392578",
+        "ranking_geo": "Paris",
+        "ranking_geo_id": "187147",
+        "ranking_position": "20",
+        "ranking_denominator": "2555",
+        "ranking_category": "hotel",
+        "ranking": "#20 Best Value of 2,555 places to stay in Paris",
+        "subcategory_type": "hotel",
+        "subcategory_type_label": "Hotel",
+        "distance": "0.5433398080545981",
+        "distance_string": null,
+        "bearing": "east",
+        "rating": "4.0",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$$",
+        "price": "$154 - $308",
+        "neighborhood_info": [
+          {
+            "location_id": "15621598",
+            "name": "Saint-Gervais"
+          },
+          {
+            "location_id": "7236763",
+            "name": "Le Marais"
+          },
+          {
+            "location_id": "15621629",
+            "name": "4th Arr. - Hotel-de-Ville"
+          }
+        ],
+        "hotel_class": "3.0",
+        "hotel_class_attribution": "This property is classified according to Giata.",
+        "business_listings": {
+          "desktop_contacts": [],
+          "mobile_contacts": [
+            {
+              "value": "https://www.tripadvisor.com/Commerce?p=TABAIndependentHotels&src=0&geo=189693&from=api&area=&slot=2&matchID=1&oos=0&cnt=1&silo=30355&bucket=875169&ubucket=875169&nrank=1&crank=1&clt=CLM&tm=258894414&managed=false&capped=false&gosox=5_3Y6UYwwGjgw_c7hEwIkRy1Z27ARKuw_RYncbSdvq3Ob2zn7DH242RKLs3gp777yEuGVL12ol_h5BKImYZJ5w&bapid=2&cs=111f88b548e4d4df6edcdedb1876b5c4a",
+              "label": "Hotel website",
+              "type": "url"
+            }
+          ]
+        },
+        "special_offers": {
+          "desktop": [],
+          "mobile": [
+            {
+              "headline": "Special rate available",
+              "url": "https://www.tripadvisor.com/ShowSpecialOffer-a_d.189693-a_offer.9135562-a_trafficSource.ba",
+              "offerless_click_tracking_url": "https://www.tripadvisor.com/Commerce?p=TABAIndependentHotels&src=0&geo=189693&from=api&area=OID:9135562%7COT:4&slot=1&matchID=1&oos=0&cnt=1&silo=30355&bucket=875169&ubucket=875169&nrank=1&crank=1&clt=SOIM&tm=258894414&managed=false&capped=false&gosox=5_3Y6UYwwGjgw_c7hEwIkRy1Z27ARKuw_RYncbSdvq384csdS61h_GxFpEwR1DFNRlC_A-9_5eoGGZAIvaI1rw&cs=1ea7c22ede1a72cddb5d85c93520e593c"
+            }
+          ]
+        },
+        "listing_key": "716495e6-f03a-4a41-92aa-92768a42be92"
+      },
+      {
+        "location_id": "554230",
+        "name": "Lux Hotel Picpus",
+        "latitude": "48.84556",
+        "longitude": "2.40207",
+        "num_reviews": "487",
+        "timezone": "Europe/Paris",
+        "location_string": "Paris, Ile-de-France",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/22/71/01/d7/facade.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/22/71/01/d7/facade.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "1280",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-o/22/71/01/d7/facade.jpg",
+              "height": "1920"
+            },
+            "large": {
+              "width": "300",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/22/71/01/d7/facade.jpg",
+              "height": "450"
+            },
+            "medium": {
+              "width": "137",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/22/71/01/d7/facade.jpg",
+              "height": "205"
+            }
+          },
+          "is_blessed": true,
+          "uploaded_date": "2022-03-12T01:30:56-0500",
+          "caption": "FACADE",
+          "id": "577831383",
+          "helpful_votes": "0",
+          "published_date": "2022-03-12T01:30:56-0500",
+          "user": null
+        },
+        "awards": [],
+        "preferred_map_engine": "default",
+        "autobroaden_type": "category_integrated",
+        "autobroaden_label": "Paris Places to Stay",
+        "raw_ranking": "4.194025039672852",
+        "ranking_geo": "Paris",
+        "ranking_geo_id": "187147",
+        "ranking_position": "21",
+        "ranking_denominator": "2555",
+        "ranking_category": "hotel",
+        "ranking": "#21 Best Value of 2,555 places to stay in Paris",
+        "subcategory_type": "hotel",
+        "subcategory_type_label": "Hotel",
+        "distance": "2.5253000708675284",
+        "distance_string": null,
+        "bearing": "east",
+        "rating": "4.5",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$",
+        "price": "$97 - $195",
+        "neighborhood_info": [
+          {
+            "location_id": "15621654",
+            "name": "Bel-Air Nord"
+          },
+          {
+            "location_id": "7239101",
+            "name": "Bercy / Nation"
+          },
+          {
+            "location_id": "15621627",
+            "name": "12th Arr. - Reuilly"
+          },
+          {
+            "location_id": "15621601",
+            "name": "Bel-Air"
+          }
+        ],
+        "hotel_class": "2.0",
+        "hotel_class_attribution": "This property is classified according to Giata.",
+        "business_listings": {
+          "desktop_contacts": [],
+          "mobile_contacts": []
+        },
+        "special_offers": {
+          "desktop": [],
+          "mobile": []
+        },
+        "listing_key": "c9f72b10-f504-4df4-8701-8aa7a546512c"
+      },
+      {
+        "location_id": "187147",
+        "ad_position": "inline3",
+        "ad_size": "8X8",
+        "doubleclick_zone": "eu.france.paris",
+        "ancestors": [
+          {
+            "subcategory": [
+              {
+                "key": "region",
+                "name": "Region"
+              }
+            ],
+            "name": "Ile-de-France",
+            "abbrv": null,
+            "location_id": "187144"
+          },
+          {
+            "subcategory": [
+              {
+                "key": "country",
+                "name": "Country"
+              }
+            ],
+            "name": "France",
+            "abbrv": null,
+            "location_id": "187070"
+          }
+        ],
+        "detail": "0",
+        "page_type": "hotels",
+        "mob_ptype": "app_hotels"
+      },
+      {
+        "location_id": "7593552",
+        "name": "Juliana Hotel Paris",
+        "latitude": "48.86182",
+        "longitude": "2.303986",
+        "num_reviews": "583",
+        "timezone": "Europe/Paris",
+        "location_string": "Paris, Ile-de-France",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/1d/30/49/bf/exterior-at-hotel-juliana.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/1d/30/49/bf/exterior-at-hotel-juliana.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "1023",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-o/1d/30/49/bf/exterior-at-hotel-juliana.jpg",
+              "height": "682"
+            },
+            "large": {
+              "width": "550",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/1d/30/49/bf/exterior-at-hotel-juliana.jpg",
+              "height": "367"
+            },
+            "medium": {
+              "width": "250",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/1d/30/49/bf/exterior-at-hotel-juliana.jpg",
+              "height": "167"
+            }
+          },
+          "is_blessed": true,
+          "uploaded_date": "2021-06-22T01:23:03-0400",
+          "caption": "Exterior at Hotel Juliana",
+          "id": "489703871",
+          "helpful_votes": "0",
+          "published_date": "2021-06-22T01:23:03-0400",
+          "user": null
+        },
+        "awards": [],
+        "preferred_map_engine": "default",
+        "autobroaden_type": "category_integrated",
+        "autobroaden_label": "Paris Places to Stay",
+        "raw_ranking": "4.426409721374512",
+        "ranking_geo": "Paris",
+        "ranking_geo_id": "187147",
+        "ranking_position": "22",
+        "ranking_denominator": "2555",
+        "ranking_category": "hotel",
+        "ranking": "#22 Best Value of 2,555 places to stay in Paris",
+        "subcategory_type": "hotel",
+        "subcategory_type_label": "Hotel",
+        "distance": "2.0930512314120424",
+        "distance_string": null,
+        "bearing": "west",
+        "rating": "4.5",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$$$",
+        "price": "$393 - $592",
+        "neighborhood_info": [
+          {
+            "location_id": "15621622",
+            "name": "Gros-Caillou"
+          },
+          {
+            "location_id": "7236767",
+            "name": "Tour Eiffel / Invalides"
+          },
+          {
+            "location_id": "15621644",
+            "name": "7th Arr. - Palais-Bourbon"
+          }
+        ],
+        "hotel_class": "5.0",
+        "hotel_class_attribution": "This property is classified according to Giata.",
+        "business_listings": {
+          "desktop_contacts": [],
+          "mobile_contacts": []
+        },
+        "special_offers": {
+          "desktop": [],
+          "mobile": []
+        },
+        "listing_key": "8dd1250a-8257-43e8-aadb-72903e9bb18e"
+      },
+      {
+        "location_id": "12234158",
+        "name": "Mob Hotel Paris Les Puces",
+        "latitude": "48.905704",
+        "longitude": "2.3359",
+        "num_reviews": "471",
+        "timezone": "Europe/Paris",
+        "location_string": "Saint Ouen, Seine-Saint-Denis, Ile-de-France",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/19/5c/7d/54/mob-hotel.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/19/5c/7d/54/mob-hotel.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "5760",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-o/19/5c/7d/54/mob-hotel.jpg",
+              "height": "3840"
+            },
+            "large": {
+              "width": "550",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/19/5c/7d/54/mob-hotel.jpg",
+              "height": "367"
+            },
+            "medium": {
+              "width": "250",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/19/5c/7d/54/mob-hotel.jpg",
+              "height": "167"
+            }
+          },
+          "is_blessed": true,
+          "uploaded_date": "2019-09-23T08:42:19-0400",
+          "caption": "",
+          "id": "425491796",
+          "helpful_votes": "0",
+          "published_date": "2019-09-23T08:42:19-0400",
+          "user": {
+            "user_id": null,
+            "member_id": "0",
+            "type": "user"
+          }
+        },
+        "awards": [],
+        "preferred_map_engine": "default",
+        "autobroaden_type": "category_integrated",
+        "autobroaden_label": "Paris Places to Stay",
+        "raw_ranking": "3.974844455718994",
+        "ranking_geo": "Saint Ouen",
+        "ranking_geo_id": "227615",
+        "ranking_position": "1",
+        "ranking_denominator": "18",
+        "ranking_category": "hotel",
+        "ranking": "#1 Best Value of 18 places to stay in Saint Ouen",
+        "subcategory_type": "hotel",
+        "subcategory_type_label": "Hotel",
+        "distance": "3.4219340728645267",
+        "distance_string": null,
+        "bearing": "north",
+        "rating": "4.0",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$",
+        "price": "$85 - $166",
+        "hotel_class": "3.0",
+        "hotel_class_attribution": "This property is classified according to Giata.",
+        "business_listings": {
+          "desktop_contacts": [],
+          "mobile_contacts": []
+        },
+        "special_offers": {
+          "desktop": [],
+          "mobile": []
+        },
+        "listing_key": "58ac7fe0-bb33-46ae-9273-e3ba4bfecb9b"
+      },
+      {
+        "location_id": "6395273",
+        "name": "Hotel Eiffel Blomet",
+        "latitude": "48.84166",
+        "longitude": "2.302383",
+        "num_reviews": "1206",
+        "timezone": "Europe/Paris",
+        "location_string": "Paris, Ile-de-France",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/25/00/30/85/facade.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/25/00/30/85/facade.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "659",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-o/25/00/30/85/facade.jpg",
+              "height": "1023"
+            },
+            "large": {
+              "width": "290",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/25/00/30/85/facade.jpg",
+              "height": "450"
+            },
+            "medium": {
+              "width": "132",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/25/00/30/85/facade.jpg",
+              "height": "205"
+            }
+          },
+          "is_blessed": true,
+          "uploaded_date": "2022-07-28T12:39:47-0400",
+          "caption": "Facade",
+          "id": "620769413",
+          "helpful_votes": "0",
+          "published_date": "2022-07-28T12:39:47-0400",
+          "user": null
+        },
+        "awards": [],
+        "preferred_map_engine": "default",
+        "autobroaden_type": "category_integrated",
+        "autobroaden_label": "Paris Places to Stay",
+        "raw_ranking": "4.647683620452881",
+        "ranking_geo": "Paris",
+        "ranking_geo_id": "187147",
+        "ranking_position": "23",
+        "ranking_denominator": "2555",
+        "ranking_category": "hotel",
+        "ranking": "#23 Best Value of 2,555 places to stay in Paris",
+        "subcategory_type": "hotel",
+        "subcategory_type_label": "Hotel",
+        "distance": "2.389857683973489",
+        "distance_string": null,
+        "bearing": "southwest",
+        "rating": "4.5",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$$",
+        "price": "$201 - $297",
+        "neighborhood_info": [
+          {
+            "location_id": "15621604",
+            "name": "Saint-Lambert"
+          },
+          {
+            "location_id": "15621637",
+            "name": "15th Arr. - Vaugirard"
+          }
+        ],
+        "hotel_class": "2.0",
+        "hotel_class_attribution": "This property is classified according to Giata.",
+        "business_listings": {
+          "desktop_contacts": [],
+          "mobile_contacts": []
+        },
+        "special_offers": {
+          "desktop": [],
+          "mobile": []
+        },
+        "listing_key": "94f12dcd-c46a-4962-aa20-63549419b615"
+      },
+      {
+        "location_id": "1633522",
+        "name": "Secret de Paris - Hotel & Spa",
+        "latitude": "48.88137",
+        "longitude": "2.328282",
+        "num_reviews": "2196",
+        "timezone": "Europe/Paris",
+        "location_string": "Paris, Ile-de-France",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/1f/c8/85/c9/exterior-view.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/1f/c8/85/c9/exterior-view.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "800",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-o/1f/c8/85/c9/exterior-view.jpg",
+              "height": "533"
+            },
+            "large": {
+              "width": "550",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/1f/c8/85/c9/exterior-view.jpg",
+              "height": "366"
+            },
+            "medium": {
+              "width": "250",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/1f/c8/85/c9/exterior-view.jpg",
+              "height": "167"
+            }
+          },
+          "is_blessed": true,
+          "uploaded_date": "2021-10-12T01:39:05-0400",
+          "caption": "Exterior view",
+          "id": "533235145",
+          "helpful_votes": "1",
+          "published_date": "2021-10-12T01:39:05-0400",
+          "user": null
+        },
+        "awards": [
+          {
+            "award_type": "Traveler's Choice",
+            "year": "2022",
+            "images": {
+              "small": "https://static.tacdn.com/img2/awards/TC-Color-60x60-updated-green.png",
+              "large": "https://www.tripadvisor.com/img2/awards/TC_2014_downloadable_L_TM.jpg"
+            },
+            "categories": [
+              "Romance",
+              "Small Stays"
+            ],
+            "display_name": "Travelers' Choice 2022"
+          },
+          {
+            "award_type": "GreenLeader",
+            "year": "2023",
+            "images": {
+              "small": "https://www.tripadvisor.com/img/cdsi/img2/awards/greenleader_small-0-5.png",
+              "large": "https://www.tripadvisor.com/img/cdsi/img2/awards/greenleader_large_silver-0-5.jpg"
+            },
+            "categories": [
+              "Silver level"
+            ],
+            "display_name": "GreenLeader Silver"
+          }
+        ],
+        "preferred_map_engine": "default",
+        "autobroaden_type": "category_integrated",
+        "autobroaden_label": "Paris Places to Stay",
+        "raw_ranking": "4.7910356521606445",
+        "ranking_geo": "Paris",
+        "ranking_geo_id": "187147",
+        "ranking_position": "24",
+        "ranking_denominator": "2555",
+        "ranking_category": "hotel",
+        "ranking": "#24 Best Value of 2,555 places to stay in Paris",
+        "subcategory_type": "hotel",
+        "subcategory_type_label": "Hotel",
+        "distance": "1.9381486765451124",
+        "distance_string": null,
+        "bearing": "northwest",
+        "rating": "5.0",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$$",
+        "price": "$203 - $335",
+        "neighborhood_info": [
+          {
+            "location_id": "15621635",
+            "name": "9th Arr. - Opera"
+          },
+          {
+            "location_id": "15621575",
+            "name": "Saint-Georges"
+          }
+        ],
+        "hotel_class": "4.0",
+        "hotel_class_attribution": "This property is classified according to Giata.",
+        "business_listings": {
+          "desktop_contacts": [],
+          "mobile_contacts": []
+        },
+        "special_offers": {
+          "desktop": [],
+          "mobile": []
+        },
+        "listing_key": "4a1df3b4-943f-4796-ad90-321747c99b6f"
+      },
+      {
+        "location_id": "4800782",
+        "name": "Hotel Le 123 Sebastopol - Astotel",
+        "latitude": "48.86762",
+        "longitude": "2.353238",
+        "num_reviews": "2731",
+        "timezone": "Europe/Paris",
+        "location_string": "Paris, Ile-de-France",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/22/62/f5/6f/hotel-facade.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/22/62/f5/6f/hotel-facade.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "1023",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-o/22/62/f5/6f/hotel-facade.jpg",
+              "height": "698"
+            },
+            "large": {
+              "width": "550",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/22/62/f5/6f/hotel-facade.jpg",
+              "height": "375"
+            },
+            "medium": {
+              "width": "250",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/22/62/f5/6f/hotel-facade.jpg",
+              "height": "171"
+            }
+          },
+          "is_blessed": true,
+          "uploaded_date": "2022-03-09T01:17:04-0500",
+          "caption": "Hotel facade",
+          "id": "576910703",
+          "helpful_votes": "0",
+          "published_date": "2022-03-09T01:17:04-0500",
+          "user": null
+        },
+        "awards": [],
+        "preferred_map_engine": "default",
+        "autobroaden_type": "category_integrated",
+        "autobroaden_label": "Paris Places to Stay",
+        "raw_ranking": "4.839993000030518",
+        "ranking_geo": "Paris",
+        "ranking_geo_id": "187147",
+        "ranking_position": "25",
+        "ranking_denominator": "2555",
+        "ranking_category": "hotel",
+        "ranking": "#25 Best Value of 2,555 places to stay in Paris",
+        "subcategory_type": "hotel",
+        "subcategory_type_label": "Hotel",
+        "distance": "0.7524964727048854",
+        "distance_string": null,
+        "bearing": "north",
+        "rating": "5.0",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$$",
+        "price": "$200 - $380",
+        "neighborhood_info": [
+          {
+            "location_id": "15621595",
+            "name": "Bonne-Nouvelle"
+          },
+          {
+            "location_id": "7236769",
+            "name": "Opera / Bourse"
+          },
+          {
+            "location_id": "15621625",
+            "name": "2nd Arr. - Bourse"
+          }
+        ],
+        "hotel_class": "4.0",
+        "hotel_class_attribution": "This property is classified according to Giata.",
+        "business_listings": {
+          "desktop_contacts": [],
+          "mobile_contacts": [
+            {
+              "value": "https://www.tripadvisor.com/Commerce?p=TABAIndependentHotels&src=0&geo=4800782&from=api&area=&slot=1&matchID=1&oos=0&cnt=1&silo=30355&bucket=875169&ubucket=875169&nrank=1&crank=1&clt=CLM&tm=258894414&managed=false&capped=false&gosox=5_3Y6UYwwGjgw_c7hEwIkV-LZn5fkDSdIKKA1Uu7Hk8W8TLQtTV3fHMxI0JXhNV0znXvAuB7ZOE9-f2wbYERcw&bapid=1&cs=1d691bd0589b102dee1973df32e084d3f",
+              "label": "Hotel website",
+              "type": "url"
+            }
+          ]
+        },
+        "special_offers": {
+          "desktop": [],
+          "mobile": [
+            {
+              "headline": "10% BEST RATE GUARANTEE",
+              "url": "https://www.tripadvisor.com/ShowSpecialOffer-a_d.4800782-a_offer.9430938-a_trafficSource.ba",
+              "offerless_click_tracking_url": "https://www.tripadvisor.com/Commerce?p=TABAIndependentHotels&src=0&geo=4800782&from=api&area=OID:9430938%7COT:12&slot=1&matchID=1&oos=0&cnt=1&silo=30355&bucket=875169&ubucket=875169&nrank=1&crank=1&clt=SOIM&tm=258894414&managed=false&capped=false&gosox=5_3Y6UYwwGjgw_c7hEwIkV-LZn5fkDSdIKKA1Uu7Hk_Z8I2iJEChxdXocXldd9A5KegOpCGJCDU1pKPvhI8Yow&cs=1be003ef967725f75f6644d4bc599b236"
+            }
+          ]
+        },
+        "listing_key": "06ee5ffb-7749-4f28-8a76-adeae814199a"
+      },
+      {
+        "location_id": "197577",
+        "name": "Sofitel Le Scribe Paris Opera",
+        "latitude": "48.87054",
+        "longitude": "2.329788",
+        "num_reviews": "176",
+        "timezone": "Europe/Paris",
+        "location_string": "Paris, Ile-de-France",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/28/6a/18/af/guest-room.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/28/6a/18/af/guest-room.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "1024",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-o/28/6a/18/af/guest-room.jpg",
+              "height": "768"
+            },
+            "large": {
+              "width": "550",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/28/6a/18/af/guest-room.jpg",
+              "height": "413"
+            },
+            "medium": {
+              "width": "250",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/28/6a/18/af/guest-room.jpg",
+              "height": "188"
+            }
+          },
+          "is_blessed": true,
+          "uploaded_date": "2023-03-08T20:34:49-0500",
+          "caption": "Guest room",
+          "id": "678041775",
+          "helpful_votes": "0",
+          "published_date": "2023-03-08T20:34:49-0500",
+          "user": null
+        },
+        "awards": [
+          {
+            "award_type": "GreenLeader",
+            "year": "2023",
+            "images": {
+              "small": "https://www.tripadvisor.com/img/cdsi/img2/awards/greenleader_small-0-5.png",
+              "large": "https://www.tripadvisor.com/img/cdsi/img2/awards/greenleader_large_partner-0-5.jpg"
+            },
+            "categories": [
+              "GreenPartner"
+            ],
+            "display_name": "GreenLeader GreenPartner"
+          }
+        ],
+        "preferred_map_engine": "default",
+        "autobroaden_type": "category_integrated",
+        "autobroaden_label": "Paris Places to Stay",
+        "raw_ranking": "4.1579742431640625",
+        "ranking_geo": "Paris",
+        "ranking_geo_id": "187147",
+        "ranking_position": "26",
+        "ranking_denominator": "2555",
+        "ranking_category": "hotel",
+        "ranking": "#26 Best Value of 2,555 places to stay in Paris",
+        "subcategory_type": "hotel",
+        "subcategory_type_label": "Hotel",
+        "distance": "1.2918975589054258",
+        "distance_string": null,
+        "bearing": "northwest",
+        "rating": "4.5",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$$$",
+        "price": "$496 - $673",
+        "neighborhood_info": [
+          {
+            "location_id": "15621635",
+            "name": "9th Arr. - Opera"
+          },
+          {
+            "location_id": "15621588",
+            "name": "Chaussee-d'Antin La Fayette"
+          },
+          {
+            "location_id": "7236769",
+            "name": "Opera / Bourse"
+          }
+        ],
+        "hotel_class": "5.0",
+        "hotel_class_attribution": "This property is classified according to Accor Hotels.",
+        "business_listings": {
+          "desktop_contacts": [],
+          "mobile_contacts": [
+            {
+              "value": "https://www.tripadvisor.com/Commerce?p=TABAIndependentHotels&src=0&geo=197577&from=api&area=&slot=1&matchID=1&oos=0&cnt=1&silo=30355&bucket=875169&ubucket=875169&nrank=1&crank=1&clt=CLM&tm=258894414&managed=false&capped=false&gosox=5_3Y6UYwwGjgw_c7hEwIkUMT-AynQsCFKmDfe8OevZIyCkbZaqr64x6981gFEfRC98nVQjCAw0ZQJUPEOeByGw&bapid=1&cs=1e63e2651a2e9bfb3d9650a8ef8a7b036",
+              "label": "Hotel website",
+              "type": "url"
+            }
+          ]
+        },
+        "special_offers": {
+          "desktop": [],
+          "mobile": [
+            {
+              "headline": "Unlock loyalty benefits",
+              "url": "https://www.tripadvisor.com/ShowSpecialOffer-a_d.197577-a_offer.9756827-a_trafficSource.ba",
+              "offerless_click_tracking_url": "https://www.tripadvisor.com/Commerce?p=TABAIndependentHotels&src=0&geo=197577&from=api&area=OID:9756827%7COT:10&slot=1&matchID=1&oos=0&cnt=1&silo=30355&bucket=875169&ubucket=875169&nrank=1&crank=1&clt=SOIM&tm=258894414&managed=false&capped=false&gosox=5_3Y6UYwwGjgw_c7hEwIkUMT-AynQsCFKmDfe8OevZIPyCN0Mi_NRc62AQl2Fvey-wU9oXSOmb5KmTfIGXByUQ&cs=194ecad6afbe2f6a5a5b15cbf7d5d675d"
+            }
+          ]
+        },
+        "listing_key": "84401b87-9a1d-47a3-b52e-9bf21ac73bfd"
+      },
+      {
+        "location_id": "197989",
+        "name": "Hotel Best Western Montcalm",
+        "latitude": "48.840908",
+        "longitude": "2.287134",
+        "num_reviews": "700",
+        "timezone": "Europe/Paris",
+        "location_string": "Paris, Ile-de-France",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/23/e5/0e/84/guest-room.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/23/e5/0e/84/guest-room.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "1023",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-o/23/e5/0e/84/guest-room.jpg",
+              "height": "682"
+            },
+            "large": {
+              "width": "550",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/23/e5/0e/84/guest-room.jpg",
+              "height": "367"
+            },
+            "medium": {
+              "width": "250",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/23/e5/0e/84/guest-room.jpg",
+              "height": "167"
+            }
+          },
+          "is_blessed": true,
+          "uploaded_date": "2022-06-11T03:37:18-0400",
+          "caption": "Guest Room",
+          "id": "602214020",
+          "helpful_votes": "0",
+          "published_date": "2022-06-11T03:37:18-0400",
+          "user": null
+        },
+        "awards": [],
+        "preferred_map_engine": "default",
+        "autobroaden_type": "category_integrated",
+        "autobroaden_label": "Paris Places to Stay",
+        "raw_ranking": "4.214754104614258",
+        "ranking_geo": "Paris",
+        "ranking_geo_id": "187147",
+        "ranking_position": "27",
+        "ranking_denominator": "2555",
+        "ranking_category": "hotel",
+        "ranking": "#27 Best Value of 2,555 places to stay in Paris",
+        "subcategory_type": "hotel",
+        "subcategory_type_label": "Hotel",
+        "distance": "3.0458888145433782",
+        "distance_string": null,
+        "bearing": "west",
+        "rating": "4.0",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$",
+        "price": "$128 - $221",
+        "neighborhood_info": [
+          {
+            "location_id": "15621582",
+            "name": "Javel"
+          },
+          {
+            "location_id": "15621637",
+            "name": "15th Arr. - Vaugirard"
+          }
+        ],
+        "hotel_class": "3.0",
+        "hotel_class_attribution": "This property is classified according to Giata.",
+        "business_listings": {
+          "desktop_contacts": [],
+          "mobile_contacts": []
+        },
+        "special_offers": {
+          "desktop": [],
+          "mobile": []
+        },
+        "listing_key": "756ef321-74e5-42b9-a718-cef8d1f8880b"
+      },
+      {
+        "location_id": "3950121",
+        "name": "Hotel Paris Neuilly",
+        "latitude": "48.884396",
+        "longitude": "2.260599",
+        "num_reviews": "593",
+        "timezone": "Europe/Paris",
+        "location_string": "Neuilly-sur-Seine, Hauts-de-Seine, Ile-de-France",
+        "photo": {
+          "images": {
+            "small": {
+              "width": "150",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-l/23/5a/6b/39/facade-l-hotel-de-jour.jpg",
+              "height": "150"
+            },
+            "thumbnail": {
+              "width": "50",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-t/23/5a/6b/39/facade-l-hotel-de-jour.jpg",
+              "height": "50"
+            },
+            "original": {
+              "width": "1000",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-o/23/5a/6b/39/facade-l-hotel-de-jour.jpg",
+              "height": "677"
+            },
+            "large": {
+              "width": "550",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-s/23/5a/6b/39/facade-l-hotel-de-jour.jpg",
+              "height": "372"
+            },
+            "medium": {
+              "width": "250",
+              "url": "https://media-cdn.tripadvisor.com/media/photo-f/23/5a/6b/39/facade-l-hotel-de-jour.jpg",
+              "height": "169"
+            }
+          },
+          "is_blessed": true,
+          "uploaded_date": "2022-05-09T06:56:24-0400",
+          "caption": "Façade l'hôtel de jour",
+          "id": "593128249",
+          "helpful_votes": "0",
+          "published_date": "2022-05-09T06:56:24-0400",
+          "user": {
+            "user_id": null,
+            "member_id": "0",
+            "type": "user"
+          }
+        },
+        "awards": [],
+        "preferred_map_engine": "default",
+        "autobroaden_type": "category_integrated",
+        "autobroaden_label": "Paris Places to Stay",
+        "raw_ranking": "4.104663372039795",
+        "ranking_geo": "Neuilly-sur-Seine",
+        "ranking_geo_id": "196581",
+        "ranking_position": "1",
+        "ranking_denominator": "15",
+        "ranking_category": "hotel",
+        "ranking": "#1 Best Value of 15 places to stay in Neuilly-sur-Seine",
+        "subcategory_type": "hotel",
+        "subcategory_type_label": "Hotel",
+        "distance": "4.461513425420493",
+        "distance_string": null,
+        "bearing": "northwest",
+        "rating": "4.0",
+        "is_closed": false,
+        "is_long_closed": false,
+        "price_level": "$$",
+        "price": "$114 - $216",
+        "hotel_class": "4.0",
+        "hotel_class_attribution": "This property is classified according to Giata.",
+        "business_listings": {
+          "desktop_contacts": [],
+          "mobile_contacts": []
+        },
+        "special_offers": {
+          "desktop": [],
+          "mobile": []
+        },
+        "listing_key": "74a17937-2f08-4e25-b217-32a418c3f867"
+      }
+    ],
+    "status": {
+      "unfiltered_total_size": "2811",
+      "commerce_country_iso_code": "US",
+      "autobroadened": true,
+      "progress": "100",
+      "auction_key": "68cb597eb5e94201b3facb26dfd3e8e6",
+      "primary_geo": "187147",
+      "pricing": "base",
+      "doubleClickZone": "eu.france.paris"
+    },
+    "paging": {
+      "results": "30",
+      "total_results": "2811"
+    }
+  }

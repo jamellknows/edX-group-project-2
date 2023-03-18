@@ -1,0 +1,14 @@
+
+.wrapper {
+   background-color: lightblue;
+   width: 101vw;
+   height: 100vh;
+   z-index: -99;
+   margin-left: -1rem;
+  }
+
+  #background
+  {
+   /* background-image: url(../../assets/background1.jpg);
+   background-size: contain; */
+  }

@@ -1,22 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import { NavigationBar } from './components/Navigation';
+import { Wrapper } from './components/Wrapper';
+import  Search    from './components/Search';
+import { Info } from './components/Info';
+import { Saved } from './components/Saved';
+import  Footer  from './components/Footer';
+import { Map } from './components/Map';
+
+
+
 
 function App() {
+
+  
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Successfully Deployed <code>A React application</code> to Netlify with CircleCI</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   
+    <Router>
+    <Wrapper>
+    <NavigationBar/>  
+      <Routes>
+        <Route  path="/search" element={<Search/>}/>
+        <Route  path="/info" element={<Info/>}/>
+        <Route  path="/saved" element={<Saved/>}/>
+        <Route  path="/map" element={<Map/>}/>
+      </Routes>
+    </Wrapper>
+    <Footer/>
+    </Router>
+
+
   );
 }
 
