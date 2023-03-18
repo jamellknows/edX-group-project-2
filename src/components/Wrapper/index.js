@@ -16,19 +16,26 @@ export const Wrapper = (props) => {
         background4, 
         background5
     ]
-
-
+    
+    
     const [background, setBackground] = useState(backgrounds[0]);
-    // const path = "../../assets/background"
-  
-    var i = 0;
+    
+    var backgroundIndex = 0;
     const changeBackground = ()=> {
-        i = (i >= 4) ?  0 : i+1; 
-        console.log(i)
+        backgroundIndex = (backgroundIndex >= 4) ?  0 : backgroundIndex+1; 
+        console.log(backgroundIndex)
         console.log(background)
-        setBackground(backgrounds[i])
+        setBackground(backgrounds[backgroundIndex])
         
     }
+    
+    useEffect(() => {
+      const interval = setInterval(()=>{
+          changeBackground()
+      }, 7000)
+      return() => clearInterval(interval)
+    },[])
+
 
     let backgroundStyles = {
         backgroundSize: "cover",
@@ -38,14 +45,8 @@ export const Wrapper = (props) => {
         zIndex: "-999"
     }
 
-    console.log(backgrounds)
 
-    useEffect(() => {
-        const interval = setInterval(()=>{
-            changeBackground()
-        }, 7000)
-        return() => clearInterval(interval)
-    },[])
+ 
 
 
     return(

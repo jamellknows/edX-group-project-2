@@ -3,5 +3,8 @@
 .footer{
     position: absolute;
     top: 90vh;
-    color: red;
+    color: black;
+    background-color: azure;
+    border: 2px solid white;
+    border-radius: 15% 15% 0% 0%;
 }

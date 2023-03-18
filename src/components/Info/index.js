@@ -1,12 +1,7 @@
 import React from "react";
-<<<<<<< HEAD
-import InfoCard from '../Cards/index';
-// import { motion } from 'framer-motion';
-=======
 import HotelCard from '../Cards/HotelCard';
 import RestaurantCard from '../Cards/RestaurantCard';
 import { motion } from 'framer-motion';
->>>>>>> f0bc4b01c7756bf82f039b362a827931ca6f0927
 import './styles.css';
 import locationResponse from '../Test Data/location-paris-france.json'
 import hotelResponse from '../Test Data/hotel-list-paris-france.json'

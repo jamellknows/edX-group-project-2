@@ -5,7 +5,15 @@ import  Search    from './components/Search';
 import { Info } from './components/Info';
 import { Saved } from './components/Saved';
 import  Footer  from './components/Footer';
+
+
+
+
 function App() {
+
+  
+
+
   return (
    
     <Router>

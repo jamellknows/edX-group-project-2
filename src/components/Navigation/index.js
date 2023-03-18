@@ -4,15 +4,21 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom'; 
 import './styles.css';
 
-export const NavigationBar = () =>{
+export const NavigationBar = () => {
+
+
+  function LinkStyles () {
+
+
+  }
 
 
     return(
       <>
       <Navbar className="navbar"  variant="dark">
         <Container>
-          <Link className="navbar-brand" href="/search">Travel Buddy</Link>
-          <Nav className="me-auto">
+          <Link className="navbar-brand" href="/search">Journey Junkie</Link>
+          <Nav className="me-auto offset-md-2">
             <Link 
             to="/search"
             className={window.location.pathname === "/search"

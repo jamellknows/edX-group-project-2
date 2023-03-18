@@ -17,7 +17,9 @@
 }
 
 .nav-link{
-    color: s;
+    color: white;
+    margin-right: 1rem;
+
 }
 
 .nav-link:hover{

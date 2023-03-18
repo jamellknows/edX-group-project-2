@@ -20,16 +20,17 @@ const Search = () =>{
     return (
         <>
         <Banner/>
-        <div className="search-page d-flex justify-content-center flex-column">
-                <div className="search-inputs d-flex mt-3 center-block">
-                    <div className="input-group mx-auto mb-3">
+        <div className="container-fluid">
+            <div className="search-page d-flex  flex-column offset-md-4 mt-5">
+                <div className="search-inputs d-flex mt-5 center-block">
+                    <div className="input-group mx-auto mt-5">
                         <div className="input-group-prepend">
                             <span className="input-group-text" id="basic-addon1" onClick={searchCountry}>Search By Country</span>
                         </div>
                         <input id="country-input" type="text" className="form-control" placeholder="Country" aria-label="Country" aria-describedby="basic-addon1"></input>
                     </div>
                 </div>
-                <div className="search-inputs d-flex mt-3 ">
+                <div className="search-inputs d-flex mt-5 ">
                     <div className="input-group mx-auto">
                         <div className="input-group-prepend">
                             <span className="input-group-text" id="basic-addon1" onClick={searchCity}>Search By City</span>
@@ -37,6 +38,7 @@ const Search = () =>{
                         <input id="city-input"type="text" className="form-control" placeholder="City" aria-label="City" aria-describedby="basic-addon1"></input>
                     </div>
                 </div>
+            </div>
         </div>
       </>
     );
