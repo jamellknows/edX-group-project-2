@@ -1,37 +1,13 @@
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import { NavigationBar } from './components/Navigation';
-import { Wrapper } from './components/Wrapper';
-import  Search    from './components/Search';
-import { Info } from './components/Info';
-import { Saved } from './components/Saved';
-import  Footer  from './components/Footer';
-import { Map } from './components/Map';
+import React from "react";
+import Map from "./components/Map";
 
-
-
-
-function App() {
-
-  
-
-
+const App = () => {
   return (
-   
-    <Router>
-    <Wrapper>
-    <NavigationBar/>  
-      <Routes>
-        <Route  path="/search" element={<Search/>}/>
-        <Route  path="/info" element={<Info/>}/>
-        <Route  path="/saved" element={<Saved/>}/>
-        <Route  path="/map" element={<Map/>}/>
-      </Routes>
-    </Wrapper>
-    <Footer/>
-    </Router>
-
-
+    <div>
+      <h1>OpenStreetMap Example</h1>
+      <Map />
+    </div>
   );
-}
+};
 
 export default App;
