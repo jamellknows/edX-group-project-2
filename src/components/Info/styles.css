@@ -29,6 +29,10 @@ h2{
     margin-bottom: 20px;
 }
 
+.mainCards{
+    overflow-y: scroll;
+}
+
 .cardContainer{
     overflow-x: scroll;
     scroll-behavior: smooth;

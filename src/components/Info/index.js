@@ -112,7 +112,7 @@ export const Info = () => {
                     <p className="lead">{locationInfo.description}</p>
                 </div>
             </div>
-            <div className="container-fluid m-auto">
+            <div className="container-fluid m-auto mainCards">
                 <div className="container-fluid containerBlur" style={{padding: "10px"}}>
                     <h2>Hotels</h2>
                     <div className="container-fluid">
