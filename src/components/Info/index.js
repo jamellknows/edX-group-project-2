@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import HotelCard from '../Cards/HotelCard';
 import RestaurantCard from '../Cards/RestaurantCard';
 import AttractionCard from '../Cards/AttractionCard';
@@ -29,7 +29,7 @@ const generateHotelDataArray = arr =>{
             hotelDataObj["name"] = e.name;
             hotelDataObj["latitude"] = e.latitude;
             hotelDataObj["longitude"] = e.longitude;
-            hotelDataObj["image"] = e.photo.images.original.url;
+            hotelDataObj["image"] = e.photo.images.medium.url;
             hotelDataObj["rating"] = e.rating;
             hotelDataObj["price"] = e.price;
             hotelDataObj["website"] = e.business_listings?.mobile_contacts[0]?.value;

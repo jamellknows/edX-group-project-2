@@ -32,3 +32,26 @@ h2{
     overflow-x: scroll;
     scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar {
+    height: 10px;
+    width: 5px;
+    background: #fff3;
+    -webkit-border-radius: 1ex;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: white;
+    -webkit-border-radius: 1ex;
+  }
+  
+  ::-webkit-scrollbar-corner {
+    background: #fff3;
+  }
+
+ @include media-breakpoint-up(sm){
+    h2{
+        color: red;
+        font-size: 1.5rem;
+    }
+  }
