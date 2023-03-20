@@ -11,7 +11,7 @@ const getWebsiteLink = url =>{
     }
 }
 
-function RestaurantCard(props){
+function AttractionCard(props){
     const [cardOpen, setCardOpen] = useState(false);
 
     return (
@@ -22,7 +22,7 @@ function RestaurantCard(props){
             <motion.div className="card" onClick={() => setCardOpen(!cardOpen)}
             layout transistion={{layout: {duration: 1}}}
             whileHover={{boxShadow: "0px 0px 12px rgb(255,255,255)"}}>
-                <motion.img layout="posistion" src={props.image} alt="placeholder" className="card-img-top"/>
+                <motion.img layout="posistion" src={props.image} alt="placeholder-image" className="card-img-top"/>
                 <motion.div layout="posistion" className="card-body">
                     <motion.h2 layout="posistion" className="card-title">{props.name}</motion.h2>
                     <motion.hr layout="posistion" className="my-2"/>
@@ -38,8 +38,6 @@ function RestaurantCard(props){
                             <motion.p>{props.description}</motion.p>
                             <motion.div className="mapArea">Map goes here</motion.div>
                             <motion.h3>Address: {props.address}</motion.h3>
-                            <motion.h3>Phone: {props.phone}</motion.h3>
-                            <motion.h3>Email: {props.email}</motion.h3>
                             <motion.div className="buttonGroup">
                                 {getWebsiteLink(props.website)}
                                 <motion.button
@@ -53,4 +51,4 @@ function RestaurantCard(props){
     );
 }
 
-export default RestaurantCard;
+export default AttractionCard;

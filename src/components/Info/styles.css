@@ -3,7 +3,7 @@ h2{
 }
 
 .backgroundImg{
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
@@ -26,9 +26,30 @@ h2{
     backdrop-filter: saturate(200%) blur(8px);
     border-radius: 10px;
     padding: 30px;
+    margin-bottom: 20px;
+}
+
+.mainCards{
+    overflow-y: scroll;
 }
 
 .cardContainer{
     overflow-x: scroll;
     scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar {
+    height: 10px;
+    width: 5px;
+    background: #fff3;
+    -webkit-border-radius: 1ex;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: white;
+    -webkit-border-radius: 1ex;
+  }
+  
+  ::-webkit-scrollbar-corner {
+    background: #fff3;
+  }
