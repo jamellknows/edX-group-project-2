@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import HotelCard from '../Cards/HotelCard';
 import RestaurantCard from '../Cards/RestaurantCard';
+import AttractionCard from '../Cards/AttractionCard';
 import { motion } from 'framer-motion';
 import './styles.css';
 import locationResponse from '../Test Data/location-paris-france.json'
@@ -28,7 +29,7 @@ const generateHotelDataArray = arr =>{
             hotelDataObj["name"] = e.name;
             hotelDataObj["latitude"] = e.latitude;
             hotelDataObj["longitude"] = e.longitude;
-            hotelDataObj["image"] = e.photo.images.original.url;
+            hotelDataObj["image"] = e.photo.images.large.url;
             hotelDataObj["rating"] = e.rating;
             hotelDataObj["price"] = e.price;
             hotelDataObj["website"] = e.business_listings?.mobile_contacts[0]?.value;
@@ -56,7 +57,7 @@ const generateRestaurantDataArray = arr =>{
             RestaurantDataObj["name"] = e.name;
             RestaurantDataObj["latitude"] = e.latitude;
             RestaurantDataObj["longitude"] = e.longitude;
-            RestaurantDataObj["image"] = e.photo.images.original.url;
+            RestaurantDataObj["image"] = e.photo.images.large.url;
             RestaurantDataObj["description"] = e.description;
             RestaurantDataObj["rating"] = e.rating;
             RestaurantDataObj["website"] = e.website;
@@ -74,17 +75,44 @@ const generateRestaurantDataArray = arr =>{
     return (tempRestaurantData);
 }
 
+const generateAttractionDataArray = arr =>{
+    let tempAttractionData =[];
+
+    arr.forEach(e =>{
+        let attractionDataObj = {};
+
+        if(e.hasOwnProperty('name')){
+            attractionDataObj["id"] = e.location_id;
+            attractionDataObj["name"] = e.name;
+            attractionDataObj["latitude"] = e.latitude;
+            attractionDataObj["longitude"] = e.longitude;
+            attractionDataObj["image"] = e.photo.images.large.url;
+            attractionDataObj["rating"] = e.rating;
+            attractionDataObj["description"] = e.description;
+            attractionDataObj["website"] = e.website;
+            attractionDataObj["address"] = e.address;
+            attractionDataObj["hours"] = e.hours?.week_ranges;
+
+            tempAttractionData.push(attractionDataObj);
+        }else{
+            return;
+        }
+    })
+    
+    return (tempAttractionData);
+}
+
 export const Info = () => {
 
     return(
-        <div className="backgroundImg" style={{backgroundImage: `url(${locationInfo.previewImage})`}}>
+        <div className="backgroundImg">
             <div className="jumbotron jumbotron-fluid">
                 <div className="container">
                     <h1 className="display-1">{locationInfo.city}</h1>
                     <p className="lead">{locationInfo.description}</p>
                 </div>
             </div>
-            <div className="container-fluid">
+            <div className="container-fluid m-auto mainCards">
                 <div className="container-fluid containerBlur" style={{padding: "10px"}}>
                     <h2>Hotels</h2>
                     <div className="container-fluid">
@@ -130,8 +158,24 @@ export const Info = () => {
                 </div>
             </div>
             <div className="container-fluid">
-                <div className="container-fluid">
+                <div className="container-fluid containerBlur" style={{padding: "10px"}}>
                     <h2>Attractions</h2>
+                    <div className="container-fluid">
+                        <div className="d-flex cardContainer">
+                            {generateAttractionDataArray(attractionResponse.data).map(attraction =><AttractionCard
+                                id={attraction.id}
+                                key={`${attraction.name}-${attraction.id}`}
+                                name={attraction.name}
+                                latitude={attraction.latitude}
+                                longitude={attraction.longitude}
+                                image={attraction.image}
+                                description={attraction.description}
+                                rating={attraction.rating}
+                                website={attraction.website}
+                                address={attraction.address}
+                                hours={attraction.hours}/>)}
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

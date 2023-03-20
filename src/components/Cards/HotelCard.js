@@ -1,52 +1,13 @@
-import React from 'react';
-// import { motion } from 'framer-motion';
+import React, { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import starRating from './DisplayRating'
 import './styles.css';
-
-const starRating = rating =>{
-    let parsedRating = parseFloat(rating);
-
-    const starIcons = val =>{
-        let stars = [];
-
-        switch(Number.isInteger(val)){
-            case true:
-                for(let i = 0; i < val; i++){
-                    stars.push(<svg viewBox="0 0 77.2 73.9" width="20" height="20" style={{fill:"#E28807"}}>
-                    <path d="M43.5,3.1l7.7,15.5c0.8,1.6,2.3,2.7,4.1,3l17.2,2.5c4.5,0.7,6.3,6.2,3,9.4L63.1,45.6c-1.3,1.3-1.9,3.1-1.6,4.9
-                    l2.9,17.1c0.8,4.5-3.9,7.9-8,5.8l-15.3-8.1c-1.6-0.8-3.5-0.8-5.1,0l-15.3,8.1c-4,2.1-8.7-1.3-8-5.8l2.9-17.1
-                    c0.3-1.8-0.3-3.6-1.6-4.9L1.7,33.5c-3.3-3.2-1.5-8.7,3-9.4l17.2-2.5c1.8-0.3,3.3-1.4,4.1-3l7.7-15.5C35.7-1,41.5-1,43.5,3.1z"/>
-                    </svg>);
-                }
-                return stars;
-
-            case false:
-                for(let i = 1; i < val; i++){
-                    stars.push(<svg viewBox="0 0 77.2 73.9" width="20" height="20" style={{fill:"#E28807"}}>
-                    <path d="M43.5,3.1l7.7,15.5c0.8,1.6,2.3,2.7,4.1,3l17.2,2.5c4.5,0.7,6.3,6.2,3,9.4L63.1,45.6c-1.3,1.3-1.9,3.1-1.6,4.9
-                    l2.9,17.1c0.8,4.5-3.9,7.9-8,5.8l-15.3-8.1c-1.6-0.8-3.5-0.8-5.1,0l-15.3,8.1c-4,2.1-8.7-1.3-8-5.8l2.9-17.1
-                    c0.3-1.8-0.3-3.6-1.6-4.9L1.7,33.5c-3.3-3.2-1.5-8.7,3-9.4l17.2-2.5c1.8-0.3,3.3-1.4,4.1-3l7.7-15.5C35.7-1,41.5-1,43.5,3.1z"/>
-                    </svg>);
-                }
-                stars.push(<svg viewBox="0 0 77.2 73.9" width="20" height="20" style={{fill:"#E28807"}}>
-                <path className="st0" d="M33.7,3.1L26,18.6c-0.8,1.6-2.3,2.7-4.1,3L4.7,24.1c-4.5,0.7-6.3,6.2-3,9.4l12.4,12.1c1.3,1.3,1.9,3.1,1.6,4.9
-	            l-2.9,17.1c-0.8,4.5,3.9,7.9,8,5.8L36,65.2c0.8-0.4,1.7-0.6,2.6-0.6V0C36.6,0,34.7,1,33.7,3.1z"/>
-                </svg>);
-                return stars;
-        }
-    } 
-
-    return (
-        <div className="ratingContainer">
-            {starIcons(parsedRating)}
-        </div>
-    );
-}
 
 const getWebsiteLink = url =>{
     if(url === undefined){
-        return <p>No Website Listed</p>
+        return;
     }else{
-        return <a href={url}>Visit Website</a>
+        return <motion.a href={url} whileHover={{scale: 1.1}}>Visit Website</motion.a>
     }
 }
 
@@ -71,24 +32,44 @@ const getHotelAward = (awardname, year, icon) =>{
     }
 }
 
-
 function HotelCard(props){
+    const [cardOpen, setCardOpen] = useState(false);
+
     return (
-        <div className="col-sm-12 col-md-3 col-lg-2 d-flex align-items-stretch" style={{padding: "10px"}}>
-            <div className="card">
-                <img src={props.image} alt="placeholder-image" className="card-img-top"/>
-                <div className="card-body">
-                    <h2 className="card-title">{props.name}</h2>
-                    <hr className="my-2"/>
-                    {starRating(props.rating)}
-                    <hr className="my-2"/>
-                    <p>From: {props.price}</p>
-                    {getWebsiteLink(props.website)}
-                    <hr className="my-2"/>
-                    {getHotelAward(props.awardName, props.awardYear, props.awardIcon)}
-                </div>
-            </div>
-        </div>
+        <motion.div className="col-sm-12 col-md-12 col-lg-4 col-xl-2" style={{padding: "10px"}}
+        initial={{scale: 0.5, opacity: 0}}
+        animate={{scale: 1, opacity: 1}}
+        transition={{type: 'spring', bounce: 0.5, duration: 1}}>
+            <motion.div className="card" onClick={() => setCardOpen(!cardOpen)}
+            layout transistion={{layout: {duration: 1}}}
+            whileHover={{boxShadow: "0px 0px 12px rgb(255,255,255)"}}>
+                <motion.img layout="posistion" src={props.image} alt="placeholder-image" className="card-img-top"/>
+                <motion.div layout="posistion" className="card-body">
+                    <motion.h2 layout="posistion" className="card-title">{props.name}</motion.h2>
+                    <motion.hr layout="posistion" className="my-2"/>
+                    <motion.div layout="posistion">{starRating(props.rating)}</motion.div>
+                    <motion.hr layout="posistion" className="my-2"/>
+                    <AnimatePresence>
+                        {cardOpen && (
+                        <motion.div className="infoContainer"
+                        initial={{y: -100, opacity: 0}}
+                        animate={{y: 0, opacity: 1}}
+                        exit={{y: -100, opacity: 0}}
+                        transition={{ duration: 0.5}}>
+                            {getHotelAward(props.awardName, props.awardYear, props.awardIcon)}
+                            <motion.p >Rooms from {props.price}</motion.p>
+                            <motion.div className="mapArea">Map goes here</motion.div>
+                            <motion.div className="buttonGroup">
+                                {getWebsiteLink(props.website)}
+                                <motion.button
+                                whileHover={{scale: 1.1}}>Save</motion.button>
+                            </motion.div>
+                        </motion.div>)}
+                        </AnimatePresence>
+                </motion.div>
+            </motion.div>
+        </motion.div>
+        
     );
 }
 
