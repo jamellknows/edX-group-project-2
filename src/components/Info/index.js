@@ -29,7 +29,7 @@ const generateHotelDataArray = arr =>{
             hotelDataObj["name"] = e.name;
             hotelDataObj["latitude"] = e.latitude;
             hotelDataObj["longitude"] = e.longitude;
-            hotelDataObj["image"] = e.photo.images.medium.url;
+            hotelDataObj["image"] = e.photo.images.large.url;
             hotelDataObj["rating"] = e.rating;
             hotelDataObj["price"] = e.price;
             hotelDataObj["website"] = e.business_listings?.mobile_contacts[0]?.value;
@@ -57,7 +57,7 @@ const generateRestaurantDataArray = arr =>{
             RestaurantDataObj["name"] = e.name;
             RestaurantDataObj["latitude"] = e.latitude;
             RestaurantDataObj["longitude"] = e.longitude;
-            RestaurantDataObj["image"] = e.photo.images.original.url;
+            RestaurantDataObj["image"] = e.photo.images.large.url;
             RestaurantDataObj["description"] = e.description;
             RestaurantDataObj["rating"] = e.rating;
             RestaurantDataObj["website"] = e.website;
@@ -86,7 +86,7 @@ const generateAttractionDataArray = arr =>{
             attractionDataObj["name"] = e.name;
             attractionDataObj["latitude"] = e.latitude;
             attractionDataObj["longitude"] = e.longitude;
-            attractionDataObj["image"] = e.photo.images.original.url;
+            attractionDataObj["image"] = e.photo.images.large.url;
             attractionDataObj["rating"] = e.rating;
             attractionDataObj["description"] = e.description;
             attractionDataObj["website"] = e.website;
@@ -105,14 +105,14 @@ const generateAttractionDataArray = arr =>{
 export const Info = () => {
 
     return(
-        <div className="backgroundImg" style={{backgroundImage: `url(${locationInfo.previewImage})`}}>
+        <div className="backgroundImg">
             <div className="jumbotron jumbotron-fluid">
                 <div className="container">
                     <h1 className="display-1">{locationInfo.city}</h1>
                     <p className="lead">{locationInfo.description}</p>
                 </div>
             </div>
-            <div className="container-fluid">
+            <div className="container-fluid m-auto">
                 <div className="container-fluid containerBlur" style={{padding: "10px"}}>
                     <h2>Hotels</h2>
                     <div className="container-fluid">
@@ -158,7 +158,7 @@ export const Info = () => {
                 </div>
             </div>
             <div className="container-fluid">
-                <div className="container-fluid">
+                <div className="container-fluid containerBlur" style={{padding: "10px"}}>
                     <h2>Attractions</h2>
                     <div className="container-fluid">
                         <div className="d-flex cardContainer">

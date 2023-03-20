@@ -5,7 +5,7 @@ import './styles.css';
 
 const getWebsiteLink = url =>{
     if(url === undefined){
-        return <p>No Website Listed</p>
+        return;
     }else{
         return <a href={url}>Visit Website</a>
     }
@@ -33,10 +33,10 @@ const getHotelAward = (awardname, year, icon) =>{
 }
 
 function HotelCard(props){
-    const [cardOpen, setCardOpen] = useState(true);
+    const [cardOpen, setCardOpen] = useState(false);
 
     return (
-        <div className="col-sm-12 col-md-3 col-lg-2 d-flex" style={{padding: "10px"}}>
+        <div className="col-sm-12 col-md-12 col-lg-4 col-xl-2" style={{padding: "10px"}}>
             <div className="card" onClick={() => setCardOpen(!cardOpen)}>
                 <img src={props.image} alt="placeholder-image" className="card-img-top"/>
                 <div className="card-body">
@@ -45,15 +45,13 @@ function HotelCard(props){
                     {starRating(props.rating)}
                     <hr className="my-2"/>
                     {cardOpen && (
-                    <div className="container-fluid">
-                        <div className="row">
-                            <div className="col-6">
-                                <p>From: {props.price}</p>
-                                {getHotelAward(props.awardName, props.awardYear, props.awardIcon)}
-                            </div>
-                            <div className="col-6">
+                    <div className="infoContainer">
+                        {getHotelAward(props.awardName, props.awardYear, props.awardIcon)}
+                        <p>Rooms from {props.price}</p>
+                        <div className="mapArea">Map goes here</div>
+                        <div className="buttonGroup">
                             {getWebsiteLink(props.website)}
-                            </div>
+                            <button>Save</button>
                         </div>
                     </div>
                     )}
