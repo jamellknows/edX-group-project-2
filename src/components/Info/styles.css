@@ -2,11 +2,6 @@ h2{
     color: white;
 }
 
-.backgroundImg{
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
 .container{
     width: 100%;
 }

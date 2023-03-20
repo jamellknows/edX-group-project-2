@@ -38,14 +38,10 @@ export const Wrapper = (props) => {
     let backgroundStyles = {
         backgroundSize: "cover",
         backgroundImage: `url(${background})`,
-        width: "100.5vw",
+        width: "100%",
         height: "100%",
         zIndex: "-999"
     }
-
-
- 
-
 
     return(
         <div className="container-fluid wrapper">

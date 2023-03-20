@@ -102,7 +102,7 @@ const generateAttractionDataArray = arr =>{
 export const Info = () => {
 
     return(
-        <div className="backgroundImg">
+        <div className="hero">
             <div className="jumbotron jumbotron-fluid">
                 <div className="container">
                     <h1 className="display-1">{locationInfo.city}</h1>

@@ -2,7 +2,7 @@
 
 .footer{
     position: fixed;
-    top: 91vh;
+    height: 3vh;
     color: black;
     background-color: azure;
     border: 2px solid white;
@@ -21,4 +21,9 @@
     font-size: 1rem;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 100;
+}
+
+.list-item{
+    padding-left: 10px;
+    padding-right: 10px;
 }

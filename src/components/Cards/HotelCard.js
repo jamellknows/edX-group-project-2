@@ -56,7 +56,7 @@ function HotelCard(props){
                     )}
                     <AnimatePresence>
                         {cardOpen && (
-                        <motion.div className="infoContainer"
+                        <motion.div className="infoContainer" key={`${props.id}-${cardOpen}`}
                         initial={{y: -100, opacity: 0}}
                         animate={{y: 0, opacity: 1}}
                         exit={{y: -100, opacity: 0}}
