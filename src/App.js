@@ -1,3 +1,5 @@
+import React from "react";
+import Map from "./components/Map";
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import { NavigationBar } from './components/Navigation';
 import { Wrapper } from './components/Wrapper';
@@ -10,9 +12,6 @@ import  Footer  from './components/Footer';
 
 
 function App() {
-
-  
-
 
   return (
    
@@ -27,7 +26,6 @@ function App() {
     </Wrapper>
     <Footer/>
     </Router>
-
 
   );
 }
