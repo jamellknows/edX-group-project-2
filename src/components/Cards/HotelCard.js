@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import starRating from './DisplayRating'
+import Map from '../Map/index'
 import './styles.css';
 
 const getWebsiteLink = url =>{
@@ -40,15 +41,19 @@ function HotelCard(props){
         initial={{scale: 0.5, opacity: 0}}
         animate={{scale: 1, opacity: 1}}
         transition={{type: 'spring', bounce: 0.5, duration: 1}}>
-            <motion.div className="card" onClick={() => setCardOpen(!cardOpen)}
+            <motion.div className="card"
             layout transistion={{layout: {duration: 1}}}
             whileHover={{boxShadow: "0px 0px 12px rgb(255,255,255)"}}>
-                <motion.img layout="posistion" src={props.image} alt="placeholder-image" className="card-img-top"/>
+                <motion.img onClick={() => setCardOpen(!cardOpen)}
+                layout="posistion" src={props.image} alt="placeholder-image" className="card-img-top"/>
                 <motion.div layout="posistion" className="card-body">
                     <motion.h2 layout="posistion" className="card-title">{props.name}</motion.h2>
                     <motion.hr layout="posistion" className="my-2"/>
                     <motion.div layout="posistion">{starRating(props.rating)}</motion.div>
                     <motion.hr layout="posistion" className="my-2"/>
+                    {!cardOpen && (
+                        <motion.p className="cardinfo" >Click image for more info</motion.p>
+                    )}
                     <AnimatePresence>
                         {cardOpen && (
                         <motion.div className="infoContainer"
@@ -58,7 +63,9 @@ function HotelCard(props){
                         transition={{ duration: 0.5}}>
                             {getHotelAward(props.awardName, props.awardYear, props.awardIcon)}
                             <motion.p >Rooms from {props.price}</motion.p>
-                            <motion.div className="mapArea">Map goes here</motion.div>
+                            <motion.div className="mapArea">
+                                <Map coords={props.coords} />
+                            </motion.div>
                             <motion.div className="buttonGroup">
                                 {getWebsiteLink(props.website)}
                                 <motion.button

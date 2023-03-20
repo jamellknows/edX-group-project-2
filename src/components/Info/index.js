@@ -27,8 +27,7 @@ const generateHotelDataArray = arr =>{
         if(e.hasOwnProperty('name')){
             hotelDataObj["id"] = e.location_id;
             hotelDataObj["name"] = e.name;
-            hotelDataObj["latitude"] = e.latitude;
-            hotelDataObj["longitude"] = e.longitude;
+            hotelDataObj["coords"] = [e.latitude, e.longitude];
             hotelDataObj["image"] = e.photo.images.large.url;
             hotelDataObj["rating"] = e.rating;
             hotelDataObj["price"] = e.price;
@@ -55,8 +54,7 @@ const generateRestaurantDataArray = arr =>{
         if(e.hasOwnProperty('name')){
             RestaurantDataObj["id"] = e.location_id;
             RestaurantDataObj["name"] = e.name;
-            RestaurantDataObj["latitude"] = e.latitude;
-            RestaurantDataObj["longitude"] = e.longitude;
+            RestaurantDataObj["coords"] = [e.latitude, e.longitude];
             RestaurantDataObj["image"] = e.photo.images.large.url;
             RestaurantDataObj["description"] = e.description;
             RestaurantDataObj["rating"] = e.rating;
@@ -84,8 +82,7 @@ const generateAttractionDataArray = arr =>{
         if(e.hasOwnProperty('name')){
             attractionDataObj["id"] = e.location_id;
             attractionDataObj["name"] = e.name;
-            attractionDataObj["latitude"] = e.latitude;
-            attractionDataObj["longitude"] = e.longitude;
+            attractionDataObj["coords"] = [e.latitude, e.longitude];
             attractionDataObj["image"] = e.photo.images.large.url;
             attractionDataObj["rating"] = e.rating;
             attractionDataObj["description"] = e.description;
@@ -121,8 +118,7 @@ export const Info = () => {
                                     id={hotel.id}
                                     key={`${hotel.name}-${hotel.id}`}
                                     name={hotel.name}
-                                    latitude={hotel.latitude}
-                                    longitude={hotel.longitude}
+                                    coords={hotel.coords}
                                     image={hotel.image}
                                     rating={hotel.rating}
                                     price={hotel.price}
@@ -143,8 +139,7 @@ export const Info = () => {
                                 id={restaurant.id}
                                 key={`${restaurant.name}-${restaurant.id}`}
                                 name={restaurant.name}
-                                latitude={restaurant.latitude}
-                                longitude={restaurant.longitude}
+                                coords={restaurant.coords}
                                 image={restaurant.image}
                                 description={restaurant.description}
                                 rating={restaurant.rating}
@@ -166,8 +161,7 @@ export const Info = () => {
                                 id={attraction.id}
                                 key={`${attraction.name}-${attraction.id}`}
                                 name={attraction.name}
-                                latitude={attraction.latitude}
-                                longitude={attraction.longitude}
+                                coords={attraction.coords}
                                 image={attraction.image}
                                 description={attraction.description}
                                 rating={attraction.rating}

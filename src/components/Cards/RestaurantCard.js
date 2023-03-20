@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import starRating from './DisplayRating'
+import Map from '../Map/index';
 import { motion, AnimatePresence } from 'framer-motion';
 import './styles.css';
 
@@ -19,10 +20,11 @@ function RestaurantCard(props){
         initial={{scale: 0.5, opacity: 0}}
         animate={{scale: 1, opacity: 1}}
         transition={{type: 'spring', bounce: 0.5, duration: 1}}>
-            <motion.div className="card" onClick={() => setCardOpen(!cardOpen)}
+            <motion.div className="card"
             layout transistion={{layout: {duration: 1}}}
             whileHover={{boxShadow: "0px 0px 12px rgb(255,255,255)"}}>
-                <motion.img layout="posistion" src={props.image} alt="placeholder" className="card-img-top"/>
+                <motion.img onClick={() => setCardOpen(!cardOpen)}
+                layout="posistion" src={props.image} alt="placeholder" className="card-img-top"/>
                 <motion.div layout="posistion" className="card-body">
                     <motion.h2 layout="posistion" className="card-title">{props.name}</motion.h2>
                     <motion.hr layout="posistion" className="my-2"/>
@@ -36,7 +38,9 @@ function RestaurantCard(props){
                         exit={{y: -100, opacity: 0}}
                         transition={{ duration: 0.5}}>
                             <motion.p>{props.description}</motion.p>
-                            <motion.div className="mapArea">Map goes here</motion.div>
+                            <motion.div className="mapArea">
+                                <Map coords={props.coords} />
+                            </motion.div>
                             <motion.h3>Address: {props.address}</motion.h3>
                             <motion.h3>Phone: {props.phone}</motion.h3>
                             <motion.h3>Email: {props.email}</motion.h3>
