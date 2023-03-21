@@ -9,10 +9,10 @@ import hotelResponse from '../Test Data/hotel-list-paris-france.json'
 import restaurantResponse from '../Test Data/restaurants-paris-france.json'
 import attractionResponse from '../Test Data/attractions-paris-france.json'
 
-const savedJourneys = JSON.parse(localStorage.getItem('savedJourneys')) || [];
+const savedJourneys = JSON.parse(localStorage.getItem('savedJourneys')) || []; //Loads saved items from local storage
 let saveItemId = [];
 
-let locationInfo = {
+let locationInfo = { //Parse user search response to get location information
     city: locationResponse.data[0].result_object.name,
     country: locationResponse.data[0].result_object.ancestors[1].name,
     latitude: locationResponse.data[0].result_object.latitude,
@@ -21,11 +21,11 @@ let locationInfo = {
     previewImage: locationResponse.data[0].result_object.photo.images.original.url
 }
 
-let hotelData = [];
-let restaurantData = [];
-let attractionData = [];
+let hotelData = []; //Array for hotel data
+let restaurantData = []; //Array for restaurant data
+let attractionData = []; //Array for attraction data
 
-const generateHotelDataArray = arr =>{
+const generateHotelDataArray = arr =>{ //Function to populate hotel data array
     let tempHotelData =[];
 
     arr.forEach(e =>{
@@ -34,6 +34,7 @@ const generateHotelDataArray = arr =>{
         if(e.hasOwnProperty('name')){
             hotelDataObj["id"] = e.location_id;
             hotelDataObj["name"] = e.name;
+            hotelDataObj["type"] = 'hotel';
             hotelDataObj["coords"] = [e.latitude, e.longitude];
             hotelDataObj["image"] = e.photo.images.large.url;
             hotelDataObj["rating"] = e.rating;
@@ -53,7 +54,7 @@ const generateHotelDataArray = arr =>{
     return hotelData;
 }
 
-const generateRestaurantDataArray = arr =>{
+const generateRestaurantDataArray = arr =>{ //Function to populate restaurant data array
     let tempRestaurantData =[];
 
     arr.forEach(e =>{
@@ -62,6 +63,7 @@ const generateRestaurantDataArray = arr =>{
         if(e.hasOwnProperty('name')){
             RestaurantDataObj["id"] = e.location_id;
             RestaurantDataObj["name"] = e.name;
+            RestaurantDataObj["type"] = 'restaurant';
             RestaurantDataObj["coords"] = [e.latitude, e.longitude];
             RestaurantDataObj["image"] = e.photo.images.large.url;
             RestaurantDataObj["description"] = e.description;
@@ -82,7 +84,7 @@ const generateRestaurantDataArray = arr =>{
     return restaurantData;
 }
 
-const generateAttractionDataArray = arr =>{
+const generateAttractionDataArray = arr =>{ //Function to populate attraction data array
     let tempAttractionData =[];
 
     arr.forEach(e =>{
@@ -91,6 +93,7 @@ const generateAttractionDataArray = arr =>{
         if(e.hasOwnProperty('name')){
             attractionDataObj["id"] = e.location_id;
             attractionDataObj["name"] = e.name;
+            attractionDataObj["type"] = 'attraction';
             attractionDataObj["coords"] = [e.latitude, e.longitude];
             attractionDataObj["image"] = e.photo.images.large.url;
             attractionDataObj["rating"] = e.rating;
@@ -109,7 +112,7 @@ const generateAttractionDataArray = arr =>{
     return attractionData;
 }
 
-const getSavedJourneys = (savedJourneys) =>{
+const getSavedJourneys = (savedJourneys) =>{ //function to check if user has any saved journeys and to return them if true
     if(savedJourneys === undefined || savedJourneys.length === 0){
         console.log("No saved journeys");
         return (<p>No saved journeys</p>);
@@ -120,19 +123,19 @@ const getSavedJourneys = (savedJourneys) =>{
 
 
 export const Info = () => {
-    const [modalOpen, setModalOpen] = useState(false);
-    const [journeyName, setJourneyName] = useState("");
+    const [modalOpen, setModalOpen] = useState(false); //Toggle display of save modal
+    const [journeyName, setJourneyName] = useState(""); //Get user input for journey name
 
-    const saveModal = (id, type) =>{
+    const saveModal = (id, type) =>{ //Gets id and type of selected item to be saved
         saveItemId = [id, type];
         setModalOpen(!modalOpen);
     }
 
-    const saveItem = (item, name) =>{
+    const saveItem = (item, name) =>{ //Function to save items to user journey
         console.log(item);
-        let checkExistingJourney = savedJourneys.find(journey => journey.title === name);
+        let checkExistingJourney = savedJourneys.find(journey => journey.title === name); //Checks if journey already exists in local storage
         
-        const addItem = (item, journeyObj) =>{
+        const addItem = (item, journeyObj) =>{ //Adds selected item to journey
             switch(item[1]){
                 case 'hotel':
                     let tempHotel = hotelData.find(hotel => hotel.id === item[0]);
@@ -153,11 +156,11 @@ export const Info = () => {
             return journeyObj;
         }
     
-        if (checkExistingJourney === undefined){
+        if (checkExistingJourney === undefined){ //If journey doesn't exist in local storage, one is created
             let newSavedJourney = {title: name, items: []};
             savedJourneys.push(addItem(item, newSavedJourney));
         }else{
-            console.log(`${checkExistingJourney.title} already exists`);
+            console.log(`${checkExistingJourney.title} already exists`); //If it does exist it is updated with new item
 
             let journeyIndex = savedJourneys.map(e => { return e.title; }).indexOf(name);
             savedJourneys[journeyIndex] = addItem(item, checkExistingJourney);

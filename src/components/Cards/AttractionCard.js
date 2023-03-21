@@ -20,7 +20,7 @@ function AttractionCard(props){
         initial={{scale: 0.5, opacity: 0}}
         animate={{scale: 1, opacity: 1}}
         transition={{type: 'spring', bounce: 0.5, duration: 1}}>
-            <motion.div className="card"
+            <motion.div className="card flex-grow-1"
             layout transistion={{layout: {duration: 1}}}
             whileHover={{boxShadow: "0px 0px 12px rgb(255,255,255)"}}>
                 <motion.img onClick={() => setCardOpen(!cardOpen)}
