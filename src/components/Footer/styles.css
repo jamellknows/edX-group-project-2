@@ -2,7 +2,8 @@
 
 .footer{
     position: fixed;
-    top: 91vh;
+    top: 96vh;
+    height: 3vh;
     color: black;
     background-color: azure;
     border: 2px solid white;

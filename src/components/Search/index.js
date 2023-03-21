@@ -3,12 +3,20 @@ import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 import Button from 'react-bootstrap/Button'
 import Banner from '../Banner'
+import CountrySearch from "./searchCountry";
+import { useState } from "react";
+
+
+
+
 
 const Search = () =>{
 
+    const [countryValue, setCountryValue] = useState("")
+
     function searchCountry(event){
         event.preventDefault()
-        console.log("Search Country")
+        CountrySearch(countryValue)
     }
 
     function searchCity(event){
@@ -27,7 +35,7 @@ const Search = () =>{
                         <div className="input-group-prepend">
                             <span className="input-group-text" id="basic-addon1" onClick={searchCountry}>Search By Country</span>
                         </div>
-                        <input id="country-input" type="text" className="form-control" placeholder="Country" aria-label="Country" aria-describedby="basic-addon1"></input>
+                        <input id="country-input" value={countryValue} onChange={evt => setCountryValue(evt.target.value) } type="text" className="form-control" placeholder="Country" aria-label="Country" aria-describedby="basic-addon1"></input>
                     </div>
                 </div>
                 <div className="search-inputs d-flex mt-5 ">
