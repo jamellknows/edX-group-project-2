@@ -9,6 +9,9 @@ import hotelResponse from '../Test Data/hotel-list-paris-france.json'
 import restaurantResponse from '../Test Data/restaurants-paris-france.json'
 import attractionResponse from '../Test Data/attractions-paris-france.json'
 
+const savedJourneys = JSON.parse(localStorage.getItem('savedJourneys')) || [];
+let saveItemId = [];
+
 let locationInfo = {
     city: locationResponse.data[0].result_object.name,
     country: locationResponse.data[0].result_object.ancestors[1].name,
@@ -17,6 +20,10 @@ let locationInfo = {
     description: locationResponse.data[0].result_object.geo_description,
     previewImage: locationResponse.data[0].result_object.photo.images.original.url
 }
+
+let hotelData = [];
+let restaurantData = [];
+let attractionData = [];
 
 const generateHotelDataArray = arr =>{
     let tempHotelData =[];
@@ -42,7 +49,8 @@ const generateHotelDataArray = arr =>{
         }
     })
     
-    return (tempHotelData);
+    hotelData = tempHotelData;
+    return hotelData;
 }
 
 const generateRestaurantDataArray = arr =>{
@@ -70,7 +78,8 @@ const generateRestaurantDataArray = arr =>{
         }
     })
     
-    return (tempRestaurantData);
+    restaurantData = tempRestaurantData;
+    return restaurantData;
 }
 
 const generateAttractionDataArray = arr =>{
@@ -96,10 +105,68 @@ const generateAttractionDataArray = arr =>{
         }
     })
     
-    return (tempAttractionData);
+    attractionData = tempAttractionData;
+    return attractionData;
 }
 
+const getSavedJourneys = (savedJourneys) =>{
+    if(savedJourneys === undefined || savedJourneys.length === 0){
+        console.log("No saved journeys");
+        return (<p>No saved journeys</p>);
+    }else{
+        console.log("nothing");
+    }
+}
+
+
 export const Info = () => {
+    const [modalOpen, setModalOpen] = useState(false);
+    const [journeyName, setJourneyName] = useState("");
+
+    const saveModal = (id, type) =>{
+        saveItemId = [id, type];
+        setModalOpen(!modalOpen);
+    }
+
+    const saveItem = (item, name) =>{
+        console.log(item);
+        let checkExistingJourney = savedJourneys.find(journey => journey.title === name);
+        
+        const addItem = (item, journeyObj) =>{
+            switch(item[1]){
+                case 'hotel':
+                    let tempHotel = hotelData.find(hotel => hotel.id === item[0]);
+                    journeyObj.items.push(tempHotel);
+                    break;
+                case 'restaurant':
+                    let tempRestaurant= restaurantData.find(restaurant => restaurant.id === item[0]);
+                    journeyObj.items.push(tempRestaurant);
+                    break;
+                case 'attraction':
+                    let tempAttraction = attractionData.find(attraction => attraction.id === item[0]);
+                    journeyObj.items.push(tempAttraction);
+                    break;
+                default:
+                    return;
+            }
+
+            return journeyObj;
+        }
+    
+        if (checkExistingJourney === undefined){
+            let newSavedJourney = {title: name, items: []};
+            savedJourneys.push(addItem(item, newSavedJourney));
+        }else{
+            console.log(`${checkExistingJourney.title} already exists`);
+
+            let journeyIndex = savedJourneys.map(e => { return e.title; }).indexOf(name);
+            savedJourneys[journeyIndex] = addItem(item, checkExistingJourney);
+        }
+    
+        localStorage.setItem("savedJourneys", JSON.stringify(savedJourneys));
+        setModalOpen(!modalOpen);
+        saveItemId = [];
+    }
 
     return(
         <div className="hero" style={{
@@ -128,7 +195,8 @@ export const Info = () => {
                                     website={hotel.website}
                                     awardName={hotel.awardname}
                                     awardYear={hotel.awardyear}
-                                    awardIcon={hotel.awardicon}/>)}
+                                    awardIcon={hotel.awardicon}
+                                    saveModal={() =>saveModal(hotel.id, "hotel")}/>)}
                         </div>
                     </div>
                 </div>
@@ -141,6 +209,7 @@ export const Info = () => {
                             {generateRestaurantDataArray(restaurantResponse.data).map(restaurant =><RestaurantCard
                                 id={restaurant.id}
                                 key={`${restaurant.name}-${restaurant.id}`}
+                                type="restaurant"
                                 name={restaurant.name}
                                 coords={restaurant.coords}
                                 image={restaurant.image}
@@ -163,6 +232,7 @@ export const Info = () => {
                             {generateAttractionDataArray(attractionResponse.data).map(attraction =><AttractionCard
                                 id={attraction.id}
                                 key={`${attraction.name}-${attraction.id}`}
+                                type="attraction"
                                 name={attraction.name}
                                 coords={attraction.coords}
                                 image={attraction.image}
@@ -178,6 +248,21 @@ export const Info = () => {
             <div className="container-fluid">
                 <div className="container-fluid containerBlur" style={{padding: "10px"}}></div>
             </div>
+            {modalOpen && (
+                <div className="saveModal containerBlur">
+                    <h2>Save Item</h2>
+                    <p>Please select or create a journey to save to</p>
+                    <div className="savedJourneys">
+                        {getSavedJourneys(savedJourneys)}
+                    </div>
+                    <div className="input-group mb-3">
+                        <input value={journeyName} onChange={e => setJourneyName(e.target.value)}
+                        type="text" className="form-control" placeholder="Enter journey name..." aria-label="Recipient's username" aria-describedby="basic-addon2" />
+                        <div className="input-group-append">
+                            <button onClick={() => {saveItem(saveItemId, journeyName)}} className="btn btn-outline-secondary" type="button">Save</button>
+                        </div>
+                    </div>
+                </div>)}
         </div>
     );
 }
