@@ -24,8 +24,6 @@ const Footer = () => {
             <div className="d-flex flex-row">
                 <div className="col-6">
                     <ul>
-                        <li>Contact Us</li>
-                        <li>Github Links</li>
                         <li><button type="button" className="btn btn-info footer-button" onClick={setModalIsOpenToTrue}>Privacy Policy</button></li>
                         <Modal isOpen={modalIsOpen} ariaHideApp={false} preventScroll={false}>
                             <button className="btn btn-info" onClick={setModalIsOpenToFalse}>X</button>

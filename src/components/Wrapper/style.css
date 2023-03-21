@@ -2,7 +2,7 @@
 .wrapper {
    background-color: lightblue;
    width: 101vw;
-   height: 100vh;
+   height: 102vh;
    z-index: -99;
    margin-left: -1rem;
   }
