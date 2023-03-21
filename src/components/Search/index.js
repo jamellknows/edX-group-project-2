@@ -33,7 +33,7 @@ const Search = () => {
 
     return (
         <>
-        <Banner/>
+        
         <div className="container-fluid">
             <div className="search-page d-flex  flex-column offset-md-4 mt-5">
                 <div className="search-inputs d-flex mt-5 center-block">
@@ -49,7 +49,7 @@ const Search = () => {
                         <div className="input-group-prepend">
                             <span className="input-group-text" id="basic-addon1" onClick={searchCity}>Search By City</span>
                         </div>
-                        <input id="city-input"type="text" className="form-control" placeholder="City" aria-label="City" aria-describedby="basic-addon1"></input>
+                        <input id="city-input" value={countryValue} onChange={evt => setCountryValue(evt.target.value) } type="text" className="form-control" placeholder="City" aria-label="City" aria-describedby="basic-addon1"></input>
                     </div>
                 </div>
             </div>
