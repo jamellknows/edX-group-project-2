@@ -1,0 +1,8 @@
+.containerBlur{
+    background: rgba(0,0,0,0.4);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    backdrop-filter: saturate(200%) blur(8px);
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 20px;
+}

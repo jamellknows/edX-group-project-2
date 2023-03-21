@@ -49,7 +49,7 @@ function RestaurantCard(props){
                             <motion.h3>Email: {props.email}</motion.h3>
                             <motion.div className="buttonGroup">
                                 {getWebsiteLink(props.website)}
-                                <motion.button
+                                <motion.button onClick={props.saveModal}
                                 whileHover={{scale: 1.1}}>Save</motion.button>
                             </motion.div>
                         </motion.div>)}

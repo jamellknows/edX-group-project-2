@@ -19,7 +19,17 @@ function Saved(props) {
 
   return (
     <div>
-      <h1>Your Saved Trips</h1>
+      <div className="container-fluid m-auto">
+        <div className="container-fluid containerBlur" style={{padding: "10px"}}>
+            <h2>Your saved journeys...</h2>
+            <div className="container-fluid">
+                <div className="d-flex cardContainer">
+
+                </div>
+            </div>
+        </div>
+      </div>
+      {/* <h1>Your Saved Trips</h1>
       <ul>
         {trips.map(trip => (
           <li key={trip.id}>
@@ -28,7 +38,7 @@ function Saved(props) {
             <button onClick={() => handleDeleteTrip(trip.id)}>Delete</button>
           </li>
         ))}
-      </ul>
+      </ul> */}
     </div>
   );
 }

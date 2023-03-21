@@ -222,7 +222,8 @@ export const Info = () => {
                                 email={restaurant.email}
                                 phone={restaurant.phone}
                                 address={restaurant.address}
-                                hours={restaurant.hours}/>)}
+                                hours={restaurant.hours}
+                                saveModal={() =>saveModal(restaurant.id, "restaurant")}/>)}
                         </div>
                     </div>
                 </div>
@@ -243,7 +244,8 @@ export const Info = () => {
                                 rating={attraction.rating}
                                 website={attraction.website}
                                 address={attraction.address}
-                                hours={attraction.hours}/>)}
+                                hours={attraction.hours}
+                                saveModal={() =>saveModal(attraction.id, "attraction")}/>)}
                         </div>
                     </div>
                 </div>
@@ -253,7 +255,10 @@ export const Info = () => {
             </div>
             {modalOpen && (
                 <div className="saveModal containerBlur">
-                    <h2>Save Item</h2>
+                    <div className="d-flex justify-content-between">
+                        <h2 style={{alignSelf: "center"}}>Save Item</h2>
+                        <button onClick={() =>{setModalOpen(!modalOpen)}}className="closeButton">X</button>
+                    </div>
                     <p>Please select or create a journey to save to</p>
                     <div className="savedJourneys">
                         {getSavedJourneys(savedJourneys)}
