@@ -3,26 +3,32 @@ import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 import Button from 'react-bootstrap/Button'
 import Banner from '../Banner'
-import CountrySearch from "./searchCountry";
 import { useState } from "react";
+import  API  from './api'
 
 
 
 
 
-const Search = () =>{
+const Search = () => {
 
     const [countryValue, setCountryValue] = useState("")
+    // const data = (localStorage.getItem('searchResults') == null) ? JSON.parse(localStorage.getItem('searchResults')) : [];
 
     function searchCountry(event){
         event.preventDefault()
-        CountrySearch(countryValue)
+        Promise.all([API(countryValue)])
+        .then(function(results){
+            console.log(results)
+        })
     }
 
     function searchCity(event){
         event.preventDefault()
-        console.log("Search City")
-
+        Promise.all([API(countryValue)])
+        .then(function(results){
+            console.log(results)
+        })
     }
 
     return (
