@@ -16,7 +16,7 @@ function AttractionCard(props){
     const [cardOpen, setCardOpen] = useState(false);
 
     return (
-        <motion.div className="col-sm-12 col-md-12 col-lg-4 col-xl-2" style={{padding: "10px"}}
+        <motion.div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-2 d-flex align-self-stretch" style={{padding: "10px"}}
         initial={{scale: 0.5, opacity: 0}}
         animate={{scale: 1, opacity: 1}}
         transition={{type: 'spring', bounce: 0.5, duration: 1}}>
@@ -30,6 +30,9 @@ function AttractionCard(props){
                     <motion.hr layout="posistion" className="my-2"/>
                     <motion.div layout="posistion">{starRating(props.rating)}</motion.div>
                     <motion.hr layout="posistion" className="my-2"/>
+                    {!cardOpen && (
+                        <motion.p className="cardinfo" >Click image for more info</motion.p>
+                    )}
                     <AnimatePresence>
                         {cardOpen && (
                         <motion.div className="infoContainer"

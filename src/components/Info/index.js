@@ -102,7 +102,10 @@ const generateAttractionDataArray = arr =>{
 export const Info = () => {
 
     return(
-        <div className="hero">
+        <div className="hero" style={{
+            backgroundImage: `url(${locationInfo.previewImage})`, 
+            backgroundSize: "cover", 
+            backgroundAttachment: "fixed"}}>
             <div className="jumbotron jumbotron-fluid">
                 <div className="container">
                     <h1 className="display-1">{locationInfo.city}</h1>
@@ -171,6 +174,9 @@ export const Info = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="container-fluid">
+                <div className="container-fluid containerBlur" style={{padding: "10px"}}></div>
             </div>
         </div>
     );
