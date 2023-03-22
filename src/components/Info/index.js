@@ -5,7 +5,7 @@ import AttractionCard from '../Cards/AttractionCard';
 import { motion } from 'framer-motion';
 import './styles.css';
 // import locationResponse from '../Test Data/location-paris-france.json'
-import hotelResponse from '../Test Data/hotel-list-paris-france.json'
+// import hotelResponse from '../Test Data/hotel-list-paris-france.json'
 // import restaurantResponse from '../Test Data/restaurants-paris-france.json'
 // import attractionResponse from '../Test Data/attractions-paris-france.json'
 
@@ -31,7 +31,7 @@ const getSearchItem = (arr, type) =>{
 }
 
 let locationResponse = userSearchData[0];
-// let hotelResponse = getSearchItem(userSearchData, 'hotels');
+let hotelResponse = getSearchItem(userSearchData, 'hotels');
 let restaurantResponse = getSearchItem(userSearchData, 'restaurants');
 let attractionResponse = getSearchItem(userSearchData, 'attractions');
 
