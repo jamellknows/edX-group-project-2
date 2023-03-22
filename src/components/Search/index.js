@@ -9,8 +9,7 @@ const Search = () => {
     const [cityValue, setCityValue] = useState("")
     let userSearchData = [];
 
-
-    const handleUserSearch = query =>{
+    const apiQuery = query =>{
         console.log("searching...");
 
         locationSearch(query)
@@ -25,18 +24,20 @@ const Search = () => {
             getLocationInfo(locationID);
         }
 
-        const getLocationInfo = location =>{
-            hotelSearch(location)
-            .then(res => saveToStorage(res, 'hotels'))
-            .catch(err => console.log(err))
+        const getLocationInfo = async location =>{
+            try {
+                const hotelRes = await hotelSearch(location);
+                saveToStorage(hotelRes, 'hotels');
+                const restaurantRes = await restaurantSearch(location);
+                saveToStorage(restaurantRes, 'restaurants');
+                const attractionRes = await attractionSearch(location);
+                saveToStorage(attractionRes, 'attractions');
 
-            restaurantSearch(location)
-            .then(res => saveToStorage(res, 'restaurants'))
-            .catch(err => console.log(err))
-
-            attractionSearch(location)
-            .then(res => saveToStorage(res, 'attractions'))
-            .catch(err => console.log(err))
+            } catch (err) {
+                console.log(err);
+            } finally {
+                window.location.reload();
+            }
         }
 
         const saveToStorage = (arr, type) =>{
@@ -44,7 +45,12 @@ const Search = () => {
             
             userSearchData.push(result);
             localStorage.setItem("userSearch", JSON.stringify(userSearchData));
+            
         }
+
+        // const refreshPage = () =>{
+        //     window.location.reload();
+        // }
     }
 
     return (
@@ -57,7 +63,7 @@ const Search = () => {
                         <input value={cityValue} onChange={e => setCityValue(e.target.value)}
                         type="text" className="form-control" placeholder="Enter city..." aria-label="Recipient's username" aria-describedby="basic-addon2" />
                         <div className="input-group-append">
-                            <button onClick={() =>{handleUserSearch(cityValue)}}className="btn searchButton" type="button">Search</button>
+                            <button onClick={() =>{apiQuery(cityValue)}}className="btn searchButton" type="button">Search</button>
                     </div>
                 </div>
             </div>

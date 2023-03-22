@@ -13,10 +13,27 @@ const savedJourneys = JSON.parse(localStorage.getItem('savedJourneys')) || []; /
 const userSearchData = JSON.parse(localStorage.getItem('userSearch')) || [];
 let saveItemId = [];
 
+const getSearchItem = (arr, type) =>{
+    let search ={};
+
+    switch(type){
+        case 'hotels':
+            search = arr.find(e => e.type === 'hotels');
+            return (search);
+        case 'restaurants':
+            search = arr.find(e => e.type === 'restaurants');
+            return (search);
+        case 'attractions':
+            search = arr.find(e => e.type === 'attractions');
+            return (search);
+        default: return;
+    }
+}
+
 let locationResponse = userSearchData[0];
-let hotelResponse = userSearchData[2];
-let restaurantResponse = userSearchData[3];
-let attractionResponse = userSearchData[1];
+let hotelResponse = getSearchItem(userSearchData, 'hotels');
+let restaurantResponse = getSearchItem(userSearchData, 'restaurants');
+let attractionResponse = getSearchItem(userSearchData, 'attractions');
 
 let hotelData = []; //Array for hotel data
 let restaurantData = []; //Array for restaurant data
@@ -128,11 +145,6 @@ const getSavedJourneys = (savedJourneys) =>{ //function to check if user has any
     }
 }
 
-const refreshData = () =>{
-    window.location.reload();
-}
-
-
 export const Info = () => {
     const [modalOpen, setModalOpen] = useState(false); //Toggle display of save modal
     const [journeyName, setJourneyName] = useState(""); //Get user input for journey name
@@ -182,17 +194,11 @@ export const Info = () => {
         saveItemId = [];
     }
 
-    const toggleRefresh = () =>{
-        window.location.reload();
-    }
-
     return(
         <div className="hero" style={{
             backgroundImage: `url(${locationInfo.previewImage})`, 
             backgroundSize: "cover", 
             backgroundAttachment: "fixed"}}>
-            <button onClick={toggleRefresh}
-            className="refreshButton">Refresh Info</button>
             <div className="jumbotron jumbotron-fluid">
                 <div className="container">
                     <h1 className="display-1">{locationInfo.city}</h1>
