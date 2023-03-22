@@ -3,32 +3,55 @@ import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 import Button from 'react-bootstrap/Button'
 import Banner from '../Banner'
-import { useState } from "react";
-import  API  from './api'
-
+import { useState, useEffect, useContext } from "react";
+import  API  from './api';
+import {searchDataContext} from "../../context/SearchDataProvider";
+import axios from "axios";
 
 
 
 
 const Search = () => {
 
-    const [countryValue, setCountryValue] = useState("")
+    const [countryValue, setCountryValue] = useState("");
+    const [responseData, setResponseData] = useContext(searchDataContext)
     // const data = (localStorage.getItem('searchResults') == null) ? JSON.parse(localStorage.getItem('searchResults')) : [];
 
-    function searchCountry(event){
-        event.preventDefault()
-        Promise.all([API(countryValue)])
-        .then(function(results){
-            console.log(results)
-        })
+    const searchCountry = async(country) => {
+        country.preventDefault()
+        const url = 'https://travel-advisor.p.rapidapi.com/locations/search'
+        try {
+            let response = await axios.get(url, { 
+                headers: {
+                    'X-RapidAPI-Key': '289a29c09emsh67b645d76a420f4p19e2ffjsn3ff56d782897',
+                    'X-RapidAPI-Host': 'travel-advisor.p.rapidapi.com'
+                },
+                params: {
+                    query: `${country}`,
+                    limit: '30',
+                    offset: '0',
+                    units: 'km',
+                    location_id: '1',
+                    currency: 'USD',
+                    sort: 'relevance',
+                    lang: 'en_US'
+                }      
+                 }).then(function(data){
+                    setResponseData(data)
+                 })
+        }catch(error){
+            console.log(error)
+        }
+        console.log(responseData)
+        localStorage.setItem('response', JSON.stringify(responseData))
     }
 
     function searchCity(event){
         event.preventDefault()
-        Promise.all([API(countryValue)])
-        .then(function(results){
-            console.log(results)
-        })
+        // Promise.all([API(countryValue)])
+        // .then(function(results){
+        //     console.log(results)
+        // })
     }
 
     return (

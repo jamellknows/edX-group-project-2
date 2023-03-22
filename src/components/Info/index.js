@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import HotelCard from '../Cards/HotelCard';
 import RestaurantCard from '../Cards/RestaurantCard';
 import AttractionCard from '../Cards/AttractionCard';
@@ -8,7 +8,17 @@ import locationResponse from '../Test Data/location-paris-france.json'
 import hotelResponse from '../Test Data/hotel-list-paris-france.json'
 import restaurantResponse from '../Test Data/restaurants-paris-france.json'
 import attractionResponse from '../Test Data/attractions-paris-france.json'
+import { searchDataContext } from "../../context/SearchDataProvider";
 
+
+const retrieveData = () => {
+   
+
+}
+
+let responseInfo = {
+
+}
 let locationInfo = {
     city: locationResponse.data[0].result_object.name,
     country: locationResponse.data[0].result_object.ancestors[1].name,
@@ -103,6 +113,8 @@ const generateAttractionDataArray = arr =>{
 }
 
 export const Info = () => {
+    const [responseData, setResponseData] = useContext(searchDataContext)
+    console.log(`retrieved data ${responseData}`)
 
     return(
         <div className="backgroundImg">
