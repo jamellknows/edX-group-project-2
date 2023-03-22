@@ -7,6 +7,8 @@ import { redirect } from "react-router-dom";
 import { locationSearch, hotelSearch, restaurantSearch, attractionSearch } from './api'
 import LoadingIcon from "./LoadingIcon";
 
+localStorage.setItem("userSearch", JSON.stringify([]))
+
 const Search = () => {
     const [cityValue, setCityValue] = useState("");
     const [isLoading, setLoading] = useState(false);

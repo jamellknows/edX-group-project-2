@@ -38,16 +38,49 @@ let attractionResponse = getSearchItem(userSearchData, 'attractions');
 let hotelData = []; //Array for hotel data
 let restaurantData = []; //Array for restaurant data
 let attractionData = []; //Array for attraction data
+let locationInfo = {};
 
-let locationInfo = { //Parse user search response to get location information
-    city: locationResponse[0].result_object.name,
-    country: locationResponse[0].result_object.name,
-    latitude: locationResponse[0].result_object.latitude,
-    longitude: locationResponse[0].result_object.longitude,
-    description: locationResponse[0].result_object.geo_description,
-    previewImage: locationResponse[0].result_object.photo.images.original.url
+if(locationResponse === undefined || locationResponse === []){
+    locationInfo = {
+        city: 'No City Found',
+        description: 'Please search a city first'
+    }
+}else{
+    locationInfo = { //Parse user search response to get location information
+        city: locationResponse[0].result_object.name,
+        country: locationResponse[0].result_object.name,
+        latitude: locationResponse[0].result_object.latitude,
+        longitude: locationResponse[0].result_object.longitude,
+        description: locationResponse[0].result_object.geo_description,
+        previewImage: locationResponse[0].result_object.photo.images.original.url
+    }
 }
 
+const validateSearch = (arr, type) =>{
+    const noDataFound = ['No Data'];
+    switch(type){
+        case 'hotel':
+            if(arr === undefined || arr === []){
+                return noDataFound;
+            }else{
+                return (generateHotelDataArray(arr));
+            }
+        case 'restaurant':
+            if(arr === undefined || arr === []){
+                return noDataFound;
+            }else{
+                return (generateRestaurantDataArray(arr));
+            }
+ 
+        case 'attraction':
+            if(arr === undefined || arr === []){
+                return noDataFound;
+            }else{
+                return (generateAttractionDataArray(arr));
+                }
+    }
+    
+}
 
 const generateHotelDataArray = arr =>{ //Function to populate hotel data array
     let tempHotelData =[];
@@ -210,7 +243,7 @@ export const Info = () => {
                     <h2>Hotels</h2>
                     <div className="container-fluid">
                         <div className="d-flex cardContainer">
-                                {generateHotelDataArray(hotelResponse.data).map(hotel =><HotelCard 
+                                {generateHotelDataArray(validateSearch(hotelResponse?.data, 'hotel')).map(hotel =><HotelCard 
                                     id={hotel.id}
                                     key={`${hotel.name}-${hotel.id}`}
                                     name={hotel.name}
@@ -233,7 +266,7 @@ export const Info = () => {
                     <h2>Restaurants</h2>
                     <div className="container-fluid">
                         <div className="d-flex cardContainer">
-                            {generateRestaurantDataArray(restaurantResponse.data).map(restaurant =><RestaurantCard
+                            {generateRestaurantDataArray(validateSearch(restaurantResponse?.data, 'restaurant')).map(restaurant =><RestaurantCard
                                 id={restaurant.id}
                                 key={`${restaurant.name}-${restaurant.id}`}
                                 type="restaurant"
@@ -258,7 +291,7 @@ export const Info = () => {
                     <h2>Attractions</h2>
                     <div className="container-fluid">
                         <div className="d-flex cardContainer">
-                            {generateAttractionDataArray(attractionResponse.data).map(attraction =><AttractionCard
+                            {generateAttractionDataArray(validateSearch(attractionResponse?.data, 'attraction')).map(attraction =><AttractionCard
                                 id={attraction.id}
                                 key={`${attraction.name}-${attraction.id}`}
                                 type="attraction"
