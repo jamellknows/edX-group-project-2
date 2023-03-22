@@ -1,10 +1,11 @@
 import axios from 'axios';
+import {createContext, useState} from 'react';
 
 
-const API = async (country) => {
+const APIProvider = async (country) => {
     console.log(country)
     const url = 'https://travel-advisor.p.rapidapi.com/locations/search'
-    return axios.get(url, { 
+    const api = await axios.get(url, { 
             headers: {
                 'X-RapidAPI-Key': '289a29c09emsh67b645d76a420f4p19e2ffjsn3ff56d782897',
                 'X-RapidAPI-Host': 'travel-advisor.p.rapidapi.com'
@@ -20,7 +21,16 @@ const API = async (country) => {
                 lang: 'en_US'
             }      
 })
+    return api;
+
+   
+    
+
+
+
 }
 
 
-export default API
+
+
+export default APIProvider;
