@@ -4,26 +4,33 @@ import RestaurantCard from '../Cards/RestaurantCard';
 import AttractionCard from '../Cards/AttractionCard';
 import { motion } from 'framer-motion';
 import './styles.css';
-import locationResponse from '../Test Data/location-paris-france.json'
-import hotelResponse from '../Test Data/hotel-list-paris-france.json'
-import restaurantResponse from '../Test Data/restaurants-paris-france.json'
-import attractionResponse from '../Test Data/attractions-paris-france.json'
+// import locationResponse from '../Test Data/location-paris-france.json'
+// import hotelResponse from '../Test Data/hotel-list-paris-france.json'
+// import restaurantResponse from '../Test Data/restaurants-paris-france.json'
+// import attractionResponse from '../Test Data/attractions-paris-france.json'
 
 const savedJourneys = JSON.parse(localStorage.getItem('savedJourneys')) || []; //Loads saved items from local storage
+const userSearchData = JSON.parse(localStorage.getItem('userSearch')) || [];
 let saveItemId = [];
 
-let locationInfo = { //Parse user search response to get location information
-    city: locationResponse.data[0].result_object.name,
-    country: locationResponse.data[0].result_object.ancestors[1].name,
-    latitude: locationResponse.data[0].result_object.latitude,
-    longitude: locationResponse.data[0].result_object.longitude,
-    description: locationResponse.data[0].result_object.geo_description,
-    previewImage: locationResponse.data[0].result_object.photo.images.original.url
-}
+let locationResponse = userSearchData[0];
+let hotelResponse = userSearchData[2];
+let restaurantResponse = userSearchData[3];
+let attractionResponse = userSearchData[1];
 
 let hotelData = []; //Array for hotel data
 let restaurantData = []; //Array for restaurant data
 let attractionData = []; //Array for attraction data
+
+let locationInfo = { //Parse user search response to get location information
+    city: locationResponse[0].result_object.name,
+    country: locationResponse[0].result_object.ancestors[1].name,
+    latitude: locationResponse[0].result_object.latitude,
+    longitude: locationResponse[0].result_object.longitude,
+    description: locationResponse[0].result_object.geo_description,
+    previewImage: locationResponse[0].result_object.photo.images.original.url
+}
+
 
 const generateHotelDataArray = arr =>{ //Function to populate hotel data array
     let tempHotelData =[];
@@ -121,6 +128,10 @@ const getSavedJourneys = (savedJourneys) =>{ //function to check if user has any
     }
 }
 
+const refreshData = () =>{
+    window.location.reload();
+}
+
 
 export const Info = () => {
     const [modalOpen, setModalOpen] = useState(false); //Toggle display of save modal
@@ -171,11 +182,17 @@ export const Info = () => {
         saveItemId = [];
     }
 
+    const toggleRefresh = () =>{
+        window.location.reload();
+    }
+
     return(
         <div className="hero" style={{
             backgroundImage: `url(${locationInfo.previewImage})`, 
             backgroundSize: "cover", 
             backgroundAttachment: "fixed"}}>
+            <button onClick={toggleRefresh}
+            className="refreshButton">Refresh Info</button>
             <div className="jumbotron jumbotron-fluid">
                 <div className="container">
                     <h1 className="display-1">{locationInfo.city}</h1>
