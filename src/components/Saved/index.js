@@ -1,27 +1,20 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
-function SavedTrips(props) {
+function Saved(props) {
   const { currentUser } = props;
   const [trips, setTrips] = useState([]);
 
   useEffect(() => {
-    const savedUser = JSON.parse(localStorage.getItem('user'));
-    if (savedUser) {
-      axios.get('/api/saved-trips')
-        .then(response => {
-          setTrips(response.data.filter(trip => trip.user === savedUser));
-        })
-        .catch(error => console.log(error));
-    }
-  }, []);
+    const savedTrips = JSON.parse(localStorage.getItem('savedTrips')) || [];
+
+    setTrips(savedTrips.filter(trip => trip.user === currentUser));
+  }, [currentUser]);
 
   const handleDeleteTrip = (tripId) => {
-    axios.delete(`/api/saved-trips/${tripId}`)
-      .then(response => {
-        setTrips(trips.filter(trip => trip.id !== tripId));
-      })
-      .catch(error => console.log(error));
+    const updatedTrips = trips.filter(trip => trip.id !== tripId);
+    setTrips(updatedTrips);
+    localStorage.setItem('savedTrips', JSON.stringify(updatedTrips));
   };
 
   return (
@@ -40,4 +33,4 @@ function SavedTrips(props) {
   );
 }
 
-export default SavedTrips;
+export default Saved;

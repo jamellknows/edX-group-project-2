@@ -4,8 +4,9 @@ import { NavigationBar } from './components/Navigation';
 import { Wrapper } from './components/Wrapper';
 import  Search    from './components/Search';
 import { Info } from './components/Info';
-import Saved from './components/Saved';
+import  Saved  from './components/Saved';
 import  Footer  from './components/Footer';
+
 
 
 
