@@ -222,7 +222,8 @@ export const Info = () => {
                                     awardName={hotel.awardname}
                                     awardYear={hotel.awardyear}
                                     awardIcon={hotel.awardicon}
-                                    saveModal={() =>saveModal(hotel.id, "hotel")}/>)}
+                                    saveModal={() =>saveModal(hotel.id, "hotel")}
+                                    pageStyle='info'/>)}
                         </div>
                     </div>
                 </div>
@@ -246,7 +247,8 @@ export const Info = () => {
                                 phone={restaurant.phone}
                                 address={restaurant.address}
                                 hours={restaurant.hours}
-                                saveModal={() =>saveModal(restaurant.id, "restaurant")}/>)}
+                                saveModal={() =>saveModal(restaurant.id, "restaurant")}
+                                pageStyle='info'/>)}
                         </div>
                     </div>
                 </div>
@@ -268,7 +270,8 @@ export const Info = () => {
                                 website={attraction.website}
                                 address={attraction.address}
                                 hours={attraction.hours}
-                                saveModal={() =>saveModal(attraction.id, "attraction")}/>)}
+                                saveModal={() =>saveModal(attraction.id, "attraction")}
+                                pageStyle='info'/>)}
                         </div>
                     </div>
                 </div>

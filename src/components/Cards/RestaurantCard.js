@@ -12,6 +12,20 @@ const getWebsiteLink = url =>{
     }
 }
 
+const getPageSpecificStyle = page =>{
+    switch(page){
+        case 'info': return {height: "20vh"};
+        case 'saved': return {height: "5vh"};
+    }
+}
+
+const getPageSpecificButton = page=>{
+    switch(page){
+        case 'info': return 'Save';
+        case 'saved': return 'Delete';
+    }
+}
+
 function RestaurantCard(props){
     const [cardOpen, setCardOpen] = useState(false);
 
@@ -24,7 +38,7 @@ function RestaurantCard(props){
             layout transistion={{layout: {duration: 1}}}
             whileHover={{boxShadow: "0px 0px 12px rgb(255,255,255)"}}>
                 <motion.img onClick={() => setCardOpen(!cardOpen)}
-                layout="posistion" src={props.image} alt="placeholder" className="card-img-top"/>
+                layout="posistion" src={props.image} alt="placeholder" className="card-img-top" style={getPageSpecificStyle(props.pageStyle)}/>
                 <motion.div layout="posistion" className="card-body">
                     <motion.h2 layout="posistion" className="card-title">{props.name}</motion.h2>
                     <motion.hr layout="posistion" className="my-2"/>
@@ -50,7 +64,7 @@ function RestaurantCard(props){
                             <motion.div className="buttonGroup">
                                 {getWebsiteLink(props.website)}
                                 <motion.button onClick={props.saveModal}
-                                whileHover={{scale: 1.1}}>Save</motion.button>
+                                whileHover={{scale: 1.1}}>{getPageSpecificButton(props.pageStyle)}</motion.button>
                             </motion.div>
                         </motion.div>)}
                     </AnimatePresence>
