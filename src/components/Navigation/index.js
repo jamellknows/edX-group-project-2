@@ -17,7 +17,7 @@ export const NavigationBar = () => {
       <>
       <Navbar className="navbar"  variant="dark">
         <Container>
-          <Link className="navbar-brand" href="/search">Journey Junkie</Link>
+          <Link className="navbar-brand" href="/search">Journey Junkies</Link>
           <Nav className="me-auto offset-md-2">
             <Link 
             to="/search"

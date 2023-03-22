@@ -41,7 +41,7 @@ let attractionData = []; //Array for attraction data
 
 let locationInfo = { //Parse user search response to get location information
     city: locationResponse[0].result_object.name,
-    country: locationResponse[0].result_object.ancestors[1].name,
+    country: locationResponse[0].result_object.name,
     latitude: locationResponse[0].result_object.latitude,
     longitude: locationResponse[0].result_object.longitude,
     description: locationResponse[0].result_object.geo_description,

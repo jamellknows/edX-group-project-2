@@ -3,14 +3,18 @@ import "./style.css"
 // import InputGroup from 'react-bootstrap/InputGroup';
 // import Button from 'react-bootstrap/Button'
 import { useState } from "react";
+import { redirect } from "react-router-dom";
 import { locationSearch, hotelSearch, restaurantSearch, attractionSearch } from './api'
+import LoadingIcon from "./LoadingIcon";
 
 const Search = () => {
-    const [cityValue, setCityValue] = useState("")
+    const [cityValue, setCityValue] = useState("");
+    const [isLoading, setLoading] = useState(false);
     let userSearchData = [];
 
     const apiQuery = query =>{
         console.log("searching...");
+        setLoading(!isLoading);
 
         locationSearch(query)
         .then(res => setLocationData(res))      
@@ -47,26 +51,21 @@ const Search = () => {
             localStorage.setItem("userSearch", JSON.stringify(userSearchData));
             
         }
-
-        // const refreshPage = () =>{
-        //     window.location.reload();
-        // }
     }
 
     return (
-        <div className="container-fluid">
-            <div className="search-page d-flex  flex-column offset-md-4 mt-5">
-                <div className="search-inputs d-flex mt-5 center-block">
-                </div>
-                <div className="search-inputs d-flex mt-5 ">
-                    <div className="input-group mb-3">
-                        <input value={cityValue} onChange={e => setCityValue(e.target.value)}
-                        type="text" className="form-control" placeholder="Enter city..." aria-label="Recipient's username" aria-describedby="basic-addon2" />
-                        <div className="input-group-append">
-                            <button onClick={() =>{apiQuery(cityValue)}}className="btn searchButton" type="button">Search</button>
-                    </div>
+    <div className="container-fluid">
+        <div className="container-fluid searchModal containerBlur">
+            <h2 style={{alignSelf: "center"}}>Search for a city to begin your journey...</h2>
+            {!isLoading &&(<p>Visit the Info tab to start planning your journey.</p>)}
+            <div className="input-group mb-3">
+                <input value={cityValue} onChange={e => setCityValue(e.target.value)}
+                type="text" className="form-control" placeholder="Enter city..." aria-label="Recipient's username" aria-describedby="basic-addon2" />
+                <div className="input-group-append">
+                    <button onClick={() =>{apiQuery(cityValue)}}className="btn searchButton" type="button">Search</button>
                 </div>
             </div>
+            {isLoading &&(<LoadingIcon/>)}
         </div>
     </div>
     );

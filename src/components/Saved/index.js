@@ -10,17 +10,6 @@ const savedJourneys = JSON.parse(localStorage.getItem('savedJourneys')) || [];
 function Saved(props) {
   const [journeys, setJourneys] = useState(savedJourneys);
 
-  // useEffect(() => {
-  //   const savedTrips = JSON.parse(localStorage.getItem('savedTrips')) || [];
-
-  //   setTrips(savedTrips.filter(trip => trip.user === currentUser));
-  // }, [currentUser]);
-
-  // const handleDeleteTrip = (tripId) => {
-  //   const updatedTrips = trips.filter(trip => trip.id !== tripId);
-  //   setTrips(updatedTrips);
-  //   localStorage.setItem('savedTrips', JSON.stringify(updatedTrips));
-  // };
   const getCardType = (arr, type) =>{
     return (arr.filter(item => item.type === type));
   }
