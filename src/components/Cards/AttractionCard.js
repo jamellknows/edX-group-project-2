@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import starRating from './DisplayRating'
 import { motion, AnimatePresence } from 'framer-motion';
 import './styles.css';
+import Map from '../Map/index'
 
 const getWebsiteLink = url =>{
     if(url === undefined){
@@ -36,7 +37,7 @@ function AttractionCard(props){
                         exit={{y: -100, opacity: 0}}
                         transition={{ duration: 0.5}}>
                             <motion.p>{props.description}</motion.p>
-                            <motion.div className="mapArea">Map goes here</motion.div>
+                            <motion.div className="mapArea"><Map/></motion.div>
                             <motion.h3>Address: {props.address}</motion.h3>
                             <motion.div className="buttonGroup">
                                 {getWebsiteLink(props.website)}

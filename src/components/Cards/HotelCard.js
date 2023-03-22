@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import starRating from './DisplayRating'
 import './styles.css';
-
+import Map from '../Map/index'
 const getWebsiteLink = url =>{
     if(url === undefined){
         return;
@@ -58,7 +58,7 @@ function HotelCard(props){
                         transition={{ duration: 0.5}}>
                             {getHotelAward(props.awardName, props.awardYear, props.awardIcon)}
                             <motion.p >Rooms from {props.price}</motion.p>
-                            <motion.div className="mapArea">Map goes here</motion.div>
+                            <motion.div className="mapArea"><Map/></motion.div>
                             <motion.div className="buttonGroup">
                                 {getWebsiteLink(props.website)}
                                 <motion.button
