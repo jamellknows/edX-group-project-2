@@ -16,6 +16,9 @@ const retrieveData = () => {
 
 }
 
+
+
+
 let responseInfo = {
 
 }
@@ -114,7 +117,8 @@ const generateAttractionDataArray = arr =>{
 
 export const Info = () => {
     const [responseData, setResponseData] = useContext(searchDataContext)
-    console.log(`retrieved data ${responseData}`)
+    let infoData = JSON.parse(localStorage.getItem('travelApiData'))
+    console.log(infoData.data.data)
 
     return(
         <div className="backgroundImg">

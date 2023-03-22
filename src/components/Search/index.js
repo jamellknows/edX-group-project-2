@@ -43,7 +43,29 @@ const Search = () => {
             console.log(error)
         }
         console.log(responseData)
-        localStorage.setItem('response', JSON.stringify(responseData))
+        localStorage.setItem('travelApiData', JSON.stringify(responseData))
+        try{
+            let url = 'https://skyscanner44.p.rapidapi.com/fly-to-country'
+            let response = await axios.get(url, {
+                params: {
+                    destination: 'SI',
+                    origin: 'MUC',
+                    departureDate: '2023-07-01',
+                    returnDate: '2023-07-21',
+                    currency: 'EUR',
+                    locale: 'en-GB',
+                    country: 'UK'
+                  },
+                  headers: {
+                    'X-RapidAPI-Key': '289a29c09emsh67b645d76a420f4p19e2ffjsn3ff56d782897',
+                    'X-RapidAPI-Host': 'skyscanner44.p.rapidapi.com'
+                  }
+
+            })
+
+        }catch(error){
+            console.log(error)
+        }
     }
 
     function searchCity(event){
