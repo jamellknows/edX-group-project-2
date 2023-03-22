@@ -5,7 +5,7 @@ import AttractionCard from '../Cards/AttractionCard';
 import { motion } from 'framer-motion';
 import './styles.css';
 // import locationResponse from '../Test Data/location-paris-france.json'
-// import hotelResponse from '../Test Data/hotel-list-paris-france.json'
+import hotelResponse from '../Test Data/hotel-list-paris-france.json'
 // import restaurantResponse from '../Test Data/restaurants-paris-france.json'
 // import attractionResponse from '../Test Data/attractions-paris-france.json'
 
@@ -31,7 +31,7 @@ const getSearchItem = (arr, type) =>{
 }
 
 let locationResponse = userSearchData[0];
-let hotelResponse = getSearchItem(userSearchData, 'hotels');
+// let hotelResponse = getSearchItem(userSearchData, 'hotels');
 let restaurantResponse = getSearchItem(userSearchData, 'restaurants');
 let attractionResponse = getSearchItem(userSearchData, 'attractions');
 
@@ -57,7 +57,7 @@ if(locationResponse === undefined || locationResponse === []){
 }
 
 const validateSearch = (arr, type) =>{
-    const noDataFound = ['No Data'];
+    const noDataFound = [{name:'No Data'}];
     switch(type){
         case 'hotel':
             if(arr === undefined || arr === []){
@@ -243,7 +243,7 @@ export const Info = () => {
                     <h2>Hotels</h2>
                     <div className="container-fluid">
                         <div className="d-flex cardContainer">
-                                {generateHotelDataArray(validateSearch(hotelResponse?.data, 'hotel')).map(hotel =><HotelCard 
+                                {validateSearch(hotelResponse.data, 'hotel').map(hotel =><HotelCard 
                                     id={hotel.id}
                                     key={`${hotel.name}-${hotel.id}`}
                                     name={hotel.name}
@@ -266,7 +266,7 @@ export const Info = () => {
                     <h2>Restaurants</h2>
                     <div className="container-fluid">
                         <div className="d-flex cardContainer">
-                            {generateRestaurantDataArray(validateSearch(restaurantResponse?.data, 'restaurant')).map(restaurant =><RestaurantCard
+                            {validateSearch(restaurantResponse.data, 'restaurant').map(restaurant =><RestaurantCard
                                 id={restaurant.id}
                                 key={`${restaurant.name}-${restaurant.id}`}
                                 type="restaurant"
@@ -291,7 +291,7 @@ export const Info = () => {
                     <h2>Attractions</h2>
                     <div className="container-fluid">
                         <div className="d-flex cardContainer">
-                            {generateAttractionDataArray(validateSearch(attractionResponse?.data, 'attraction')).map(attraction =><AttractionCard
+                            {validateSearch(attractionResponse.data, 'attraction').map(attraction =><AttractionCard
                                 id={attraction.id}
                                 key={`${attraction.name}-${attraction.id}`}
                                 type="attraction"

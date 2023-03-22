@@ -3,11 +3,8 @@ import "./style.css"
 // import InputGroup from 'react-bootstrap/InputGroup';
 // import Button from 'react-bootstrap/Button'
 import { useState } from "react";
-import { redirect } from "react-router-dom";
 import { locationSearch, hotelSearch, restaurantSearch, attractionSearch } from './api'
 import LoadingIcon from "./LoadingIcon";
-
-localStorage.setItem("userSearch", JSON.stringify([]))
 
 const Search = () => {
     const [cityValue, setCityValue] = useState("");

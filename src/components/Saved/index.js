@@ -54,7 +54,7 @@ function Saved(props) {
       <div className="d-flex justify-content-between">
         <h1>Your Saved Journeys</h1>
         <motion.button onClick={() =>{refreshJourneys()}} whileHover={{scale: 1.1}}
-        className="button">Refresh Journeys</motion.button>
+        className="button" style={{width: "200px"}}>Refresh Journeys</motion.button>
       </div>
         {journeys.map(journey => <div className="container-fluid containerBlur" style={{padding: "10px"}}>
           <div className="journeyHeader"> 
