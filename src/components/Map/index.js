@@ -5,8 +5,8 @@ import 'leaflet/dist/leaflet.css';
 import markerIcon from './marker-icon.png';
 // import markerShadow from './marker-shadow.png';
 
-function Map() {
-  const position = [51.505, -0.09]; // London coordinates
+function Map(props) {
+  // const position = [51.505, -0.09]; // London coordinates
 
   const customMarkerIcon = L.icon({
     iconUrl: markerIcon,
@@ -16,9 +16,9 @@ function Map() {
   });
 
   return (
-    <MapContainer center={position} zoom={20} scrollWheelZoom={false} style={{ height: '100vh' }}>
+    <MapContainer center={props.coords} zoom={20} scrollWheelZoom={false} style={{ height: '200px' }}>
       <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-      <Marker position={position} icon={customMarkerIcon}>
+      <Marker position={props.coords} icon={customMarkerIcon}>
         <Popup>
           I am a popup.... <br /> that is easily customisable.
         </Popup>

@@ -4,7 +4,9 @@ import { motion } from 'framer-motion';
 import HotelCard from '../Cards/HotelCard';
 import RestaurantCard from '../Cards/RestaurantCard';
 import AttractionCard from '../Cards/AttractionCard';
-// import './styles.css';
+
+import './styles.css';
+
 
 const savedJourneys = JSON.parse(localStorage.getItem('savedJourneys')) || [];
 let tempJourneyTitle = '';
