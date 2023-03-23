@@ -7,6 +7,8 @@
   - [Installation](#installation)
 
    -[Usage](#usage)
+   
+   -[Screenshots](#screenshots)
 
    -[License](#license)
  
@@ -14,14 +16,22 @@
    -[Tests](#tests)
  
    -[Questions](#questions)
- 
-  
+   
+
   ---
   ## Installation 
   NOT AN INSTALLABLE APPLICATION
   ---
   ## Usage 
   Available at: 
+  
+  ## Screenshots
+  
+  ![Alt text]('./public/assets/demo1.png'?raw=true "Search")
+  
+  ![Alt text]('./public/assets/demo2.png'?raw=true "Info")
+  
+  ![Alt text]('./public/assets/demo3.png'?raw=true "Saved")
   ---
   ## License 
   Apache License
