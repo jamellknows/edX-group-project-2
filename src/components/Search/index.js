@@ -6,6 +6,10 @@ import { useState } from "react";
 import { locationSearch, hotelSearch, restaurantSearch, attractionSearch } from './api'
 import LoadingIcon from "./LoadingIcon";
 
+if (localStorage.getItem("userSearch") === null) {
+    localStorage.setItem("userSearch",JSON.stringify([]));
+}
+
 const Search = () => {
     const [cityValue, setCityValue] = useState("");
     const [isLoading, setLoading] = useState(false);
