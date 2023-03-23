@@ -243,7 +243,7 @@ export const Info = () => {
                     <h2>Hotels</h2>
                     <div className="container-fluid">
                         <div className="d-flex cardContainer">
-                                {validateSearch(hotelResponse.data, 'hotel').map(hotel =><HotelCard 
+                                {validateSearch(hotelResponse?.data, 'hotel').map(hotel =><HotelCard 
                                     id={hotel.id}
                                     key={`${hotel.name}-${hotel.id}`}
                                     name={hotel.name}
@@ -266,7 +266,7 @@ export const Info = () => {
                     <h2>Restaurants</h2>
                     <div className="container-fluid">
                         <div className="d-flex cardContainer">
-                            {validateSearch(restaurantResponse.data, 'restaurant').map(restaurant =><RestaurantCard
+                            {validateSearch(restaurantResponse?.data, 'restaurant').map(restaurant =><RestaurantCard
                                 id={restaurant.id}
                                 key={`${restaurant.name}-${restaurant.id}`}
                                 type="restaurant"
@@ -291,7 +291,7 @@ export const Info = () => {
                     <h2>Attractions</h2>
                     <div className="container-fluid">
                         <div className="d-flex cardContainer">
-                            {validateSearch(attractionResponse.data, 'attraction').map(attraction =><AttractionCard
+                            {validateSearch(attractionResponse?.data, 'attraction').map(attraction =><AttractionCard
                                 id={attraction.id}
                                 key={`${attraction.name}-${attraction.id}`}
                                 type="attraction"
