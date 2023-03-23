@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import starRating from './DisplayRating'
 import Map from '../Map/index'
 import './styles.css';
-
+import Map from '../Map/index'
 const getWebsiteLink = url =>{
     if(url === undefined){
         return;
@@ -77,9 +77,11 @@ function HotelCard(props){
                         transition={{ duration: 0.5}}>
                             {getHotelAward(props.awardName, props.awardYear, props.awardIcon)}
                             <motion.p >Rooms from {props.price}</motion.p>
+
                             <motion.div className="mapArea">
                                 <Map coords={props.coords} />
                             </motion.div>
+
                             <motion.div className="buttonGroup">
                                 {getWebsiteLink(props.website)}
                                 <motion.button onClick={props.saveModal}

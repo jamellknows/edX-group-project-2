@@ -2,7 +2,9 @@
 
 .footer{
     position: fixed;
+
     height: 3vh;
+
     color: black;
     background-color: azure;
     border: 2px solid white;
@@ -23,7 +25,9 @@
     font-weight: 100;
 }
 
+
 .list-item{
     padding-left: 10px;
     padding-right: 10px;
+
 }

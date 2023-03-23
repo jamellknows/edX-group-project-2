@@ -40,6 +40,8 @@ export const NavigationBar = () => {
             : "nav-link"}
             >Saved</Link>
           </Nav>
+          <br></br>
+          <h3 style={{"color": "white"}} className="lead"> Search for 1 week get aways from tomorrow</h3>
         </Container>
       </Navbar>
     </>

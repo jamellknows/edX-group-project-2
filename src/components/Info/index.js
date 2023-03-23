@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import HotelCard from '../Cards/HotelCard';
 import RestaurantCard from '../Cards/RestaurantCard';
 import AttractionCard from '../Cards/AttractionCard';
 import { motion } from 'framer-motion';
 import './styles.css';
+
 // import locationResponse from '../Test Data/location-paris-france.json'
 // import hotelResponse from '../Test Data/hotel-list-paris-france.json'
 // import restaurantResponse from '../Test Data/restaurants-paris-france.json'
@@ -54,6 +55,7 @@ if(locationResponse === undefined || locationResponse === []){
         description: locationResponse[0].result_object.geo_description,
         previewImage: locationResponse[0].result_object.photo.images.original.url
     }
+
 }
 
 const validateSearch = (arr, type) =>{
@@ -179,6 +181,7 @@ const getSavedJourneys = (savedJourneys) =>{ //function to check if user has any
 }
 
 export const Info = () => {
+
     const [modalOpen, setModalOpen] = useState(false); //Toggle display of save modal
     const [journeyName, setJourneyName] = useState(""); //Get user input for journey name
 
@@ -226,6 +229,7 @@ export const Info = () => {
         setModalOpen(!modalOpen);
         saveItemId = [];
     }
+
 
     return(
         <div className="hero" style={{
