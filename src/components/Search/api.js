@@ -38,10 +38,7 @@ export function hotelSearch(location){
         },
 
     })
-
 }
-
-
 
 export function restaurantSearch(location){
     const url = 'https://travel-advisor.p.rapidapi.com/restaurants/list'
@@ -63,7 +60,6 @@ export function restaurantSearch(location){
 
 export function attractionSearch(location){
     const url = 'https://travel-advisor.p.rapidapi.com/attractions/list'
-
     return axios.get(url, {
         headers: {
             'X-RapidAPI-Key': '289a29c09emsh67b645d76a420f4p19e2ffjsn3ff56d782897',
@@ -71,32 +67,6 @@ export function attractionSearch(location){
         },
         params: {
             location_id: `${location}`,
-
-            restaurant_tagcategory: '10591',
-            restaurant_tagcategory_standalone: '10591',
-            currency: 'GBP',
-            limit: '30'
-        },
-
-    })
-}
-
-export function attractionSearch(location){
-    const url = 'https://travel-advisor.p.rapidapi.com/attractions/list'
-    return axios.get(url, {
-        headers: {
-            'X-RapidAPI-Key': '289a29c09emsh67b645d76a420f4p19e2ffjsn3ff56d782897',
-            'X-RapidAPI-Host': 'travel-advisor.p.rapidapi.com'
-        },
-        params: {
-            location_id: `${location}`,
-            currency: 'GBP',
-            sort: 'recommended'
-        },
-
-    })
-}
-
             currency: 'GBP',
             sort: 'recommended'
         },
