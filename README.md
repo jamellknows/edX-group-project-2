@@ -26,13 +26,14 @@
   Available at: 
   
   ## Screenshots
+    ---
   
-  ![Alt text]('./public/assets/demo1.png'?raw=true "Search")
+  ![Search]('./public/assets/demo1.png'?raw=true "Search")
   
-  ![Alt text]('./public/assets/demo2.png'?raw=true "Info")
+  ![Info]('./public/assets/demo2.png'?raw=true "Info")
   
-  ![Alt text]('./public/assets/demo3.png'?raw=true "Saved")
-  ---
+  ![Saved]('./public/assets/demo3.png'?raw=true "Saved")
+
   ## License 
   Apache License
     ==============
