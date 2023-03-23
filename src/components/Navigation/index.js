@@ -20,7 +20,7 @@ export const NavigationBar = () => {
           <Link className="navbar-brand" href="/search">Journey Junkies</Link>
           <Nav className="me-auto offset-md-2">
             <Link 
-            to="/search"
+            to="/"
             className={window.location.pathname === "/search"
             ? "nav-link activated" 
             : "nav-link"

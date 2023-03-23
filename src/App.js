@@ -19,7 +19,7 @@ function App() {
     <Wrapper>
     <NavigationBar/>  
       <Routes>
-        <Route  path="/search" element={<Search/>}/>
+        <Route  path="/" element={<Search/>}/>
         <Route  path="/info" element={<Info/>}/>
         <Route  path="/saved" element={<Saved/>}/>
       </Routes>

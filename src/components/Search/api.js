@@ -7,7 +7,7 @@ export function locationSearch(query){
 
     return axios.get(url, { 
         headers: {
-            'X-RapidAPI-Key': '289a29c09emsh67b645d76a420f4p19e2ffjsn3ff56d782897',
+            'X-RapidAPI-Key': 'd3220aa0c6mshc1b5d648d981c84p1d73a4jsn5d20625d379d',
             'X-RapidAPI-Host': 'travel-advisor.p.rapidapi.com'
         },
         params: {
@@ -21,7 +21,7 @@ export function hotelSearch(location){
     const url = 'https://travel-advisor.p.rapidapi.com/hotels/get-details'
     return axios.get(url, {
         headers: {
-            'X-RapidAPI-Key': '289a29c09emsh67b645d76a420f4p19e2ffjsn3ff56d782897',
+            'X-RapidAPI-Key': 'd3220aa0c6mshc1b5d648d981c84p1d73a4jsn5d20625d379d',
             'X-RapidAPI-Host': 'travel-advisor.p.rapidapi.com'
         },
         params: {
@@ -44,7 +44,7 @@ export function restaurantSearch(location){
     const url = 'https://travel-advisor.p.rapidapi.com/restaurants/list'
     return axios.get(url, {
         headers: {
-            'X-RapidAPI-Key': '289a29c09emsh67b645d76a420f4p19e2ffjsn3ff56d782897',
+            'X-RapidAPI-Key': 'd3220aa0c6mshc1b5d648d981c84p1d73a4jsn5d20625d379d',
             'X-RapidAPI-Host': 'travel-advisor.p.rapidapi.com'
         },
         params: {
@@ -62,7 +62,7 @@ export function attractionSearch(location){
     const url = 'https://travel-advisor.p.rapidapi.com/attractions/list'
     return axios.get(url, {
         headers: {
-            'X-RapidAPI-Key': '289a29c09emsh67b645d76a420f4p19e2ffjsn3ff56d782897',
+            'X-RapidAPI-Key': 'd3220aa0c6mshc1b5d648d981c84p1d73a4jsn5d20625d379d',
             'X-RapidAPI-Host': 'travel-advisor.p.rapidapi.com'
         },
         params: {
