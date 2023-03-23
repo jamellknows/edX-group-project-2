@@ -15,28 +15,32 @@ let journeyJunkieData = {
 }
 
 
+let api_key = 'g_cOM4Fm_5gdpejd077YrJrGXqZTLtdn'
 
 
-const Search = () => {
 
+ const Search = () => {
+    const [journeyStart, setJourneyStart] = useState("")
     const [countryValue, setCountryValue] = useState("");
     const [activitiesData, setActivitiesData] = useState("")
-    const [cityCode, setFlightCode] = useState("")
-    const [flightData, setFlightData] = useState("")
-    const [hotelCode, setHotelCode] = useState("")
-    const [hotelData, setHotelData] = useState("")
+    const [advisorLocationData, setAdvisorLocationData] = useState("")
     const [restaurantData, setRestaurantData] = useState("")
+    const [hotelData, setHotelData] = useState("")
+    const [flightLocationData, setFlightLocationData] = useState("")
+    const [flightStartData, setFlightStartData] = useState("")
+    const [flightData, setFlightData] = useState("")
     const [responseData, setResponseData] = useContext(searchDataContext)
     // const data = (localStorage.getItem('searchResults') == null) ? JSON.parse(localStorage.getItem('searchResults')) : [];
 
-    const searchCountry = async(country) => {
-        country.preventDefault()
-        let url = 'https://travel-advisor.p.rapidapi.com/locations/search'
-        // things to do and activities
+    const searchCountry = async() => {
+        let country = countryValue
+        country.toString()
+        // TRAVEL ADVISOR activities
+       let url = 'https://travel-advisor.p.rapidapi.com/locations/search'
         try {
             let response = await axios.get(url, { 
                 headers: {
-                    'X-RapidAPI-Key': '289a29c09emsh67b645d76a420f4p19e2ffjsn3ff56d782897',
+                    'X-RapidAPI-Key': 'b39d10bcd8mshb082a80bebbbc89p116733jsn57db7d9fb4c0',
                     'X-RapidAPI-Host': 'travel-advisor.p.rapidapi.com'
                 },
                 params: {
@@ -50,168 +54,175 @@ const Search = () => {
                     lang: 'en_US'
                 }      
                  }).then(function(data){
-                    console.log(data)
                     setActivitiesData(data)
                  })
         }catch(error){
             console.log(error)
         }
-        console.log("activites")
         console.log(activitiesData)
-        let acttivitesreturn = activitiesData
-        console.log(acttivitesreturn)
-         url = "https://priceline-com-provider.p.rapidapi.com/v1/flights/locations"
 
-        //flights and locations --
-        // first get airport data 
-        url = 'https://skyscanner44.p.rapidapi.com/fly-to-country'
-
+        url = 'https://travel-advisor.p.rapidapi.com/locations/search'
         try{
-            let response = await axios.get(url, {
-                params: {query: 'berlin'},
+            let response = await axios.get(url, { 
                 headers: {
-                  'X-RapidAPI-Key': '289a29c09emsh67b645d76a420f4p19e2ffjsn3ff56d782897',
-                  'X-RapidAPI-Host': 'skyscanner44.p.rapidapi.com'
+                    'X-RapidAPI-Key': 'b39d10bcd8mshb082a80bebbbc89p116733jsn57db7d9fb4c0',
+                    'X-RapidAPI-Host': 'travel-advisor.p.rapidapi.com'
+                },
+                params: {
+                    query: `${country}`,
+                    limit: '1'
                 }
             }).then(function(data){
-                console.log(data)
-                setFlightCode(data)
-            })
-        }catch(error){
-            console.log(error)
-        }
+                setAdvisorLocationData(data)
 
-        url = 'https://skyscanner44.p.rapidapi.com/fly-to-country'
-
-        try{
-            let response = await axios.get(url, {
-                params: {
-                    destination: 'SI',
-                    origin: 'MUC',
-                    departureDate: '2023-07-01',
-                    returnDate: '2023-07-21',
-                    currency: 'EUR',
-                    locale: 'en-GB',
-                    country: 'UK'
-                  },
-                  headers: {
-                    'X-RapidAPI-Key': '289a29c09emsh67b645d76a420f4p19e2ffjsn3ff56d782897',
-                    'X-RapidAPI-Host': 'skyscanner44.p.rapidapi.com'
-                  }
-            }).then(function(data){
-                console.log(data)
-                setFlightData(data)
             })
         }catch(error){
             console.log(error)
         }
 
 
-        
-       
+        url = 'https://travel-advisor.p.rapidapi.com/hotels/get-details'
 
-        // hotels 
-        url = 'https://priceline-com-provider.p.rapidapi.com/v1/hotels/locations'
         try{
-
             let response = await axios.get(url, {
-                params: {name: `${countryValue}`, search_type: 'ALL'},
                 headers: {
-                'X-RapidAPI-Key': '289a29c09emsh67b645d76a420f4p19e2ffjsn3ff56d782897',
-                'X-RapidAPI-Host': 'priceline-com-provider.p.rapidapi.com'
-                    }
-            }).then(function(data){
-                console.log(data);
-                setHotelCode(data)
-            })
-
-        }catch(error){
-            console.log(error)
-        }
-        console.log("hotel code")
-        console.log(hotelCode)
-        let hotelcode = hotelCode
-        // get date 
-        // get date + 1 week
-        // 
-        url = 'https://priceline-com-provider.p.rapidapi.com/v1/hotels/search'
-        try{
-            let response = await axios.get(url, {
+                    'X-RapidAPI-Key': 'b39d10bcd8mshb082a80bebbbc89p116733jsn57db7d9fb4c0',
+                    'X-RapidAPI-Host': 'travel-advisor.p.rapidapi.com'
+                },
                 params: {
-                    date_checkout: '2023-07-23',
-                    sort_order: 'HDR',
-                    date_checkin: '2023-07-22',
-                    location_id: `${hotelcode}`,
-                    star_rating_ids: '3.0,3.5,4.0,4.5,5.0',
-                    amenities_ids: 'FINTRNT,FBRKFST',
-                    rooms_number: '1'
-                  },
-                  headers: {
-                    'X-RapidAPI-Key': '289a29c09emsh67b645d76a420f4p19e2ffjsn3ff56d782897',
-                    'X-RapidAPI-Host': 'priceline-com-provider.p.rapidapi.com'
-                  }
+                    location_id: `${advisorLocationData}`,
+                    adults: '1',
+                    rooms: '1',
+                    nights: '2',
+                    offset: '0',
+                    currency: 'GBP',
+                    order: 'asc',
+                    limit: '30',
+                    sort: 'recommended',
+                    lang: 'en_US'
+                },
+        
             }).then(function(data){
-                console.log(data)
                 setHotelData(data)
             })
         }catch(error){
             console.log(error)
         }
-        console.log("hotels")
-        console.log(hotelData)
+        
 
+        
+        // get restaurant data
 
-
-
-        //restaurants
-        url = 'https://the-fork-the-spoon.p.rapidapi.com/restaurants/v2/auto-complete'
-        try {
+        url = 'https://travel-advisor.p.rapidapi.com/restaurants/list'
+        try{
             let response = await axios.get(url, {
+                headers: {
+                    'X-RapidAPI-Key': 'b39d10bcd8mshb082a80bebbbc89p116733jsn57db7d9fb4c0',
+                    'X-RapidAPI-Host': 'travel-advisor.p.rapidapi.com'
+                },
                 params: {
-                    date_checkout: '2023-07-23',
-                    sort_order: 'HDR',
-                    date_checkin: '2023-07-22',
-                    location_id: '3000035821',
-                    star_rating_ids: '3.0,3.5,4.0,4.5,5.0',
-                    amenities_ids: 'FINTRNT,FBRKFST',
-                    rooms_number: '1'
-                  },
-                  headers: {
-                    'X-RapidAPI-Key': '289a29c09emsh67b645d76a420f4p19e2ffjsn3ff56d782897',
-                    'X-RapidAPI-Host': 'priceline-com-provider.p.rapidapi.com'
-                  }
+                    location_id: `${advisorLocationData}`,
+                    restaurant_tagcategory: '10591',
+                    restaurant_tagcategory_standalone: '10591',
+                    currency: 'GBP',
+                    limit: '30'
+                }
             }).then(function(data){
                 setRestaurantData(data)
-                console.log(data)
             })
+
         }catch(error){
             console.log(error)
         }
-        let restaurantsreturn = restaurantData
-        console.log(restaurantsreturn)
-        console.log("restaurants")
-        console.log(restaurantData)
+        // flight locations - destination
 
-        journeyJunkieData.country.push(countryValue)
-        journeyJunkieData.activities.push(activitiesData)
-        journeyJunkieData.citycode.push(cityCode)
-        journeyJunkieData.flights.push(flightData)
-        journeyJunkieData.hotelcode.push(hotelCode)
-        journeyJunkieData.hotels.push(hotelData)
-        journeyJunkieData.restaurants.push(restaurantData)
-        //create one data store and combine 
+                let options = {
+                method: 'GET',
+                url: 'https://priceline-com-provider.p.rapidapi.com/v1/flights/locations',
+                params: {name: `${country}`},
+                headers: {
+                'X-RapidAPI-Key': 'b39d10bcd8mshb082a80bebbbc89p116733jsn57db7d9fb4c0',
+                'X-RapidAPI-Host': 'priceline-com-provider.p.rapidapi.com'
+                }
+                };
+        
+                axios.request(options).then(function (response) {
+                setFlightLocationData(response)
+                }).catch(function (error) {
+                console.error(error);
+                });
+                console.log(flightData)
+        
 
-        setResponseData(journeyJunkieData)
-        localStorage.setItem('journeyJunkieData', JSON.stringify(responseData))
-        console.log(journeyJunkieData)
-    }
+                let dest_city_code = flightLocationData.data[0].cityCode
 
-    function searchCity(event){
-        event.preventDefault()
-        // Promise.all([API(countryValue)])
-        // .then(function(results){
-        //     console.log(results)
-        // })
+                options = {
+                method: 'GET',
+                url: 'https://priceline-com-provider.p.rapidapi.com/v1/flights/locations',
+                params: {name: `${journeyStart}`},
+                headers: {
+                'X-RapidAPI-Key': 'b39d10bcd8mshb082a80bebbbc89p116733jsn57db7d9fb4c0',
+                'X-RapidAPI-Host': 'priceline-com-provider.p.rapidapi.com'
+                }
+                };
+        
+                axios.request(options).then(function (response) {
+                setFlightStartData(response)
+                }).catch(function (error) {
+                console.error(error);
+                });
+
+                let start_city_code = flightStartData.data[0].cityCode
+
+         
+                 options = {
+                    method: 'GET',
+                    url: 'https://priceline-com-provider.p.rapidapi.com/v1/flights/search',
+                    params: {
+                      date_departure: '2023-07-22',
+                      location_departure: `${start_city_code}`,
+                      location_arrival: `${dest_city_code}`,
+                      class_type: 'ECO',
+                      sort_order: 'PRICE',
+                      itinerary_type: 'ONE_WAY',
+                      price_min: '100',
+                      date_departure_return: '2023-07-23',
+                      number_of_passengers: '1',
+                      price_max: '20000',
+                      duration_max: '2051',
+                      number_of_stops: '1'
+                    },
+                    headers: {
+                      'X-RapidAPI-Key': 'b39d10bcd8mshb082a80bebbbc89p116733jsn57db7d9fb4c0',
+                      'X-RapidAPI-Host': 'priceline-com-provider.p.rapidapi.com'
+                    }
+                  };
+        
+                    axios.request(options).then(function (response) {
+                    setFlightData(response)
+                    }).catch(function (error) {
+                    console.error(error);
+                    });
+         
+             if(countryValue.length > 0){
+                journeyJunkieData.country.push(countryValue)
+             }
+             if(activitiesData.length > 0){
+                journeyJunkieData.activities.push(activitiesData)
+             }
+             if(flightData.length > 0){
+                journeyJunkieData.flights.push(flightData)
+             }
+             if(hotelData.length > 0){
+                journeyJunkieData.hotels.push(hotelData)
+             }
+             if(restaurantData.length > 0){
+                journeyJunkieData.restaurants.push(restaurantData)
+             }
+              
+                setResponseData(journeyJunkieData)
+                localStorage.setItem('journeyJunkieData', JSON.stringify(responseData))
+                console.log(journeyJunkieData)
     }
 
     return (
@@ -222,23 +233,24 @@ const Search = () => {
                 <div className="search-inputs d-flex mt-5 center-block">
                     <div className="input-group mx-auto mt-5">
                         <div className="input-group-prepend">
-                            <span className="input-group-text" id="basic-addon1" onClick={searchCountry}>Search By Country</span>
+                            <span className="input-group-text" id="basic-addon1" >Journey Start</span>
                         </div>
-                        <input id="country-input" value={countryValue} onChange={evt => setCountryValue(evt.target.value) } type="text" className="form-control" placeholder="Country" aria-label="Country" aria-describedby="basic-addon1"></input>
+                        <input id="country-input" value={journeyStart} onChange={evt => setJourneyStart(evt.target.value) } type="text" className="form-control" placeholder="Start" aria-label="Country" aria-describedby="basic-addon1"></input>
                     </div>
-                </div>
-                <div className="search-inputs d-flex mt-5 ">
-                    <div className="input-group mx-auto">
+                    <div className="input-group mx-auto mt-5">
                         <div className="input-group-prepend">
-                            <span className="input-group-text" id="basic-addon1" onClick={searchCity}>Search By City</span>
+                            <span className="input-group-text" id="basic-addon1" onClick={searchCountry}>Journey End</span>
                         </div>
-                        <input id="city-input"type="text" className="form-control" placeholder="City" aria-label="City" aria-describedby="basic-addon1"></input>
+                        <input id="country-input" value={countryValue} onChange={evt => setCountryValue(evt.target.value) } type="text" className="form-control" placeholder="End" aria-label="Country" aria-describedby="basic-addon1"></input>
                     </div>
                 </div>
+               
+                 
+               
             </div>
         </div>
       </>
     );
 }
 
-export default Search
+export default Search;

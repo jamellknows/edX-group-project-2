@@ -11,23 +11,8 @@ import attractionResponse from '../Test Data/attractions-paris-france.json'
 import { searchDataContext } from "../../context/SearchDataProvider";
 import Map from '../Map/index'
 
-// things to do 
-// activities
-// hotels 
-// restaurants 
-// attractions 
-//map
-// save them in a carousel - // on click will reload data back in 
-// get georges footer 
 
-// deploy
 
-// flights just an aircraft image 
-
-// hotel - hotel image
-
-// put the map in render component 
-// latitude and longitute 
 let locationInfo = {
     city: locationResponse.data[0].result_object.name,
     country: locationResponse.data[0].result_object.ancestors[1].name,
@@ -125,6 +110,8 @@ export const Info = () => {
     // const [responseData, setResponseData] = useContext(searchDataContext)
     // let infoData = JSON.parse(localStorage.getItem('travelApiData'))
     // console.log(infoData.data.data)
+    const [responseData, setResponseData] = useContext(searchDataContext)
+    
 
     return(
         <div className="backgroundImg">
