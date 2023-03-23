@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-import starRating from './DisplayRating'
 import { motion, AnimatePresence } from 'framer-motion';
+import starRating from './DisplayRating'
 import './styles.css';
 import Map from '../Map/index'
-
 const getWebsiteLink = url =>{
     if(url === undefined){
         return;
@@ -12,7 +11,9 @@ const getWebsiteLink = url =>{
     }
 }
 
-function AttractionCard(props){
+
+
+function F;ightCard(props){
     const [cardOpen, setCardOpen] = useState(false);
 
     return (
@@ -36,20 +37,21 @@ function AttractionCard(props){
                         animate={{y: 0, opacity: 1}}
                         exit={{y: -100, opacity: 0}}
                         transition={{ duration: 0.5}}>
-                            <motion.p>{props.description}</motion.p>
+                            {getHotelAward(props.awardName, props.awardYear, props.awardIcon)}
+                            <motion.p >Rooms from {props.price}</motion.p>
                             <motion.div className="mapArea"><Map/></motion.div>
-                            <motion.h3>Address: {props.address}</motion.h3>
                             <motion.div className="buttonGroup">
                                 {getWebsiteLink(props.website)}
                                 <motion.button
                                 whileHover={{scale: 1.1}}>Save</motion.button>
                             </motion.div>
                         </motion.div>)}
-                    </AnimatePresence>
+                        </AnimatePresence>
                 </motion.div>
             </motion.div>
         </motion.div>
+        
     );
 }
 
-export default AttractionCard;
+export default HotelCard;

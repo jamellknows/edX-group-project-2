@@ -9,19 +9,10 @@ import hotelResponse from '../Test Data/hotel-list-paris-france.json'
 import restaurantResponse from '../Test Data/restaurants-paris-france.json'
 import attractionResponse from '../Test Data/attractions-paris-france.json'
 import { searchDataContext } from "../../context/SearchDataProvider";
-
-
-const retrieveData = () => {
-   
-
-}
+import Map from '../Map/index'
 
 
 
-
-let responseInfo = {
-
-}
 let locationInfo = {
     city: locationResponse.data[0].result_object.name,
     country: locationResponse.data[0].result_object.ancestors[1].name,
@@ -116,9 +107,11 @@ const generateAttractionDataArray = arr =>{
 }
 
 export const Info = () => {
+    // const [responseData, setResponseData] = useContext(searchDataContext)
+    // let infoData = JSON.parse(localStorage.getItem('travelApiData'))
+    // console.log(infoData.data.data)
     const [responseData, setResponseData] = useContext(searchDataContext)
-    let infoData = JSON.parse(localStorage.getItem('travelApiData'))
-    console.log(infoData.data.data)
+    
 
     return(
         <div className="backgroundImg">
