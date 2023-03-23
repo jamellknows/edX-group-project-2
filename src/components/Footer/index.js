@@ -17,23 +17,17 @@ const Footer = () => {
         setModalIsOpen(false);
     }
 
-    const setModalIsOpenToTrue2 = () => {
-        setModalIsOpen2(true);
-    }
-
-    const setModalIsOpenToFalse2 = () =>{
-        setModalIsOpen2(false);
-    }
-
-
 
     return(
         <>
         <footer className="container-fluid footer fixed-bottom">
-            <div className="d-inline-block">
-                {/* <div className="col-6"> */}
-                    <ul>
-                        <li className="list-item"><button type="button" className="btn btn-info footer-button" onClick={setModalIsOpenToTrue}>Github Links</button></li>
+            <div className="d-flex">
+                <div className="mx-auto">
+                    <ul className="list-group list-group-horizontal" style={{listStyle: "none"}}>
+                        <li className="list-item">Contact Us</li>
+                        <li className="list-item">Github Links</li>
+                        <li className="list-item"><button type="button" className="btn btn-info footer-button" onClick={setModalIsOpenToTrue}>Privacy Policy</button></li>
+
                         <Modal isOpen={modalIsOpen} ariaHideApp={false} preventScroll={false}>
                             <button className="btn btn-info" onClick={setModalIsOpenToFalse}>X</button>
                             <GithubLinks/>
@@ -44,8 +38,9 @@ const Footer = () => {
                             <PrivacyPolicy/>
                         </Modal>
                     </ul>
-                {/* </div> */}
-               
+
+                </div>
+
             </div>
         </footer>
         </>

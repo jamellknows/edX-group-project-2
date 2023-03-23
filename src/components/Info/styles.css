@@ -2,11 +2,6 @@ h2{
     color: white;
 }
 
-.backgroundImg{
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
 .container{
     width: 100%;
 }
@@ -52,4 +47,47 @@ h2{
   
   ::-webkit-scrollbar-corner {
     background: #fff3;
+  }
+
+  .saveModal{
+    width:400px;
+    height: 300px;
+    position: fixed;
+    z-index: 1;
+    left:50%;
+    top:50%;
+    margin-left:-200px;
+    margin-top:-150px;
+    color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .closeButton{
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0)!important;
+    border-color: rgba(0, 0, 0, 0)!important;
+  }
+
+  .saveModal button{
+    background-color: #00A6A6;
+    color: white;
+    border-color: #00A6A6;
+    border-radius: 0 5px 5px 0;
+  }
+
+  .saveModal button:hover{
+    background-color: #00A6A6;
+    border-color: #00A6A6;
+  }
+
+  .refreshButton{
+    position: absolute;
+    z-index: 1;
+    background-color: #00A6A6;
+    color: white;
+    border-color: #00A6A6;
+    border-style: none;
+    border-radius: 0 5px 5px 0;
   }
