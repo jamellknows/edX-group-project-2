@@ -28,11 +28,11 @@
   ## Screenshots
     ---
   
-  <img src="/public/assets/demo1.png" width="128"/>
+  <img src="/public/assets/demo1.png" width="512"/>
 
-  <img src="/public/assets/demo2.png" width="128"/>
+  <img src="/public/assets/demo2.png" width="512"/>
   
-  <img src="/public/assets/demo3.png" width="128"/>
+  <img src="/public/assets/demo3.png" width="512"/>
 
   ## License 
   Apache License
