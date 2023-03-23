@@ -28,11 +28,11 @@
   ## Screenshots
     ---
   
-  ![Search]('./public/assets/demo1.png'?raw=true "Search")
+  !<img src="./public/assets/demo1.png" width="128"/>
+
+  !<img src="./public/assets/demo2.png" width="128"/>
   
-  ![Info]('./public/assets/demo2.png'?raw=true "Info")
-  
-  ![Saved]('./public/assets/demo3.png'?raw=true "Saved")
+  !<img src="./public/assets/demo3.png" width="128"/>
 
   ## License 
   Apache License
