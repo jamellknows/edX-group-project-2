@@ -1,0 +1,35 @@
+
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.4);
+    /* z-index: 1; */
+}
+
+
+.navbar-brand{
+    color: #00A6A6;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+.nav-link{
+    color: white;
+    margin-right: 1rem;
+
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.nav-link.activated{
+    color: #00A6A6;
+}
+
+.nav-link.activated:hover{
+    color: white;
+}

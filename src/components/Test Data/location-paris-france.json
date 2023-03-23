@@ -1,0 +1,3887 @@
+{
+    "data": [
+      {
+        "result_type": "geos",
+        "result_object": {
+          "location_id": "187147",
+          "name": "Paris",
+          "latitude": "48.857037",
+          "longitude": "2.349401",
+          "num_reviews": "4912950",
+          "timezone": "Europe/Paris",
+          "location_string": "Paris, Ile-de-France",
+          "photo": {
+            "images": {
+              "small": {
+                "width": "150",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-l/1c/c2/86/0e/caption.jpg",
+                "height": "150"
+              },
+              "thumbnail": {
+                "width": "50",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-t/1c/c2/86/0e/caption.jpg",
+                "height": "50"
+              },
+              "original": {
+                "width": "2970",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/1c/c2/86/0e/caption.jpg",
+                "height": "3713"
+              },
+              "large": {
+                "width": "360",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/1c/c2/86/0e/caption.jpg",
+                "height": "450"
+              },
+              "medium": {
+                "width": "164",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-f/1c/c2/86/0e/caption.jpg",
+                "height": "205"
+              }
+            },
+            "is_blessed": false,
+            "uploaded_date": "2021-03-19T11:26:28-0400",
+            "caption": "",
+            "id": "482510350",
+            "helpful_votes": "22",
+            "published_date": "2021-03-19T11:26:28-0400",
+            "user": null
+          },
+          "awards": [
+            {
+              "award_type": "Traveler's Choice",
+              "year": "2023",
+              "images": {
+                "small": "https://static.tacdn.com/img2/awards/TC-Color-60x60-updated-green.png",
+                "large": "https://www.tripadvisor.com/img2/awards/TC_2014_downloadable_L_TM.jpg"
+              },
+              "categories": [
+                "Popular Destinations",
+                "Best Food Destinations"
+              ],
+              "display_name": "Travelers' Choice 2023"
+            }
+          ],
+          "doubleclick_zone": "eu.france.paris",
+          "preferred_map_engine": "default",
+          "geo_type": "narrow",
+          "category_counts": {
+            "attractions": {
+              "activities": "3386",
+              "attractions": "3416",
+              "nightlife": "657",
+              "shopping": "1217",
+              "total": "8676"
+            },
+            "restaurants": {
+              "total": "19927"
+            },
+            "accommodations": {
+              "hotels": "1891",
+              "bbs_inns": "158",
+              "others": "506",
+              "total": "2555"
+            },
+            "neighborhoods": "146",
+            "airports": "2"
+          },
+          "map_image_url": "https://media-cdn.tripadvisor.com/media/mobile/offline/maps/static/en/187147.png?t=1416602827",
+          "nearby_attractions": [],
+          "description": "",
+          "is_localized_description": true,
+          "web_url": "",
+          "ancestors": [
+            {
+              "subcategory": [
+                {
+                  "key": "region",
+                  "name": "Region"
+                }
+              ],
+              "name": "Ile-de-France",
+              "abbrv": null,
+              "location_id": "187144"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "country",
+                  "name": "Country"
+                }
+              ],
+              "name": "France",
+              "abbrv": null,
+              "location_id": "187070"
+            }
+          ],
+          "category": {
+            "key": "geographic",
+            "name": "Geographic"
+          },
+          "subcategory": [
+            {
+              "key": "city",
+              "name": "City"
+            }
+          ],
+          "is_jfy_enabled": true,
+          "nearest_metro_station": [],
+          "geo_description": "Lingering over pain au chocolat in a sidewalk café, relaxing after a day of strolling along the Seine and marveling at icons like the Eiffel Tower and the Arc de Triomphe… the perfect Paris experience combines leisure and liveliness with enough time to savor both an exquisite meal and exhibits at the Louvre. Awaken your spirit at Notre Dame, bargain hunt at the Marché aux Puces de Montreuil or for goodies at the Marché Biologique Raspail, then cap it all off with a risqué show at the Moulin Rouge.",
+          "has_restaurant_coverpage": false,
+          "has_attraction_coverpage": false,
+          "has_curated_shopping_list": false
+        },
+        "scope": "local",
+        "is_top_result": true
+      },
+      {
+        "result_type": "lodging",
+        "result_object": {
+          "location_id": "290407",
+          "name": "Paris France Hotel",
+          "latitude": "48.866364",
+          "longitude": "2.360523",
+          "num_reviews": "1090",
+          "timezone": "Europe/Paris",
+          "location_string": "Paris, Ile-de-France",
+          "photo": {
+            "images": {
+              "small": {
+                "width": "150",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-l/17/81/07/9e/the-unique-facade-of.jpg",
+                "height": "150"
+              },
+              "thumbnail": {
+                "width": "50",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-t/17/81/07/9e/the-unique-facade-of.jpg",
+                "height": "50"
+              },
+              "original": {
+                "width": "3463",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/17/81/07/9e/the-unique-facade-of.jpg",
+                "height": "2673"
+              },
+              "large": {
+                "width": "550",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/17/81/07/9e/the-unique-facade-of.jpg",
+                "height": "425"
+              },
+              "medium": {
+                "width": "250",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-f/17/81/07/9e/the-unique-facade-of.jpg",
+                "height": "193"
+              }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2019-05-13T11:12:13-0400",
+            "caption": "The unique facade of Paris France Hotel",
+            "id": "394332062",
+            "helpful_votes": "5",
+            "published_date": "2019-05-13T11:12:13-0400",
+            "user": {
+              "user_id": null,
+              "member_id": "0",
+              "type": "user"
+            }
+          },
+          "awards": [],
+          "preferred_map_engine": "default",
+          "distance": null,
+          "distance_string": null,
+          "bearing": null,
+          "rating": "4.5",
+          "is_closed": false,
+          "is_long_closed": false,
+          "special_offers": {
+            "desktop": [],
+            "mobile": []
+          },
+          "description": "",
+          "web_url": "",
+          "ancestors": [
+            {
+              "subcategory": [
+                {
+                  "key": "city",
+                  "name": "City"
+                }
+              ],
+              "name": "Paris",
+              "abbrv": null,
+              "location_id": "187147"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "region",
+                  "name": "Region"
+                }
+              ],
+              "name": "Ile-de-France",
+              "abbrv": null,
+              "location_id": "187144"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "country",
+                  "name": "Country"
+                }
+              ],
+              "name": "France",
+              "abbrv": null,
+              "location_id": "187070"
+            }
+          ],
+          "category": {
+            "key": "hotel",
+            "name": "Hotel"
+          },
+          "subcategory": [
+            {
+              "key": "hotel",
+              "name": "Hotel"
+            }
+          ],
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+            "street1": "72 rue de Turbigo",
+            "street2": "",
+            "city": "Paris",
+            "state": null,
+            "country": "France",
+            "postalcode": "75003"
+          },
+          "address": "72 rue de Turbigo, 75003 Paris France",
+          "is_candidate_for_contact_info_suppression": false,
+          "amenities": []
+        },
+        "search_explanations": {
+          "mentioned_by_travelers": "matches 159 reviews"
+        },
+        "review_snippet": {
+          "snippet": "Thank you Paris France Hotel",
+          "spans": [
+            {
+              "start_index": 10,
+              "end_index": 15
+            },
+            {
+              "start_index": 16,
+              "end_index": 22
+            }
+          ],
+          "review_id": "874268975"
+        },
+        "scope": "local"
+      },
+      {
+        "result_type": "lodging",
+        "result_object": {
+          "location_id": "197427",
+          "name": "Hotel Lutetia",
+          "latitude": "48.850838",
+          "longitude": "2.327265",
+          "num_reviews": "416",
+          "timezone": "Europe/Paris",
+          "location_string": "Paris, Ile-de-France",
+          "photo": {
+            "images": {
+              "small": {
+                "width": "150",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-l/25/fb/8c/3b/hotel-lutetia-facade.jpg",
+                "height": "150"
+              },
+              "thumbnail": {
+                "width": "50",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-t/25/fb/8c/3b/hotel-lutetia-facade.jpg",
+                "height": "50"
+              },
+              "original": {
+                "width": "3000",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/25/fb/8c/3b/hotel-lutetia-facade.jpg",
+                "height": "2000"
+              },
+              "large": {
+                "width": "550",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/25/fb/8c/3b/hotel-lutetia-facade.jpg",
+                "height": "367"
+              },
+              "medium": {
+                "width": "250",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-f/25/fb/8c/3b/hotel-lutetia-facade.jpg",
+                "height": "167"
+              }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2022-09-20T06:51:47-0400",
+            "caption": "Hotel Lutetia Façade",
+            "id": "637242427",
+            "helpful_votes": "0",
+            "published_date": "2022-09-20T06:51:47-0400",
+            "user": null
+          },
+          "awards": [],
+          "preferred_map_engine": "default",
+          "distance": null,
+          "distance_string": null,
+          "bearing": null,
+          "rating": "4.5",
+          "is_closed": false,
+          "is_long_closed": false,
+          "special_offers": {
+            "desktop": [],
+            "mobile": []
+          },
+          "description": "",
+          "web_url": "",
+          "ancestors": [
+            {
+              "subcategory": [
+                {
+                  "key": "city",
+                  "name": "City"
+                }
+              ],
+              "name": "Paris",
+              "abbrv": null,
+              "location_id": "187147"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "region",
+                  "name": "Region"
+                }
+              ],
+              "name": "Ile-de-France",
+              "abbrv": null,
+              "location_id": "187144"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "country",
+                  "name": "Country"
+                }
+              ],
+              "name": "France",
+              "abbrv": null,
+              "location_id": "187070"
+            }
+          ],
+          "category": {
+            "key": "hotel",
+            "name": "Hotel"
+          },
+          "subcategory": [
+            {
+              "key": "hotel",
+              "name": "Hotel"
+            }
+          ],
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+            "street1": "45 Boulevard Raspail",
+            "street2": null,
+            "city": "Paris",
+            "state": null,
+            "country": "France",
+            "postalcode": "75006"
+          },
+          "address": "45 Boulevard Raspail, 75006 Paris France",
+          "is_candidate_for_contact_info_suppression": false,
+          "amenities": []
+        },
+        "search_explanations": {
+          "mentioned_by_travelers": "matches 3 reviews"
+        },
+        "scope": "local"
+      },
+      {
+        "result_type": "restaurants",
+        "result_object": {
+          "location_id": "20939045",
+          "name": "Paris france",
+          "num_reviews": "17",
+          "timezone": "Europe/Paris",
+          "location_string": "Paris, Ile-de-France",
+          "photo": {
+            "images": {
+              "small": {
+                "width": "150",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-l/26/b1/d6/2b/in-my-opinion-the-best.jpg",
+                "height": "150"
+              },
+              "thumbnail": {
+                "width": "50",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-t/26/b1/d6/2b/in-my-opinion-the-best.jpg",
+                "height": "50"
+              },
+              "original": {
+                "width": "1280",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/26/b1/d6/2b/in-my-opinion-the-best.jpg",
+                "height": "970"
+              },
+              "large": {
+                "width": "550",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/26/b1/d6/2b/in-my-opinion-the-best.jpg",
+                "height": "417"
+              },
+              "medium": {
+                "width": "250",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-f/26/b1/d6/2b/in-my-opinion-the-best.jpg",
+                "height": "190"
+              }
+            },
+            "is_blessed": false,
+            "uploaded_date": "2022-10-26T02:01:54-0400",
+            "caption": "In my opinion, the best way to learn French conversation is to go to a bookstore and buy a French book. I did this myself when I wanted to start learning the language.",
+            "id": "649188907",
+            "helpful_votes": "0",
+            "published_date": "2022-10-26T02:01:54-0400",
+            "user": {
+              "user_id": null,
+              "member_id": "0",
+              "type": "user"
+            }
+          },
+          "awards": [],
+          "preferred_map_engine": "default",
+          "distance": null,
+          "distance_string": null,
+          "bearing": null,
+          "rating": "3.5",
+          "is_closed": false,
+          "open_now_text": "Open Now",
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "",
+          "ancestors": [
+            {
+              "subcategory": [
+                {
+                  "key": "city",
+                  "name": "City"
+                }
+              ],
+              "name": "Paris",
+              "abbrv": null,
+              "location_id": "187147"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "region",
+                  "name": "Region"
+                }
+              ],
+              "name": "Ile-de-France",
+              "abbrv": null,
+              "location_id": "187144"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "country",
+                  "name": "Country"
+                }
+              ],
+              "name": "France",
+              "abbrv": null,
+              "location_id": "187070"
+            }
+          ],
+          "category": {
+            "key": "restaurant",
+            "name": "Restaurant"
+          },
+          "subcategory": [],
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+            "street1": "80 Rue Belgrand 75020",
+            "street2": null,
+            "city": "Paris",
+            "state": null,
+            "country": "France",
+            "postalcode": "75020"
+          },
+          "address": "80 Rue Belgrand 75020, 75020 Paris France",
+          "is_candidate_for_contact_info_suppression": false,
+          "cuisine": [
+            {
+              "key": "5379",
+              "name": "Chinese"
+            }
+          ],
+          "establishment_types": [
+            {
+              "key": "10591",
+              "name": "Restaurants"
+            }
+          ]
+        },
+        "search_explanations": {
+          "mentioned_by_travelers": "matches 5 reviews"
+        },
+        "review_snippet": {
+          "snippet": "I just came back from Paris, France.",
+          "spans": [
+            {
+              "start_index": 22,
+              "end_index": 27
+            },
+            {
+              "start_index": 29,
+              "end_index": 36
+            }
+          ],
+          "review_id": "845374524"
+        },
+        "scope": "local"
+      },
+      {
+        "result_type": "things_to_do",
+        "result_object": {
+          "location_id": "15316904",
+          "name": "DAY TRIPS FROM PARIS (FRANCE) - CITY TOURS",
+          "latitude": "48.84284",
+          "longitude": "2.32636",
+          "num_reviews": "37",
+          "timezone": "Europe/Paris",
+          "location_string": "Paris, Ile-de-France",
+          "photo": {
+            "images": {
+              "small": {
+                "width": "250",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-f/15/3a/4f/a4/caption.jpg",
+                "height": "141"
+              },
+              "thumbnail": {
+                "width": "50",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-t/15/3a/4f/a4/caption.jpg",
+                "height": "50"
+              },
+              "original": {
+                "width": "1280",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/15/3a/4f/a4/caption.jpg",
+                "height": "720"
+              },
+              "large": {
+                "width": "1024",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-w/15/3a/4f/a4/caption.jpg",
+                "height": "576"
+              },
+              "medium": {
+                "width": "550",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/15/3a/4f/a4/caption.jpg",
+                "height": "309"
+              }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2018-11-02T09:36:16-0400",
+            "caption": "",
+            "id": "356143012",
+            "helpful_votes": "0",
+            "published_date": "2018-11-02T09:36:16-0400",
+            "user": null
+          },
+          "awards": [],
+          "location_subtype": "tour_operator",
+          "preferred_map_engine": "default",
+          "distance": null,
+          "distance_string": null,
+          "bearing": null,
+          "rating": "4.0",
+          "is_closed": false,
+          "open_now_text": "Open Now",
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "",
+          "ancestors": [
+            {
+              "subcategory": [
+                {
+                  "key": "city",
+                  "name": "City"
+                }
+              ],
+              "name": "Paris",
+              "abbrv": null,
+              "location_id": "187147"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "region",
+                  "name": "Region"
+                }
+              ],
+              "name": "Ile-de-France",
+              "abbrv": null,
+              "location_id": "187144"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "country",
+                  "name": "Country"
+                }
+              ],
+              "name": "France",
+              "abbrv": null,
+              "location_id": "187070"
+            }
+          ],
+          "category": {
+            "key": "attraction",
+            "name": "Attraction"
+          },
+          "subcategory": [
+            {
+              "key": "42",
+              "name": "Tours"
+            },
+            {
+              "key": "51",
+              "name": "Other"
+            }
+          ],
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+            "street1": "bd MONTPARNASSE",
+            "street2": null,
+            "city": "Paris",
+            "state": null,
+            "country": "France",
+            "postalcode": "75014"
+          },
+          "address": "bd MONTPARNASSE, 75014 Paris France",
+          "is_candidate_for_contact_info_suppression": false
+        },
+        "scope": "local"
+      },
+      {
+        "result_type": "things_to_do",
+        "result_object": {
+          "location_id": "4414468",
+          "name": "Geant Casino, Paris, France",
+          "latitude": "48.821636",
+          "longitude": "2.366071",
+          "num_reviews": "32",
+          "timezone": "Europe/Paris",
+          "location_string": "Paris, Ile-de-France",
+          "photo": {
+            "images": {
+              "small": {
+                "width": "150",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-l/09/4f/3b/36/geant-casino-paris-france.jpg",
+                "height": "150"
+              },
+              "thumbnail": {
+                "width": "50",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-t/09/4f/3b/36/geant-casino-paris-france.jpg",
+                "height": "50"
+              },
+              "original": {
+                "width": "1024",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-w/09/4f/3b/36/geant-casino-paris-france.jpg",
+                "height": "679"
+              },
+              "large": {
+                "width": "1024",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/09/4f/3b/36/geant-casino-paris-france.jpg",
+                "height": "679"
+              },
+              "medium": {
+                "width": "550",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/09/4f/3b/36/geant-casino-paris-france.jpg",
+                "height": "364"
+              }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2015-10-23T12:47:18-0400",
+            "caption": "Entrée du Centre Commercial MASSENA 13 coté Avenue de Choisy",
+            "id": "156187446",
+            "helpful_votes": "3",
+            "published_date": "2015-10-23T12:47:18-0400",
+            "user": {
+              "user_id": null,
+              "member_id": "0",
+              "type": "user"
+            }
+          },
+          "awards": [],
+          "location_subtype": "none",
+          "preferred_map_engine": "default",
+          "distance": null,
+          "distance_string": null,
+          "bearing": null,
+          "rating": "2.5",
+          "is_closed": false,
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "",
+          "ancestors": [
+            {
+              "subcategory": [
+                {
+                  "key": "city",
+                  "name": "City"
+                }
+              ],
+              "name": "Paris",
+              "abbrv": null,
+              "location_id": "187147"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "region",
+                  "name": "Region"
+                }
+              ],
+              "name": "Ile-de-France",
+              "abbrv": null,
+              "location_id": "187144"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "country",
+                  "name": "Country"
+                }
+              ],
+              "name": "France",
+              "abbrv": null,
+              "location_id": "187070"
+            }
+          ],
+          "category": {
+            "key": "attraction",
+            "name": "Attraction"
+          },
+          "subcategory": [
+            {
+              "key": "26",
+              "name": "Shopping"
+            }
+          ],
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+            "street1": "98 boulevard Massena",
+            "street2": null,
+            "city": "Paris",
+            "state": null,
+            "country": "France",
+            "postalcode": "75013"
+          },
+          "address": "98 boulevard Massena, 75013 Paris France",
+          "is_candidate_for_contact_info_suppression": false
+        },
+        "scope": "local"
+      },
+      {
+        "result_type": "things_to_do",
+        "result_object": {
+          "location_id": "12391179",
+          "name": "Paris France Temple",
+          "latitude": "48.81741",
+          "longitude": "2.12355",
+          "num_reviews": "102",
+          "timezone": "Europe/Paris",
+          "location_string": "Le Chesnay, Chesnay-Rocquencourt, Versailles, Yvelines, Ile-de-France",
+          "photo": {
+            "images": {
+              "small": {
+                "width": "150",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-l/17/5b/5c/ad/the-christus-statue-at.jpg",
+                "height": "150"
+              },
+              "thumbnail": {
+                "width": "50",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-t/17/5b/5c/ad/the-christus-statue-at.jpg",
+                "height": "50"
+              },
+              "original": {
+                "width": "1280",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/17/5b/5c/ad/the-christus-statue-at.jpg",
+                "height": "874"
+              },
+              "large": {
+                "width": "1024",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-w/17/5b/5c/ad/the-christus-statue-at.jpg",
+                "height": "699"
+              },
+              "medium": {
+                "width": "550",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/17/5b/5c/ad/the-christus-statue-at.jpg",
+                "height": "375"
+              }
+            },
+            "is_blessed": false,
+            "uploaded_date": "2019-05-01T07:54:54-0400",
+            "caption": "The Christus statue at the Paris temple",
+            "id": "391863469",
+            "helpful_votes": "2",
+            "published_date": "2019-05-01T07:54:54-0400",
+            "user": {
+              "user_id": null,
+              "member_id": "0",
+              "type": "user"
+            }
+          },
+          "awards": [],
+          "location_subtype": "none",
+          "preferred_map_engine": "default",
+          "distance": null,
+          "distance_string": null,
+          "bearing": null,
+          "rating": "4.5",
+          "is_closed": false,
+          "open_now_text": "Open Now",
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "",
+          "ancestors": [
+            {
+              "subcategory": [
+                {
+                  "key": "city",
+                  "name": "City"
+                }
+              ],
+              "name": "Le Chesnay",
+              "abbrv": null,
+              "location_id": "196572"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "municipality",
+                  "name": "Municipality"
+                }
+              ],
+              "name": "Chesnay-Rocquencourt",
+              "abbrv": null,
+              "location_id": "19451251"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "municipality",
+                  "name": "Municipality"
+                }
+              ],
+              "name": "Versailles",
+              "abbrv": null,
+              "location_id": "187148"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "department",
+                  "name": "Department"
+                }
+              ],
+              "name": "Yvelines",
+              "abbrv": null,
+              "location_id": "2568676"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "region",
+                  "name": "Region"
+                }
+              ],
+              "name": "Ile-de-France",
+              "abbrv": null,
+              "location_id": "187144"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "country",
+                  "name": "Country"
+                }
+              ],
+              "name": "France",
+              "abbrv": null,
+              "location_id": "187070"
+            }
+          ],
+          "category": {
+            "key": "attraction",
+            "name": "Attraction"
+          },
+          "subcategory": [
+            {
+              "key": "47",
+              "name": "Sights & Landmarks"
+            }
+          ],
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+            "street1": "46 boulevard Saint Antoine",
+            "street2": null,
+            "city": "Le Chesnay",
+            "state": null,
+            "country": "France",
+            "postalcode": "78150"
+          },
+          "address": "46 boulevard Saint Antoine, 78150 Le Chesnay, Versailles France",
+          "is_candidate_for_contact_info_suppression": false
+        },
+        "search_explanations": {
+          "mentioned_by_travelers": "matches one review"
+        },
+        "scope": "local"
+      },
+      {
+        "result_type": "activities",
+        "result_object": {
+          "location_id": "23560333",
+          "name": "In the Footsteps of the French Chef in Paris France",
+          "num_reviews": "32",
+          "timezone": "Europe/Paris",
+          "location_string": "Paris, Ile-de-France",
+          "photo": {
+            "images": {
+              "small": {
+                "width": "150",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-l/26/d3/c1/55/caption.jpg",
+                "height": "150"
+              },
+              "thumbnail": {
+                "width": "50",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-t/26/d3/c1/55/caption.jpg",
+                "height": "50"
+              },
+              "original": {
+                "width": "720",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/26/d3/c1/55/caption.jpg",
+                "height": "480"
+              },
+              "large": {
+                "width": "720",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/26/d3/c1/55/caption.jpg",
+                "height": "480"
+              },
+              "medium": {
+                "width": "550",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/26/d3/c1/55/caption.jpg",
+                "height": "367"
+              }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2022-11-10T15:34:26-0500",
+            "caption": "",
+            "id": "651411797",
+            "helpful_votes": "0",
+            "published_date": "2022-11-10T15:34:26-0500",
+            "user": null
+          },
+          "awards": [],
+          "preferred_map_engine": "default",
+          "distance": null,
+          "distance_string": null,
+          "bearing": null,
+          "rating": "5.0",
+          "is_closed": false,
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "",
+          "ancestors": [
+            {
+              "subcategory": [
+                {
+                  "key": "city",
+                  "name": "City"
+                }
+              ],
+              "name": "Paris",
+              "abbrv": null,
+              "location_id": "187147"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "region",
+                  "name": "Region"
+                }
+              ],
+              "name": "Ile-de-France",
+              "abbrv": null,
+              "location_id": "187144"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "country",
+                  "name": "Country"
+                }
+              ],
+              "name": "France",
+              "abbrv": null,
+              "location_id": "187070"
+            }
+          ],
+          "category": {
+            "key": "activity",
+            "name": "Activity"
+          },
+          "subcategory": [],
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+            "street1": null,
+            "street2": null,
+            "city": "Paris",
+            "state": null,
+            "country": "France",
+            "postalcode": null
+          },
+          "address": "Paris France",
+          "is_candidate_for_contact_info_suppression": false,
+          "supplier_location_id": "14918654",
+          "supplier_location_name": "Paris Food Tours by Eating Europe",
+          "supplier_location_subtype": "tour_operator",
+          "is_reviewable": true
+        },
+        "search_explanations": {
+          "mentioned_by_travelers": "matches one review"
+        },
+        "review_snippet": {
+          "snippet": "Food Tour by name “In the Footsteps of the French Chef in Paris France”",
+          "spans": [
+            {
+              "start_index": 58,
+              "end_index": 63
+            },
+            {
+              "start_index": 64,
+              "end_index": 70
+            }
+          ],
+          "review_id": "821256042"
+        },
+        "scope": "local"
+      },
+      {
+        "result_type": "lodging",
+        "result_object": {
+          "location_id": "207792",
+          "name": "Hotel Regina Louvre",
+          "latitude": "48.863758",
+          "longitude": "2.332532",
+          "num_reviews": "1541",
+          "timezone": "Europe/Paris",
+          "location_string": "Paris, Ile-de-France",
+          "photo": {
+            "images": {
+              "small": {
+                "width": "150",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-l/21/75/c6/58/exterior-view.jpg",
+                "height": "150"
+              },
+              "thumbnail": {
+                "width": "50",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-t/21/75/c6/58/exterior-view.jpg",
+                "height": "50"
+              },
+              "original": {
+                "width": "1023",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/21/75/c6/58/exterior-view.jpg",
+                "height": "682"
+              },
+              "large": {
+                "width": "550",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/21/75/c6/58/exterior-view.jpg",
+                "height": "367"
+              },
+              "medium": {
+                "width": "250",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-f/21/75/c6/58/exterior-view.jpg",
+                "height": "167"
+              }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2021-11-26T01:41:22-0500",
+            "caption": "Exterior view",
+            "id": "561366616",
+            "helpful_votes": "0",
+            "published_date": "2021-11-26T01:41:22-0500",
+            "user": null
+          },
+          "awards": [],
+          "preferred_map_engine": "default",
+          "distance": null,
+          "distance_string": null,
+          "bearing": null,
+          "rating": "4.5",
+          "is_closed": false,
+          "is_long_closed": false,
+          "special_offers": {
+            "desktop": [],
+            "mobile": []
+          },
+          "description": "",
+          "web_url": "",
+          "ancestors": [
+            {
+              "subcategory": [
+                {
+                  "key": "city",
+                  "name": "City"
+                }
+              ],
+              "name": "Paris",
+              "abbrv": null,
+              "location_id": "187147"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "region",
+                  "name": "Region"
+                }
+              ],
+              "name": "Ile-de-France",
+              "abbrv": null,
+              "location_id": "187144"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "country",
+                  "name": "Country"
+                }
+              ],
+              "name": "France",
+              "abbrv": null,
+              "location_id": "187070"
+            }
+          ],
+          "category": {
+            "key": "hotel",
+            "name": "Hotel"
+          },
+          "subcategory": [
+            {
+              "key": "hotel",
+              "name": "Hotel"
+            }
+          ],
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+            "street1": "2 Place des Pyramides",
+            "street2": "",
+            "city": "Paris",
+            "state": null,
+            "country": "France",
+            "postalcode": "75001"
+          },
+          "address": "2 Place des Pyramides, 75001 Paris France",
+          "is_candidate_for_contact_info_suppression": false,
+          "amenities": []
+        },
+        "search_explanations": {
+          "mentioned_by_travelers": "matches 21 reviews"
+        },
+        "review_snippet": {
+          "snippet": "part of France for business.",
+          "spans": [
+            {
+              "start_index": 8,
+              "end_index": 14
+            }
+          ],
+          "review_id": "870742052"
+        },
+        "scope": "local"
+      },
+      {
+        "result_type": "lodging",
+        "result_object": {
+          "location_id": "188732",
+          "name": "Le Meurice",
+          "latitude": "48.865276",
+          "longitude": "2.328079",
+          "num_reviews": "1398",
+          "timezone": "Europe/Paris",
+          "location_string": "Paris, Ile-de-France",
+          "photo": {
+            "images": {
+              "small": {
+                "width": "150",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-l/09/03/de/e5/breakfast-room--v8775010.jpg",
+                "height": "150"
+              },
+              "thumbnail": {
+                "width": "50",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-t/09/03/de/e5/breakfast-room--v8775010.jpg",
+                "height": "50"
+              },
+              "original": {
+                "width": "2600",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/09/03/de/e5/breakfast-room--v8775010.jpg",
+                "height": "1733"
+              },
+              "large": {
+                "width": "550",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/09/03/de/e5/breakfast-room--v8775010.jpg",
+                "height": "450"
+              },
+              "medium": {
+                "width": "250",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-f/09/03/de/e5/breakfast-room--v8775010.jpg",
+                "height": "205"
+              }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2015-08-04T08:36:08-0400",
+            "caption": "Breakfast Room at Le Meurice",
+            "id": "151248613",
+            "helpful_votes": "5",
+            "published_date": "2015-09-23T10:44:56-0400",
+            "user": null
+          },
+          "awards": [],
+          "preferred_map_engine": "default",
+          "distance": null,
+          "distance_string": null,
+          "bearing": null,
+          "rating": "4.5",
+          "is_closed": false,
+          "open_now_text": "Open Now",
+          "is_long_closed": false,
+          "special_offers": {
+            "desktop": [],
+            "mobile": []
+          },
+          "description": "",
+          "web_url": "",
+          "ancestors": [
+            {
+              "subcategory": [
+                {
+                  "key": "city",
+                  "name": "City"
+                }
+              ],
+              "name": "Paris",
+              "abbrv": null,
+              "location_id": "187147"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "region",
+                  "name": "Region"
+                }
+              ],
+              "name": "Ile-de-France",
+              "abbrv": null,
+              "location_id": "187144"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "country",
+                  "name": "Country"
+                }
+              ],
+              "name": "France",
+              "abbrv": null,
+              "location_id": "187070"
+            }
+          ],
+          "category": {
+            "key": "hotel",
+            "name": "Hotel"
+          },
+          "subcategory": [
+            {
+              "key": "hotel",
+              "name": "Hotel"
+            }
+          ],
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+            "street1": "228 rue de Rivoli",
+            "street2": "",
+            "city": "Paris",
+            "state": null,
+            "country": "France",
+            "postalcode": "75001"
+          },
+          "address": "228 rue de Rivoli, 75001 Paris France",
+          "is_candidate_for_contact_info_suppression": false,
+          "amenities": []
+        },
+        "search_explanations": {
+          "mentioned_by_travelers": "matches 18 reviews"
+        },
+        "scope": "local"
+      },
+      {
+        "result_type": "things_to_do",
+        "result_object": {
+          "location_id": "188151",
+          "name": "Eiffel Tower",
+          "latitude": "48.858353",
+          "longitude": "2.294464",
+          "num_reviews": "141794",
+          "timezone": "Europe/Paris",
+          "location_string": "Paris, Ile-de-France",
+          "photo": {
+            "images": {
+              "small": {
+                "width": "150",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-l/1b/15/a3/a1/c-emeric-livinec-sete.jpg",
+                "height": "150"
+              },
+              "thumbnail": {
+                "width": "50",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-t/1b/15/a3/a1/c-emeric-livinec-sete.jpg",
+                "height": "50"
+              },
+              "original": {
+                "width": "1280",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1b/15/a3/a1/c-emeric-livinec-sete.jpg",
+                "height": "853"
+              },
+              "large": {
+                "width": "1024",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-w/1b/15/a3/a1/c-emeric-livinec-sete.jpg",
+                "height": "683"
+              },
+              "medium": {
+                "width": "550",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/1b/15/a3/a1/c-emeric-livinec-sete.jpg",
+                "height": "367"
+              }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2020-03-05T08:36:07-0500",
+            "caption": "© Emeric Livinec - SETE",
+            "id": "454402977",
+            "helpful_votes": "85",
+            "published_date": "2020-03-05T08:36:07-0500",
+            "user": {
+              "user_id": null,
+              "member_id": "0",
+              "type": "user"
+            }
+          },
+          "awards": [],
+          "location_subtype": "none",
+          "preferred_map_engine": "default",
+          "distance": null,
+          "distance_string": null,
+          "bearing": null,
+          "rating": "4.5",
+          "is_closed": false,
+          "open_now_text": "Open Now",
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "",
+          "ancestors": [
+            {
+              "subcategory": [
+                {
+                  "key": "city",
+                  "name": "City"
+                }
+              ],
+              "name": "Paris",
+              "abbrv": null,
+              "location_id": "187147"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "region",
+                  "name": "Region"
+                }
+              ],
+              "name": "Ile-de-France",
+              "abbrv": null,
+              "location_id": "187144"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "country",
+                  "name": "Country"
+                }
+              ],
+              "name": "France",
+              "abbrv": null,
+              "location_id": "187070"
+            }
+          ],
+          "category": {
+            "key": "attraction",
+            "name": "Attraction"
+          },
+          "subcategory": [
+            {
+              "key": "47",
+              "name": "Sights & Landmarks"
+            }
+          ],
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+            "street1": "5 Avenue",
+            "street2": null,
+            "city": "Paris",
+            "state": null,
+            "country": "France",
+            "postalcode": "75007"
+          },
+          "address": "5 Avenue, 75007 Paris France",
+          "is_candidate_for_contact_info_suppression": false,
+          "fee": "YES"
+        },
+        "search_explanations": {
+          "mentioned_by_travelers": "matches 833 reviews"
+        },
+        "review_snippet": {
+          "snippet": "Anatole France, 75007 Paris, France",
+          "spans": [
+            {
+              "start_index": 8,
+              "end_index": 14
+            },
+            {
+              "start_index": 22,
+              "end_index": 27
+            },
+            {
+              "start_index": 29,
+              "end_index": 35
+            }
+          ],
+          "review_id": "858819141"
+        },
+        "scope": "local"
+      },
+      {
+        "result_type": "activities",
+        "result_object": {
+          "location_id": "11454297",
+          "name": "Big Bus Paris Hop-On Hop-Off Tour",
+          "num_reviews": "4166",
+          "timezone": "Europe/Paris",
+          "location_string": "Paris, Ile-de-France",
+          "photo": {
+            "images": {
+              "small": {
+                "width": "150",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-l/1c/45/41/b8/caption.jpg",
+                "height": "150"
+              },
+              "thumbnail": {
+                "width": "50",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-t/1c/45/41/b8/caption.jpg",
+                "height": "50"
+              },
+              "original": {
+                "width": "720",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/1c/45/41/b8/caption.jpg",
+                "height": "480"
+              },
+              "large": {
+                "width": "720",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/1c/45/41/b8/caption.jpg",
+                "height": "480"
+              },
+              "medium": {
+                "width": "550",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/1c/45/41/b8/caption.jpg",
+                "height": "367"
+              }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2020-11-03T05:45:21-0500",
+            "caption": "",
+            "id": "474300856",
+            "helpful_votes": "0",
+            "published_date": "2020-11-03T05:45:21-0500",
+            "user": null
+          },
+          "awards": [],
+          "preferred_map_engine": "default",
+          "distance": null,
+          "distance_string": null,
+          "bearing": null,
+          "rating": "4.0",
+          "is_closed": false,
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "",
+          "ancestors": [
+            {
+              "subcategory": [
+                {
+                  "key": "city",
+                  "name": "City"
+                }
+              ],
+              "name": "Paris",
+              "abbrv": null,
+              "location_id": "187147"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "region",
+                  "name": "Region"
+                }
+              ],
+              "name": "Ile-de-France",
+              "abbrv": null,
+              "location_id": "187144"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "country",
+                  "name": "Country"
+                }
+              ],
+              "name": "France",
+              "abbrv": null,
+              "location_id": "187070"
+            }
+          ],
+          "category": {
+            "key": "activity",
+            "name": "Activity"
+          },
+          "subcategory": [],
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+            "street1": null,
+            "street2": null,
+            "city": "Paris",
+            "state": null,
+            "country": "France",
+            "postalcode": null
+          },
+          "address": "Paris France",
+          "is_candidate_for_contact_info_suppression": false,
+          "supplier_location_id": "1008070",
+          "supplier_location_name": "Big Bus Paris",
+          "supplier_location_subtype": "tour_operator",
+          "is_reviewable": true
+        },
+        "search_explanations": {
+          "mentioned_by_travelers": "matches 19 reviews"
+        },
+        "scope": "local"
+      },
+      {
+        "result_type": "activities",
+        "result_object": {
+          "location_id": "11979678",
+          "name": "Bateaux Parisiens Seine River Gourmet Dinner & Sightseeing Cruise",
+          "num_reviews": "3766",
+          "timezone": "Europe/Paris",
+          "location_string": "Paris, Ile-de-France",
+          "photo": {
+            "images": {
+              "small": {
+                "width": "150",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-l/27/19/16/dd/caption.jpg",
+                "height": "150"
+              },
+              "thumbnail": {
+                "width": "50",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-t/27/19/16/dd/caption.jpg",
+                "height": "50"
+              },
+              "original": {
+                "width": "720",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/27/19/16/dd/caption.jpg",
+                "height": "480"
+              },
+              "large": {
+                "width": "720",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/27/19/16/dd/caption.jpg",
+                "height": "480"
+              },
+              "medium": {
+                "width": "550",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/27/19/16/dd/caption.jpg",
+                "height": "367"
+              }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2022-11-29T15:47:30-0500",
+            "caption": "",
+            "id": "655955677",
+            "helpful_votes": "0",
+            "published_date": "2022-11-29T15:47:30-0500",
+            "user": null
+          },
+          "awards": [],
+          "preferred_map_engine": "default",
+          "distance": null,
+          "distance_string": null,
+          "bearing": null,
+          "rating": "4.5",
+          "is_closed": false,
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "",
+          "ancestors": [
+            {
+              "subcategory": [
+                {
+                  "key": "city",
+                  "name": "City"
+                }
+              ],
+              "name": "Paris",
+              "abbrv": null,
+              "location_id": "187147"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "region",
+                  "name": "Region"
+                }
+              ],
+              "name": "Ile-de-France",
+              "abbrv": null,
+              "location_id": "187144"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "country",
+                  "name": "Country"
+                }
+              ],
+              "name": "France",
+              "abbrv": null,
+              "location_id": "187070"
+            }
+          ],
+          "category": {
+            "key": "activity",
+            "name": "Activity"
+          },
+          "subcategory": [],
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+            "street1": null,
+            "street2": null,
+            "city": "Paris",
+            "state": null,
+            "country": "France",
+            "postalcode": null
+          },
+          "address": "Paris France",
+          "is_candidate_for_contact_info_suppression": false,
+          "supplier_location_id": "654725",
+          "supplier_location_name": "Bateaux Parisiens",
+          "supplier_location_subtype": "tour_operator",
+          "is_reviewable": true
+        },
+        "search_explanations": {
+          "mentioned_by_travelers": "matches 6 reviews"
+        },
+        "scope": "local"
+      },
+      {
+        "result_type": "lodging",
+        "result_object": {
+          "location_id": "250928",
+          "name": "Park Hyatt Paris - Vendome",
+          "latitude": "48.868713",
+          "longitude": "2.330486",
+          "num_reviews": "3218",
+          "timezone": "Europe/Paris",
+          "location_string": "Paris, Ile-de-France",
+          "photo": {
+            "images": {
+              "small": {
+                "width": "150",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-l/27/a1/78/25/exterior.jpg",
+                "height": "150"
+              },
+              "thumbnail": {
+                "width": "50",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-t/27/a1/78/25/exterior.jpg",
+                "height": "50"
+              },
+              "original": {
+                "width": "1023",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/27/a1/78/25/exterior.jpg",
+                "height": "683"
+              },
+              "large": {
+                "width": "550",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/27/a1/78/25/exterior.jpg",
+                "height": "367"
+              },
+              "medium": {
+                "width": "250",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-f/27/a1/78/25/exterior.jpg",
+                "height": "167"
+              }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2022-12-28T16:45:51-0500",
+            "caption": "Exterior",
+            "id": "664893477",
+            "helpful_votes": "0",
+            "published_date": "2022-12-28T16:45:51-0500",
+            "user": null
+          },
+          "awards": [],
+          "preferred_map_engine": "default",
+          "distance": null,
+          "distance_string": null,
+          "bearing": null,
+          "rating": "4.5",
+          "is_closed": false,
+          "is_long_closed": false,
+          "special_offers": {
+            "desktop": [],
+            "mobile": []
+          },
+          "description": "",
+          "web_url": "",
+          "ancestors": [
+            {
+              "subcategory": [
+                {
+                  "key": "city",
+                  "name": "City"
+                }
+              ],
+              "name": "Paris",
+              "abbrv": null,
+              "location_id": "187147"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "region",
+                  "name": "Region"
+                }
+              ],
+              "name": "Ile-de-France",
+              "abbrv": null,
+              "location_id": "187144"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "country",
+                  "name": "Country"
+                }
+              ],
+              "name": "France",
+              "abbrv": null,
+              "location_id": "187070"
+            }
+          ],
+          "category": {
+            "key": "hotel",
+            "name": "Hotel"
+          },
+          "subcategory": [
+            {
+              "key": "hotel",
+              "name": "Hotel"
+            }
+          ],
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+            "street1": "5 rue de la Paix",
+            "street2": "",
+            "city": "Paris",
+            "state": null,
+            "country": "France",
+            "postalcode": "75002"
+          },
+          "address": "5 rue de la Paix, 75002 Paris France",
+          "is_candidate_for_contact_info_suppression": false,
+          "amenities": []
+        },
+        "search_explanations": {
+          "mentioned_by_travelers": "matches 52 reviews"
+        },
+        "review_snippet": {
+          "snippet": "Paris.",
+          "spans": [
+            {
+              "start_index": 0,
+              "end_index": 6
+            }
+          ],
+          "review_id": "832605619"
+        },
+        "scope": "local"
+      },
+      {
+        "result_type": "things_to_do",
+        "result_object": {
+          "location_id": "2613395",
+          "name": "Paris by Mouth",
+          "latitude": "48.85627",
+          "longitude": "2.35661",
+          "num_reviews": "3003",
+          "timezone": "Europe/Paris",
+          "location_string": "Paris, Ile-de-France",
+          "photo": {
+            "images": {
+              "small": {
+                "width": "150",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-l/12/78/d1/7d/the-before-shot-at-our.jpg",
+                "height": "150"
+              },
+              "thumbnail": {
+                "width": "50",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-t/12/78/d1/7d/the-before-shot-at-our.jpg",
+                "height": "50"
+              },
+              "original": {
+                "width": "2000",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/12/78/d1/7d/the-before-shot-at-our.jpg",
+                "height": "1500"
+              },
+              "large": {
+                "width": "550",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/12/78/d1/7d/the-before-shot-at-our.jpg",
+                "height": "413"
+              },
+              "medium": {
+                "width": "250",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-f/12/78/d1/7d/the-before-shot-at-our.jpg",
+                "height": "188"
+              }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2018-03-29T15:34:42-0400",
+            "caption": "The before shot at our Cheese & Wine Tasting Workshop. After 10 cheeses & 5 wines, it gets messy",
+            "id": "309907837",
+            "helpful_votes": "1",
+            "published_date": "2018-03-29T15:34:42-0400",
+            "user": {
+              "user_id": null,
+              "member_id": "0",
+              "type": "user"
+            }
+          },
+          "awards": [],
+          "location_subtype": "tour_operator",
+          "preferred_map_engine": "default",
+          "distance": null,
+          "distance_string": null,
+          "bearing": null,
+          "rating": "5.0",
+          "is_closed": false,
+          "open_now_text": "Open Now",
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "",
+          "ancestors": [
+            {
+              "subcategory": [
+                {
+                  "key": "city",
+                  "name": "City"
+                }
+              ],
+              "name": "Paris",
+              "abbrv": null,
+              "location_id": "187147"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "region",
+                  "name": "Region"
+                }
+              ],
+              "name": "Ile-de-France",
+              "abbrv": null,
+              "location_id": "187144"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "country",
+                  "name": "Country"
+                }
+              ],
+              "name": "France",
+              "abbrv": null,
+              "location_id": "187070"
+            }
+          ],
+          "category": {
+            "key": "attraction",
+            "name": "Attraction"
+          },
+          "subcategory": [
+            {
+              "key": "36",
+              "name": "Food & Drink"
+            },
+            {
+              "key": "42",
+              "name": "Tours"
+            }
+          ],
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+            "street1": null,
+            "street2": null,
+            "city": "Paris",
+            "state": null,
+            "country": "France",
+            "postalcode": "75004"
+          },
+          "address": "75004 Paris France",
+          "is_candidate_for_contact_info_suppression": false
+        },
+        "search_explanations": {
+          "mentioned_by_travelers": "matches 225 reviews"
+        },
+        "review_snippet": {
+          "snippet": "Also lots of history of Paris, France and the left bank.",
+          "spans": [
+            {
+              "start_index": 24,
+              "end_index": 29
+            },
+            {
+              "start_index": 31,
+              "end_index": 37
+            }
+          ],
+          "review_id": "847694074"
+        },
+        "scope": "local"
+      },
+      {
+        "result_type": "lodging",
+        "result_object": {
+          "location_id": "197985",
+          "name": "Pullman Paris Eiffel Tower Hotel",
+          "latitude": "48.855743",
+          "longitude": "2.292935",
+          "num_reviews": "3834",
+          "timezone": "Europe/Paris",
+          "location_string": "Paris, Ile-de-France",
+          "photo": {
+            "images": {
+              "small": {
+                "width": "150",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-l/23/8d/bf/27/exterior-view.jpg",
+                "height": "150"
+              },
+              "thumbnail": {
+                "width": "50",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-t/23/8d/bf/27/exterior-view.jpg",
+                "height": "50"
+              },
+              "original": {
+                "width": "1024",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/23/8d/bf/27/exterior-view.jpg",
+                "height": "768"
+              },
+              "large": {
+                "width": "550",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/23/8d/bf/27/exterior-view.jpg",
+                "height": "413"
+              },
+              "medium": {
+                "width": "250",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-f/23/8d/bf/27/exterior-view.jpg",
+                "height": "188"
+              }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2022-05-27T01:21:00-0400",
+            "caption": "Exterior view",
+            "id": "596492071",
+            "helpful_votes": "2",
+            "published_date": "2022-05-27T01:21:00-0400",
+            "user": null
+          },
+          "awards": [],
+          "preferred_map_engine": "default",
+          "distance": null,
+          "distance_string": null,
+          "bearing": null,
+          "rating": "4.0",
+          "is_closed": false,
+          "is_long_closed": false,
+          "special_offers": {
+            "desktop": [],
+            "mobile": []
+          },
+          "description": "",
+          "web_url": "",
+          "ancestors": [
+            {
+              "subcategory": [
+                {
+                  "key": "city",
+                  "name": "City"
+                }
+              ],
+              "name": "Paris",
+              "abbrv": null,
+              "location_id": "187147"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "region",
+                  "name": "Region"
+                }
+              ],
+              "name": "Ile-de-France",
+              "abbrv": null,
+              "location_id": "187144"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "country",
+                  "name": "Country"
+                }
+              ],
+              "name": "France",
+              "abbrv": null,
+              "location_id": "187070"
+            }
+          ],
+          "category": {
+            "key": "hotel",
+            "name": "Hotel"
+          },
+          "subcategory": [
+            {
+              "key": "hotel",
+              "name": "Hotel"
+            }
+          ],
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+            "street1": "18 Avenue de Suffren",
+            "street2": null,
+            "city": "Paris",
+            "state": null,
+            "country": "France",
+            "postalcode": "75015"
+          },
+          "address": "18 Avenue de Suffren, 75015 Paris France",
+          "is_candidate_for_contact_info_suppression": false,
+          "amenities": []
+        },
+        "search_explanations": {
+          "mentioned_by_travelers": "matches 36 reviews"
+        },
+        "review_snippet": {
+          "snippet": "We were fortunate that our Viking Tour Paris and France cruise to place",
+          "spans": [
+            {
+              "start_index": 39,
+              "end_index": 44
+            },
+            {
+              "start_index": 49,
+              "end_index": 55
+            }
+          ],
+          "review_id": "870442161"
+        },
+        "scope": "local"
+      },
+      {
+        "result_type": "lodging",
+        "result_object": {
+          "location_id": "207742",
+          "name": "InterContinental Paris - Le Grand",
+          "latitude": "48.87091",
+          "longitude": "2.330392",
+          "num_reviews": "3561",
+          "timezone": "Europe/Paris",
+          "location_string": "Paris, Ile-de-France",
+          "photo": {
+            "images": {
+              "small": {
+                "width": "150",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-l/24/99/d0/6c/view-from-property.jpg",
+                "height": "150"
+              },
+              "thumbnail": {
+                "width": "50",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-t/24/99/d0/6c/view-from-property.jpg",
+                "height": "50"
+              },
+              "original": {
+                "width": "5000",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/24/99/d0/6c/view-from-property.jpg",
+                "height": "2866"
+              },
+              "large": {
+                "width": "550",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/24/99/d0/6c/view-from-property.jpg",
+                "height": "315"
+              },
+              "medium": {
+                "width": "250",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-f/24/99/d0/6c/view-from-property.jpg",
+                "height": "143"
+              }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2022-07-13T04:37:36-0400",
+            "caption": "View from Property",
+            "id": "614060140",
+            "helpful_votes": "1",
+            "published_date": "2022-07-13T04:37:36-0400",
+            "user": null
+          },
+          "awards": [],
+          "preferred_map_engine": "default",
+          "distance": null,
+          "distance_string": null,
+          "bearing": null,
+          "rating": "4.5",
+          "is_closed": false,
+          "is_long_closed": false,
+          "special_offers": {
+            "desktop": [],
+            "mobile": []
+          },
+          "description": "",
+          "web_url": "",
+          "ancestors": [
+            {
+              "subcategory": [
+                {
+                  "key": "city",
+                  "name": "City"
+                }
+              ],
+              "name": "Paris",
+              "abbrv": null,
+              "location_id": "187147"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "region",
+                  "name": "Region"
+                }
+              ],
+              "name": "Ile-de-France",
+              "abbrv": null,
+              "location_id": "187144"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "country",
+                  "name": "Country"
+                }
+              ],
+              "name": "France",
+              "abbrv": null,
+              "location_id": "187070"
+            }
+          ],
+          "category": {
+            "key": "hotel",
+            "name": "Hotel"
+          },
+          "subcategory": [
+            {
+              "key": "hotel",
+              "name": "Hotel"
+            }
+          ],
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+            "street1": "2 Rue Scribe",
+            "street2": "",
+            "city": "Paris",
+            "state": null,
+            "country": "France",
+            "postalcode": "75009"
+          },
+          "address": "2 Rue Scribe, 75009 Paris France",
+          "is_candidate_for_contact_info_suppression": false,
+          "amenities": []
+        },
+        "search_explanations": {
+          "mentioned_by_travelers": "matches 49 reviews"
+        },
+        "review_snippet": {
+          "snippet": ", France.",
+          "spans": [
+            {
+              "start_index": 2,
+              "end_index": 9
+            }
+          ],
+          "review_id": "882211984"
+        },
+        "scope": "local"
+      },
+      {
+        "result_type": "lodging",
+        "result_object": {
+          "location_id": "207718",
+          "name": "Hilton Paris Opera",
+          "latitude": "48.875687",
+          "longitude": "2.325539",
+          "num_reviews": "2932",
+          "timezone": "Europe/Paris",
+          "location_string": "Paris, Ile-de-France",
+          "photo": {
+            "images": {
+              "small": {
+                "width": "550",
+                "url": null,
+                "height": "550"
+              },
+              "thumbnail": {
+                "width": "550",
+                "url": null,
+                "height": "550"
+              },
+              "original": {
+                "width": "550",
+                "url": null,
+                "height": "550"
+              },
+              "large": {
+                "width": "550",
+                "url": null,
+                "height": "550"
+              },
+              "medium": {
+                "width": "550",
+                "url": null,
+                "height": "550"
+              }
+            }
+          },
+          "awards": [],
+          "preferred_map_engine": "default",
+          "distance": null,
+          "distance_string": null,
+          "bearing": null,
+          "rating": "4.0",
+          "is_closed": false,
+          "is_long_closed": false,
+          "special_offers": {
+            "desktop": [],
+            "mobile": []
+          },
+          "description": "",
+          "web_url": "",
+          "ancestors": [
+            {
+              "subcategory": [
+                {
+                  "key": "city",
+                  "name": "City"
+                }
+              ],
+              "name": "Paris",
+              "abbrv": null,
+              "location_id": "187147"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "region",
+                  "name": "Region"
+                }
+              ],
+              "name": "Ile-de-France",
+              "abbrv": null,
+              "location_id": "187144"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "country",
+                  "name": "Country"
+                }
+              ],
+              "name": "France",
+              "abbrv": null,
+              "location_id": "187070"
+            }
+          ],
+          "category": {
+            "key": "hotel",
+            "name": "Hotel"
+          },
+          "subcategory": [
+            {
+              "key": "hotel",
+              "name": "Hotel"
+            }
+          ],
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+            "street1": "108 Rue Saint-Lazare",
+            "street2": null,
+            "city": "Paris",
+            "state": null,
+            "country": "France",
+            "postalcode": "75008"
+          },
+          "address": "108 Rue Saint-Lazare, 75008 Paris France",
+          "is_candidate_for_contact_info_suppression": false,
+          "amenities": []
+        },
+        "search_explanations": {
+          "mentioned_by_travelers": "matches 26 reviews"
+        },
+        "review_snippet": {
+          "snippet": "I flew from Rome to Paris on Air France and landed in the morning to Paris",
+          "spans": [
+            {
+              "start_index": 20,
+              "end_index": 25
+            },
+            {
+              "start_index": 33,
+              "end_index": 39
+            },
+            {
+              "start_index": 69,
+              "end_index": 74
+            }
+          ],
+          "review_id": "856250688"
+        },
+        "scope": "local"
+      },
+      {
+        "result_type": "activities",
+        "result_object": {
+          "location_id": "17516269",
+          "name": "Tour in Citroen 2CV Paris Secret - 2H",
+          "num_reviews": "224",
+          "timezone": "Europe/Paris",
+          "location_string": "Paris, Ile-de-France",
+          "photo": {
+            "images": {
+              "small": {
+                "width": "150",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-l/1a/5d/5a/8f/caption.jpg",
+                "height": "150"
+              },
+              "thumbnail": {
+                "width": "50",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-t/1a/5d/5a/8f/caption.jpg",
+                "height": "50"
+              },
+              "original": {
+                "width": "720",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/1a/5d/5a/8f/caption.jpg",
+                "height": "480"
+              },
+              "large": {
+                "width": "720",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/1a/5d/5a/8f/caption.jpg",
+                "height": "480"
+              },
+              "medium": {
+                "width": "550",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/1a/5d/5a/8f/caption.jpg",
+                "height": "367"
+              }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2019-12-22T16:46:50-0500",
+            "caption": "",
+            "id": "442325647",
+            "helpful_votes": "0",
+            "published_date": "2019-12-22T16:46:50-0500",
+            "user": null
+          },
+          "awards": [],
+          "preferred_map_engine": "default",
+          "distance": null,
+          "distance_string": null,
+          "bearing": null,
+          "rating": "4.5",
+          "is_closed": false,
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "",
+          "ancestors": [
+            {
+              "subcategory": [
+                {
+                  "key": "city",
+                  "name": "City"
+                }
+              ],
+              "name": "Paris",
+              "abbrv": null,
+              "location_id": "187147"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "region",
+                  "name": "Region"
+                }
+              ],
+              "name": "Ile-de-France",
+              "abbrv": null,
+              "location_id": "187144"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "country",
+                  "name": "Country"
+                }
+              ],
+              "name": "France",
+              "abbrv": null,
+              "location_id": "187070"
+            }
+          ],
+          "category": {
+            "key": "activity",
+            "name": "Activity"
+          },
+          "subcategory": [],
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+            "street1": null,
+            "street2": null,
+            "city": "Paris",
+            "state": null,
+            "country": "France",
+            "postalcode": null
+          },
+          "address": "Paris France",
+          "is_candidate_for_contact_info_suppression": false,
+          "supplier_location_id": "7675416",
+          "supplier_location_name": "Parisi Tour",
+          "supplier_location_subtype": "tour_operator",
+          "is_reviewable": true
+        },
+        "search_explanations": {
+          "mentioned_by_travelers": "matches one review"
+        },
+        "scope": "local"
+      },
+      {
+        "result_type": "things_to_do",
+        "result_object": {
+          "location_id": "188150",
+          "name": "Musee d'Orsay",
+          "latitude": "48.860035",
+          "longitude": "2.32685",
+          "num_reviews": "66848",
+          "timezone": "Europe/Paris",
+          "location_string": "Paris, Ile-de-France",
+          "photo": {
+            "images": {
+              "small": {
+                "width": "150",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-l/02/1c/ab/64/la-terrasse-lille-et.jpg",
+                "height": "150"
+              },
+              "thumbnail": {
+                "width": "50",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-t/02/1c/ab/64/la-terrasse-lille-et.jpg",
+                "height": "50"
+              },
+              "original": {
+                "width": "550",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/02/1c/ab/64/la-terrasse-lille-et.jpg",
+                "height": "366"
+              },
+              "large": {
+                "width": "550",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/02/1c/ab/64/la-terrasse-lille-et.jpg",
+                "height": "366"
+              },
+              "medium": {
+                "width": "550",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/02/1c/ab/64/la-terrasse-lille-et.jpg",
+                "height": "366"
+              }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2011-09-07T10:15:04-0400",
+            "caption": "la terrasse Lille et la nouvelle présentation des sculptures de Rodin",
+            "id": "35433316",
+            "helpful_votes": "672",
+            "published_date": "2011-09-07T10:15:02-0400",
+            "user": {
+              "user_id": null,
+              "member_id": "0",
+              "type": "user"
+            }
+          },
+          "awards": [],
+          "location_subtype": "none",
+          "preferred_map_engine": "default",
+          "distance": null,
+          "distance_string": null,
+          "bearing": null,
+          "rating": "4.5",
+          "is_closed": false,
+          "open_now_text": "Open Now",
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "",
+          "ancestors": [
+            {
+              "subcategory": [
+                {
+                  "key": "city",
+                  "name": "City"
+                }
+              ],
+              "name": "Paris",
+              "abbrv": null,
+              "location_id": "187147"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "region",
+                  "name": "Region"
+                }
+              ],
+              "name": "Ile-de-France",
+              "abbrv": null,
+              "location_id": "187144"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "country",
+                  "name": "Country"
+                }
+              ],
+              "name": "France",
+              "abbrv": null,
+              "location_id": "187070"
+            }
+          ],
+          "category": {
+            "key": "attraction",
+            "name": "Attraction"
+          },
+          "subcategory": [
+            {
+              "key": "49",
+              "name": "Museums"
+            }
+          ],
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+            "street1": "1 Rue De La Legion d'Honneur",
+            "street2": null,
+            "city": "Paris",
+            "state": null,
+            "country": "France",
+            "postalcode": "75007"
+          },
+          "address": "1 Rue De La Legion d'Honneur, 75007 Paris France",
+          "is_candidate_for_contact_info_suppression": false,
+          "fee": "YES"
+        },
+        "search_explanations": {
+          "mentioned_by_travelers": "matches 132 reviews"
+        },
+        "review_snippet": {
+          "snippet": "Musee d&#x27;Orsay 1 Rue De La Legion d&#x27;Honneur, 75007 Paris, France is a very",
+          "spans": [
+            {
+              "start_index": 60,
+              "end_index": 65
+            },
+            {
+              "start_index": 67,
+              "end_index": 73
+            }
+          ],
+          "review_id": "874484021"
+        },
+        "scope": "local"
+      },
+      {
+        "result_type": "things_to_do",
+        "result_object": {
+          "location_id": "2219110",
+          "name": "Espace Nadeshiko Paris France",
+          "latitude": "48.84606",
+          "longitude": "2.29905",
+          "num_reviews": "4",
+          "timezone": "Europe/Paris",
+          "location_string": "Paris, Ile-de-France",
+          "awards": [],
+          "location_subtype": "none",
+          "preferred_map_engine": "default",
+          "distance": null,
+          "distance_string": null,
+          "bearing": null,
+          "rating": "5.0",
+          "is_closed": false,
+          "open_now_text": "Open Now",
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "",
+          "ancestors": [
+            {
+              "subcategory": [
+                {
+                  "key": "city",
+                  "name": "City"
+                }
+              ],
+              "name": "Paris",
+              "abbrv": null,
+              "location_id": "187147"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "region",
+                  "name": "Region"
+                }
+              ],
+              "name": "Ile-de-France",
+              "abbrv": null,
+              "location_id": "187144"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "country",
+                  "name": "Country"
+                }
+              ],
+              "name": "France",
+              "abbrv": null,
+              "location_id": "187070"
+            }
+          ],
+          "category": {
+            "key": "attraction",
+            "name": "Attraction"
+          },
+          "subcategory": [
+            {
+              "key": "47",
+              "name": "Sights & Landmarks"
+            }
+          ],
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+            "street1": "37 rue de la Croix Nivert",
+            "street2": "",
+            "city": "Paris",
+            "state": null,
+            "country": "France",
+            "postalcode": "75015"
+          },
+          "address": "37 rue de la Croix Nivert, 75015 Paris France",
+          "is_candidate_for_contact_info_suppression": false
+        },
+        "scope": "local"
+      },
+      {
+        "result_type": "lodging",
+        "result_object": {
+          "location_id": "188975",
+          "name": "Four Seasons Hotel George V",
+          "latitude": "48.868824",
+          "longitude": "2.30062",
+          "num_reviews": "3189",
+          "timezone": "Europe/Paris",
+          "location_string": "Paris, Ile-de-France",
+          "photo": {
+            "images": {
+              "small": {
+                "width": "150",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-l/28/69/f5/21/four-seasons-hotel-george.jpg",
+                "height": "150"
+              },
+              "thumbnail": {
+                "width": "50",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-t/28/69/f5/21/four-seasons-hotel-george.jpg",
+                "height": "50"
+              },
+              "original": {
+                "width": "1924",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/28/69/f5/21/four-seasons-hotel-george.jpg",
+                "height": "1280"
+              },
+              "large": {
+                "width": "550",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/28/69/f5/21/four-seasons-hotel-george.jpg",
+                "height": "366"
+              },
+              "medium": {
+                "width": "250",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-f/28/69/f5/21/four-seasons-hotel-george.jpg",
+                "height": "166"
+              }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2023-03-08T18:19:57-0500",
+            "caption": "Four Seasons Hotel George V",
+            "id": "678032673",
+            "helpful_votes": "0",
+            "published_date": "2023-03-08T18:19:57-0500",
+            "user": null
+          },
+          "awards": [],
+          "preferred_map_engine": "default",
+          "distance": null,
+          "distance_string": null,
+          "bearing": null,
+          "rating": "5.0",
+          "is_closed": false,
+          "is_long_closed": false,
+          "special_offers": {
+            "desktop": [],
+            "mobile": []
+          },
+          "description": "",
+          "web_url": "",
+          "ancestors": [
+            {
+              "subcategory": [
+                {
+                  "key": "city",
+                  "name": "City"
+                }
+              ],
+              "name": "Paris",
+              "abbrv": null,
+              "location_id": "187147"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "region",
+                  "name": "Region"
+                }
+              ],
+              "name": "Ile-de-France",
+              "abbrv": null,
+              "location_id": "187144"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "country",
+                  "name": "Country"
+                }
+              ],
+              "name": "France",
+              "abbrv": null,
+              "location_id": "187070"
+            }
+          ],
+          "category": {
+            "key": "hotel",
+            "name": "Hotel"
+          },
+          "subcategory": [
+            {
+              "key": "hotel",
+              "name": "Hotel"
+            }
+          ],
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+            "street1": "31, Avenue George V",
+            "street2": null,
+            "city": "Paris",
+            "state": null,
+            "country": "France",
+            "postalcode": "75008"
+          },
+          "address": "31, Avenue George V, 75008 Paris France",
+          "is_candidate_for_contact_info_suppression": false,
+          "amenities": []
+        },
+        "search_explanations": {
+          "mentioned_by_travelers": "matches 41 reviews"
+        },
+        "review_snippet": {
+          "snippet": "of any trip to France.",
+          "spans": [
+            {
+              "start_index": 15,
+              "end_index": 22
+            }
+          ],
+          "review_id": "841750410"
+        },
+        "scope": "local"
+      },
+      {
+        "result_type": "activities",
+        "result_object": {
+          "location_id": "11450391",
+          "name": "Paris Moulin Rouge Cabaret Show with Champagne Only or Dinner",
+          "num_reviews": "4014",
+          "timezone": "Europe/Paris",
+          "location_string": "Paris, Ile-de-France",
+          "photo": {
+            "images": {
+              "small": {
+                "width": "150",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-l/1b/66/0d/b6/caption.jpg",
+                "height": "150"
+              },
+              "thumbnail": {
+                "width": "50",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-t/1b/66/0d/b6/caption.jpg",
+                "height": "50"
+              },
+              "original": {
+                "width": "720",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/1b/66/0d/b6/caption.jpg",
+                "height": "480"
+              },
+              "large": {
+                "width": "720",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/1b/66/0d/b6/caption.jpg",
+                "height": "480"
+              },
+              "medium": {
+                "width": "550",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/1b/66/0d/b6/caption.jpg",
+                "height": "367"
+              }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2020-06-11T05:45:16-0400",
+            "caption": "",
+            "id": "459673014",
+            "helpful_votes": "0",
+            "published_date": "2020-06-11T05:45:16-0400",
+            "user": null
+          },
+          "awards": [],
+          "preferred_map_engine": "default",
+          "distance": null,
+          "distance_string": null,
+          "bearing": null,
+          "rating": "4.5",
+          "is_closed": false,
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "",
+          "ancestors": [
+            {
+              "subcategory": [
+                {
+                  "key": "city",
+                  "name": "City"
+                }
+              ],
+              "name": "Paris",
+              "abbrv": null,
+              "location_id": "187147"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "region",
+                  "name": "Region"
+                }
+              ],
+              "name": "Ile-de-France",
+              "abbrv": null,
+              "location_id": "187144"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "country",
+                  "name": "Country"
+                }
+              ],
+              "name": "France",
+              "abbrv": null,
+              "location_id": "187070"
+            }
+          ],
+          "category": {
+            "key": "activity",
+            "name": "Activity"
+          },
+          "subcategory": [],
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+            "street1": null,
+            "street2": null,
+            "city": "Paris",
+            "state": null,
+            "country": "France",
+            "postalcode": null
+          },
+          "address": "Paris France",
+          "is_candidate_for_contact_info_suppression": false,
+          "supplier_location_id": "189283",
+          "supplier_location_name": "Moulin Rouge",
+          "supplier_location_subtype": "none",
+          "is_reviewable": true
+        },
+        "search_explanations": {
+          "mentioned_by_travelers": "matches 2 reviews"
+        },
+        "scope": "local"
+      },
+      {
+        "result_type": "restaurants",
+        "result_object": {
+          "location_id": "7621672",
+          "name": "Bustronome Paris",
+          "latitude": "48.873188",
+          "longitude": "2.2945",
+          "num_reviews": "239",
+          "timezone": "Europe/Paris",
+          "location_string": "Paris, Ile-de-France",
+          "photo": {
+            "images": {
+              "small": {
+                "width": "150",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-l/0e/57/20/f0/pont-d-iena.jpg",
+                "height": "150"
+              },
+              "thumbnail": {
+                "width": "50",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-t/0e/57/20/f0/pont-d-iena.jpg",
+                "height": "50"
+              },
+              "original": {
+                "width": "900",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/0e/57/20/f0/pont-d-iena.jpg",
+                "height": "601"
+              },
+              "large": {
+                "width": "900",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/0e/57/20/f0/pont-d-iena.jpg",
+                "height": "601"
+              },
+              "medium": {
+                "width": "550",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/0e/57/20/f0/pont-d-iena.jpg",
+                "height": "367"
+              }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2017-02-04T08:10:37-0500",
+            "caption": "Pont d'Iena",
+            "id": "240591088",
+            "helpful_votes": "3",
+            "published_date": "2017-02-04T08:10:37-0500",
+            "user": {
+              "user_id": null,
+              "member_id": "0",
+              "type": "user"
+            }
+          },
+          "awards": [],
+          "preferred_map_engine": "default",
+          "distance": null,
+          "distance_string": null,
+          "bearing": null,
+          "rating": "4.5",
+          "is_closed": false,
+          "open_now_text": "Closed Now",
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "",
+          "ancestors": [
+            {
+              "subcategory": [
+                {
+                  "key": "city",
+                  "name": "City"
+                }
+              ],
+              "name": "Paris",
+              "abbrv": null,
+              "location_id": "187147"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "region",
+                  "name": "Region"
+                }
+              ],
+              "name": "Ile-de-France",
+              "abbrv": null,
+              "location_id": "187144"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "country",
+                  "name": "Country"
+                }
+              ],
+              "name": "France",
+              "abbrv": null,
+              "location_id": "187070"
+            }
+          ],
+          "category": {
+            "key": "restaurant",
+            "name": "Restaurant"
+          },
+          "subcategory": [
+            {
+              "key": "sit_down",
+              "name": "Sit down"
+            }
+          ],
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+            "street1": "2 avenue Kleber",
+            "street2": null,
+            "city": "Paris",
+            "state": null,
+            "country": "France",
+            "postalcode": "75116"
+          },
+          "address": "2 avenue Kleber, 75116 Paris France",
+          "is_candidate_for_contact_info_suppression": false,
+          "cuisine": [
+            {
+              "key": "5086",
+              "name": "French"
+            },
+            {
+              "key": "10648",
+              "name": "International"
+            },
+            {
+              "key": "10654",
+              "name": "European"
+            },
+            {
+              "key": "10669",
+              "name": "Contemporary"
+            },
+            {
+              "key": "10679",
+              "name": "Healthy"
+            }
+          ],
+          "establishment_types": [
+            {
+              "key": "10591",
+              "name": "Restaurants"
+            }
+          ]
+        },
+        "search_explanations": {
+          "mentioned_by_travelers": "matches one review"
+        },
+        "scope": "local"
+      },
+      {
+        "result_type": "activities",
+        "result_object": {
+          "location_id": "23829547",
+          "name": "Private Boat Trip on the Seine in Paris",
+          "num_reviews": "324",
+          "timezone": "Europe/Paris",
+          "location_string": "Paris, Ile-de-France",
+          "photo": {
+            "images": {
+              "small": {
+                "width": "150",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-l/21/ca/31/f3/caption.jpg",
+                "height": "150"
+              },
+              "thumbnail": {
+                "width": "50",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-t/21/ca/31/f3/caption.jpg",
+                "height": "50"
+              },
+              "original": {
+                "width": "720",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/21/ca/31/f3/caption.jpg",
+                "height": "480"
+              },
+              "large": {
+                "width": "720",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/21/ca/31/f3/caption.jpg",
+                "height": "480"
+              },
+              "medium": {
+                "width": "550",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/21/ca/31/f3/caption.jpg",
+                "height": "367"
+              }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2022-01-05T01:45:14-0500",
+            "caption": "",
+            "id": "566899187",
+            "helpful_votes": "0",
+            "published_date": "2022-01-05T01:45:14-0500",
+            "user": null
+          },
+          "awards": [],
+          "preferred_map_engine": "default",
+          "distance": null,
+          "distance_string": null,
+          "bearing": null,
+          "rating": "5.0",
+          "is_closed": false,
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "",
+          "ancestors": [
+            {
+              "subcategory": [
+                {
+                  "key": "city",
+                  "name": "City"
+                }
+              ],
+              "name": "Paris",
+              "abbrv": null,
+              "location_id": "187147"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "region",
+                  "name": "Region"
+                }
+              ],
+              "name": "Ile-de-France",
+              "abbrv": null,
+              "location_id": "187144"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "country",
+                  "name": "Country"
+                }
+              ],
+              "name": "France",
+              "abbrv": null,
+              "location_id": "187070"
+            }
+          ],
+          "category": {
+            "key": "activity",
+            "name": "Activity"
+          },
+          "subcategory": [],
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+            "street1": null,
+            "street2": null,
+            "city": "Paris",
+            "state": null,
+            "country": "France",
+            "postalcode": null
+          },
+          "address": "Paris France",
+          "is_candidate_for_contact_info_suppression": false,
+          "supplier_location_id": "23542790",
+          "supplier_location_name": "Visite Paris En Bateau",
+          "supplier_location_subtype": "tour_operator",
+          "is_reviewable": true
+        },
+        "scope": "local"
+      },
+      {
+        "result_type": "things_to_do",
+        "result_object": {
+          "location_id": "2323543",
+          "name": "Paris Metro",
+          "latitude": "48.864166",
+          "longitude": "2.330278",
+          "num_reviews": "3247",
+          "timezone": "Europe/Paris",
+          "location_string": "Paris, Ile-de-France",
+          "photo": {
+            "images": {
+              "small": {
+                "width": "150",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-l/03/0b/56/27/transporte-metropolitano.jpg",
+                "height": "150"
+              },
+              "thumbnail": {
+                "width": "50",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-t/03/0b/56/27/transporte-metropolitano.jpg",
+                "height": "50"
+              },
+              "original": {
+                "width": "550",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/03/0b/56/27/transporte-metropolitano.jpg",
+                "height": "412"
+              },
+              "large": {
+                "width": "550",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/03/0b/56/27/transporte-metropolitano.jpg",
+                "height": "412"
+              },
+              "medium": {
+                "width": "250",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-f/03/0b/56/27/transporte-metropolitano.jpg",
+                "height": "187"
+              }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2012-11-04T10:13:01-0500",
+            "caption": "Saint Paul\r\n",
+            "id": "51074599",
+            "helpful_votes": "4",
+            "published_date": "2012-11-04T10:13:01-0500",
+            "user": {
+              "user_id": null,
+              "member_id": "0",
+              "type": "user"
+            }
+          },
+          "awards": [],
+          "location_subtype": "none",
+          "preferred_map_engine": "default",
+          "distance": null,
+          "distance_string": null,
+          "bearing": null,
+          "rating": "3.5",
+          "is_closed": false,
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "",
+          "ancestors": [
+            {
+              "subcategory": [
+                {
+                  "key": "city",
+                  "name": "City"
+                }
+              ],
+              "name": "Paris",
+              "abbrv": null,
+              "location_id": "187147"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "region",
+                  "name": "Region"
+                }
+              ],
+              "name": "Ile-de-France",
+              "abbrv": null,
+              "location_id": "187144"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "country",
+                  "name": "Country"
+                }
+              ],
+              "name": "France",
+              "abbrv": null,
+              "location_id": "187070"
+            }
+          ],
+          "category": {
+            "key": "attraction",
+            "name": "Attraction"
+          },
+          "subcategory": [
+            {
+              "key": "59",
+              "name": "Transportation"
+            }
+          ],
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+            "street1": null,
+            "street2": "",
+            "city": "Paris",
+            "state": null,
+            "country": "France",
+            "postalcode": null
+          },
+          "address": "Paris France",
+          "is_candidate_for_contact_info_suppression": false
+        },
+        "search_explanations": {
+          "mentioned_by_travelers": "matches 44 reviews"
+        },
+        "scope": "local"
+      },
+      {
+        "result_type": "lodging",
+        "result_object": {
+          "location_id": "207687",
+          "name": "Crowne Plaza Paris - Republique, an IHG Hotel",
+          "latitude": "48.867363",
+          "longitude": "2.365244",
+          "num_reviews": "3184",
+          "timezone": "Europe/Paris",
+          "location_string": "Paris, Ile-de-France",
+          "photo": {
+            "images": {
+              "small": {
+                "width": "150",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-l/26/5a/fe/72/hotel-exterior.jpg",
+                "height": "150"
+              },
+              "thumbnail": {
+                "width": "50",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-t/26/5a/fe/72/hotel-exterior.jpg",
+                "height": "50"
+              },
+              "original": {
+                "width": "5511",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/26/5a/fe/72/hotel-exterior.jpg",
+                "height": "3196"
+              },
+              "large": {
+                "width": "550",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/26/5a/fe/72/hotel-exterior.jpg",
+                "height": "319"
+              },
+              "medium": {
+                "width": "250",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-f/26/5a/fe/72/hotel-exterior.jpg",
+                "height": "145"
+              }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2022-10-06T04:41:48-0400",
+            "caption": "Hotel Exterior",
+            "id": "643497586",
+            "helpful_votes": "0",
+            "published_date": "2022-10-06T04:41:48-0400",
+            "user": null
+          },
+          "awards": [],
+          "preferred_map_engine": "default",
+          "distance": null,
+          "distance_string": null,
+          "bearing": null,
+          "rating": "4.0",
+          "is_closed": false,
+          "open_now_text": "Open Now",
+          "is_long_closed": false,
+          "special_offers": {
+            "desktop": [],
+            "mobile": []
+          },
+          "description": "",
+          "web_url": "",
+          "ancestors": [
+            {
+              "subcategory": [
+                {
+                  "key": "city",
+                  "name": "City"
+                }
+              ],
+              "name": "Paris",
+              "abbrv": null,
+              "location_id": "187147"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "region",
+                  "name": "Region"
+                }
+              ],
+              "name": "Ile-de-France",
+              "abbrv": null,
+              "location_id": "187144"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "country",
+                  "name": "Country"
+                }
+              ],
+              "name": "France",
+              "abbrv": null,
+              "location_id": "187070"
+            }
+          ],
+          "category": {
+            "key": "hotel",
+            "name": "Hotel"
+          },
+          "subcategory": [
+            {
+              "key": "hotel",
+              "name": "Hotel"
+            }
+          ],
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+            "street1": "10 Place de la Republique",
+            "street2": "",
+            "city": "Paris",
+            "state": null,
+            "country": "France",
+            "postalcode": "75011"
+          },
+          "address": "10 Place de la Republique, 75011 Paris France",
+          "is_candidate_for_contact_info_suppression": false,
+          "amenities": []
+        },
+        "search_explanations": {
+          "mentioned_by_travelers": "matches 31 reviews"
+        },
+        "scope": "local"
+      },
+      {
+        "result_type": "lodging",
+        "result_object": {
+          "location_id": "497267",
+          "name": "La Reserve Paris - Hotel and Spa",
+          "latitude": "48.869713",
+          "longitude": "2.313373",
+          "num_reviews": "574",
+          "timezone": "Europe/Paris",
+          "location_string": "Paris, Ile-de-France",
+          "photo": {
+            "images": {
+              "small": {
+                "width": "150",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-l/1d/41/79/70/detail.jpg",
+                "height": "150"
+              },
+              "thumbnail": {
+                "width": "50",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-t/1d/41/79/70/detail.jpg",
+                "height": "50"
+              },
+              "original": {
+                "width": "3840",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/1d/41/79/70/detail.jpg",
+                "height": "5760"
+              },
+              "large": {
+                "width": "300",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/1d/41/79/70/detail.jpg",
+                "height": "450"
+              },
+              "medium": {
+                "width": "137",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-f/1d/41/79/70/detail.jpg",
+                "height": "205"
+              }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2021-07-03T01:39:09-0400",
+            "caption": "detail",
+            "id": "490830192",
+            "helpful_votes": "0",
+            "published_date": "2021-07-03T01:39:09-0400",
+            "user": null
+          },
+          "awards": [],
+          "preferred_map_engine": "default",
+          "distance": null,
+          "distance_string": null,
+          "bearing": null,
+          "rating": "5.0",
+          "is_closed": false,
+          "is_long_closed": false,
+          "special_offers": {
+            "desktop": [],
+            "mobile": []
+          },
+          "description": "",
+          "web_url": "",
+          "ancestors": [
+            {
+              "subcategory": [
+                {
+                  "key": "city",
+                  "name": "City"
+                }
+              ],
+              "name": "Paris",
+              "abbrv": null,
+              "location_id": "187147"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "region",
+                  "name": "Region"
+                }
+              ],
+              "name": "Ile-de-France",
+              "abbrv": null,
+              "location_id": "187144"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "country",
+                  "name": "Country"
+                }
+              ],
+              "name": "France",
+              "abbrv": null,
+              "location_id": "187070"
+            }
+          ],
+          "category": {
+            "key": "hotel",
+            "name": "Hotel"
+          },
+          "subcategory": [
+            {
+              "key": "hotel",
+              "name": "Hotel"
+            }
+          ],
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+            "street1": "42 avenue Gabriel",
+            "street2": "",
+            "city": "Paris",
+            "state": null,
+            "country": "France",
+            "postalcode": "75008"
+          },
+          "address": "42 avenue Gabriel, 75008 Paris France",
+          "is_candidate_for_contact_info_suppression": false,
+          "amenities": []
+        },
+        "search_explanations": {
+          "mentioned_by_travelers": "matches 9 reviews"
+        },
+        "scope": "local"
+      },
+      {
+        "result_type": "activities",
+        "result_object": {
+          "location_id": "11455997",
+          "name": "Paris Montmartre walking tasting tour with Secret Food Tours",
+          "num_reviews": "1097",
+          "timezone": "Europe/Paris",
+          "location_string": "Paris, Ile-de-France",
+          "photo": {
+            "images": {
+              "small": {
+                "width": "150",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-l/25/1c/52/48/caption.jpg",
+                "height": "150"
+              },
+              "thumbnail": {
+                "width": "50",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-t/25/1c/52/48/caption.jpg",
+                "height": "50"
+              },
+              "original": {
+                "width": "720",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/25/1c/52/48/caption.jpg",
+                "height": "480"
+              },
+              "large": {
+                "width": "720",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/25/1c/52/48/caption.jpg",
+                "height": "480"
+              },
+              "medium": {
+                "width": "550",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/25/1c/52/48/caption.jpg",
+                "height": "367"
+              }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2022-08-06T09:45:17-0400",
+            "caption": "",
+            "id": "622613064",
+            "helpful_votes": "0",
+            "published_date": "2022-08-06T09:45:17-0400",
+            "user": null
+          },
+          "awards": [],
+          "preferred_map_engine": "default",
+          "distance": null,
+          "distance_string": null,
+          "bearing": null,
+          "rating": "5.0",
+          "is_closed": false,
+          "is_long_closed": false,
+          "description": "",
+          "web_url": "",
+          "ancestors": [
+            {
+              "subcategory": [
+                {
+                  "key": "city",
+                  "name": "City"
+                }
+              ],
+              "name": "Paris",
+              "abbrv": null,
+              "location_id": "187147"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "region",
+                  "name": "Region"
+                }
+              ],
+              "name": "Ile-de-France",
+              "abbrv": null,
+              "location_id": "187144"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "country",
+                  "name": "Country"
+                }
+              ],
+              "name": "France",
+              "abbrv": null,
+              "location_id": "187070"
+            }
+          ],
+          "category": {
+            "key": "activity",
+            "name": "Activity"
+          },
+          "subcategory": [],
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+            "street1": null,
+            "street2": null,
+            "city": "Paris",
+            "state": null,
+            "country": "France",
+            "postalcode": null
+          },
+          "address": "Paris France",
+          "is_candidate_for_contact_info_suppression": false,
+          "supplier_location_id": "6825442",
+          "supplier_location_name": "Secret Food Tours Paris",
+          "supplier_location_subtype": "tour_operator",
+          "is_reviewable": true
+        },
+        "search_explanations": {
+          "mentioned_by_travelers": "matches 17 reviews"
+        },
+        "scope": "local"
+      },
+      {
+        "result_type": "lodging",
+        "result_object": {
+          "location_id": "197946",
+          "name": "Hotel Bradford Elysees - Astotel",
+          "latitude": "48.872864",
+          "longitude": "2.308165",
+          "num_reviews": "2812",
+          "timezone": "Europe/Paris",
+          "location_string": "Paris, Ile-de-France",
+          "photo": {
+            "images": {
+              "small": {
+                "width": "150",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-l/22/62/fb/e6/hotel-facade.jpg",
+                "height": "150"
+              },
+              "thumbnail": {
+                "width": "50",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-t/22/62/fb/e6/hotel-facade.jpg",
+                "height": "50"
+              },
+              "original": {
+                "width": "1023",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-o/22/62/fb/e6/hotel-facade.jpg",
+                "height": "685"
+              },
+              "large": {
+                "width": "550",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-s/22/62/fb/e6/hotel-facade.jpg",
+                "height": "368"
+              },
+              "medium": {
+                "width": "250",
+                "url": "https://media-cdn.tripadvisor.com/media/photo-f/22/62/fb/e6/hotel-facade.jpg",
+                "height": "167"
+              }
+            },
+            "is_blessed": true,
+            "uploaded_date": "2022-03-09T01:17:51-0500",
+            "caption": "Hotel Facade",
+            "id": "576912358",
+            "helpful_votes": "0",
+            "published_date": "2022-03-09T01:17:51-0500",
+            "user": null
+          },
+          "awards": [],
+          "preferred_map_engine": "default",
+          "distance": null,
+          "distance_string": null,
+          "bearing": null,
+          "rating": "5.0",
+          "is_closed": false,
+          "is_long_closed": false,
+          "special_offers": {
+            "desktop": [],
+            "mobile": []
+          },
+          "description": "",
+          "web_url": "",
+          "ancestors": [
+            {
+              "subcategory": [
+                {
+                  "key": "city",
+                  "name": "City"
+                }
+              ],
+              "name": "Paris",
+              "abbrv": null,
+              "location_id": "187147"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "region",
+                  "name": "Region"
+                }
+              ],
+              "name": "Ile-de-France",
+              "abbrv": null,
+              "location_id": "187144"
+            },
+            {
+              "subcategory": [
+                {
+                  "key": "country",
+                  "name": "Country"
+                }
+              ],
+              "name": "France",
+              "abbrv": null,
+              "location_id": "187070"
+            }
+          ],
+          "category": {
+            "key": "hotel",
+            "name": "Hotel"
+          },
+          "subcategory": [
+            {
+              "key": "hotel",
+              "name": "Hotel"
+            }
+          ],
+          "is_jfy_enabled": false,
+          "nearest_metro_station": [],
+          "address_obj": {
+            "street1": "10, rue Saint Philippe du Roule",
+            "street2": null,
+            "city": "Paris",
+            "state": null,
+            "country": "France",
+            "postalcode": "75008"
+          },
+          "address": "10, rue Saint Philippe du Roule, 75008 Paris France",
+          "is_candidate_for_contact_info_suppression": false,
+          "amenities": []
+        },
+        "search_explanations": {
+          "mentioned_by_travelers": "matches 24 reviews"
+        },
+        "scope": "local"
+      }
+    ],
+    "metadata": {
+      "scope": "local"
+    },
+    "sort": [
+      {
+        "filter_key": "relevance",
+        "label": "Relevance",
+        "locale_independent_label": "relevance",
+        "selected": true
+      },
+      {
+        "filter_key": "distance",
+        "label": "Distance",
+        "locale_independent_label": "distance",
+        "selected": false
+      }
+    ],
+    "partial_content": false,
+    "tracking": {
+      "search_id": "7FBB9413664C43C68DF239525CC89AF11678981990452"
+    },
+    "paging": {
+      "results": "30",
+      "total_results": "663983"
+    }
+  }
