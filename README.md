@@ -1,4 +1,4 @@
-# edX-group-project-2
+# edX-group-project-2 Journey Junkie
   ---
   ## Description
   The edX second group project. 
